@@ -31,7 +31,7 @@ tags=ai,video             Filter by tags (match ANY)
 min_cookie_days=30        Minimum cookie duration in days
 ```
 
-Note: `q`, `reward_type`, `tags`, and `min_cookie_days` are being added in Phase 2. If they return errors, use Method 2 as fallback.
+All params are live. Use `q`, `reward_type`, `tags`, `min_cookie_days` together for precise filtering.
 
 Response format:
 ```json
