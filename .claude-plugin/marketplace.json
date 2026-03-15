@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "AI-powered skills for affiliate marketers. Full funnel: research, content, blog, landing, deploy.",
-    "version": "1.1.0"
+    "version": "2.0.0"
   },
   "plugins": [
     {
@@ -15,7 +15,10 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/research/affiliate-program-search"
+        "./skills/research/affiliate-program-search",
+        "./skills/research/niche-opportunity-finder",
+        "./skills/research/competitor-spy",
+        "./skills/research/commission-calculator"
       ]
     },
     {
@@ -24,7 +27,10 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/content/viral-post-writer"
+        "./skills/content/viral-post-writer",
+        "./skills/content/tiktok-script-writer",
+        "./skills/content/twitter-thread-writer",
+        "./skills/content/reddit-post-writer"
       ]
     },
     {
@@ -33,7 +39,10 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/blog/affiliate-blog-builder"
+        "./skills/blog/affiliate-blog-builder",
+        "./skills/blog/comparison-post-writer",
+        "./skills/blog/listicle-generator",
+        "./skills/blog/how-to-tutorial-writer"
       ]
     },
     {
@@ -42,7 +51,10 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/landing/landing-page-creator"
+        "./skills/landing/landing-page-creator",
+        "./skills/landing/squeeze-page-builder",
+        "./skills/landing/product-showcase-page",
+        "./skills/landing/webinar-registration-page"
       ]
     },
     {
@@ -51,7 +63,10 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/distribution/bio-link-deployer"
+        "./skills/distribution/bio-link-deployer",
+        "./skills/distribution/email-drip-sequence",
+        "./skills/distribution/social-media-scheduler",
+        "./skills/distribution/github-pages-deployer"
       ]
     }
   ]
