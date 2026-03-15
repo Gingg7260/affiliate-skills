@@ -1,0 +1,99 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-03-15T23:17:31.808Z",
+  "stages": {
+    "research": {
+      "label": "Research & Discovery",
+      "description": "Find and evaluate affiliate programs",
+      "order": 1
+    },
+    "content": {
+      "label": "Content Creation",
+      "description": "Create viral social media content",
+      "order": 2
+    },
+    "blog": {
+      "label": "Blog & SEO",
+      "description": "Long-form SEO-optimized articles",
+      "order": 3
+    },
+    "landing": {
+      "label": "Landing Pages",
+      "description": "High-converting affiliate pages",
+      "order": 4
+    },
+    "distribution": {
+      "label": "Distribution & Deployment",
+      "description": "Link hubs, bio pages, deployment",
+      "order": 5
+    }
+  },
+  "skills": [
+    {
+      "name": "affiliate-program-search",
+      "slug": "affiliate-program-search",
+      "stage": "research",
+      "version": "1.0.0",
+      "description": "> Research and evaluate affiliate programs to find the best ones to promote. Use this skill when the user asks anything about finding affiliate programs, comparing commission rates, evaluating affiliate opportunities, searching for products to promote, picking a niche, or mentions list.affitor.com. Also trigger for: \"which SaaS should I promote\", \"best affiliate programs for X\", \"high commission programs\", \"recurring commission affiliate\", \"compare these affiliate programs\", \"is X affiliate program worth it\", \"find me something to promote\", \"what pays the most\", \"affiliate programs with long cookie duration\".",
+      "path": "skills/research/affiliate-program-search",
+      "agent_compatible": true,
+      "tools": [],
+      "author": "Affitor"
+    },
+    {
+      "name": "viral-post-writer",
+      "slug": "viral-post-writer",
+      "stage": "content",
+      "version": "1.0.0",
+      "description": "> Write viral social media posts that promote affiliate products naturally. Use this skill when the user asks anything about writing social media content for affiliate marketing, creating posts for LinkedIn/X/Reddit/Facebook, promoting a product on social media, writing affiliate content, or mentions \"viral post\", \"social media post\", \"content for affiliate\". Also trigger for: \"write a post about X\", \"help me promote X on LinkedIn\", \"create a thread about X\", \"make a Reddit post for X\", \"draft tweets for X\", \"social media content for affiliate program\", \"how to promote X on social\", \"write something that goes viral\", \"LinkedIn post for affiliate\", \"X thread about this tool\", \"help me sell X naturally on social media\".",
+      "path": "skills/content/viral-post-writer",
+      "agent_compatible": true,
+      "tools": [
+        "web_search",
+        "web_browse"
+      ],
+      "author": "Affitor"
+    },
+    {
+      "name": "affiliate-blog-builder",
+      "slug": "affiliate-blog-builder",
+      "stage": "blog",
+      "version": "1.0.0",
+      "description": "> Write SEO-optimized affiliate blog articles, product reviews, comparison posts, listicles, and how-to guides. Triggers on: \"write a blog post about\", \"review of [product]\", \"best [category] article\", \"comparison blog\", \"affiliate blog\", \"SEO article\", \"write a review\", \"product roundup\", \"blog content for affiliate\", \"how to use [product] blog post\", \"listicle about [category]\", \"[product] vs [product] blog\", \"content for my affiliate site\".",
+      "path": "skills/blog/affiliate-blog-builder",
+      "agent_compatible": true,
+      "tools": [
+        "web_search",
+        "web_browse"
+      ],
+      "author": "Affitor"
+    },
+    {
+      "name": "landing-page-creator",
+      "slug": "landing-page-creator",
+      "stage": "landing",
+      "version": "1.0.0",
+      "description": "> Build high-converting affiliate landing pages as single self-contained HTML files. Triggers on: \"create a landing page for\", \"build a landing page\", \"product landing page\", \"affiliate landing page\", \"comparison page for\", \"vs page\", \"single product page\", \"conversion page\", \"sales page for affiliate\", \"landing page HTML\", \"build me a page for\", \"create a page to promote [product]\", \"I need a landing page\", \"make a page for [product]\".",
+      "path": "skills/landing/landing-page-creator",
+      "agent_compatible": true,
+      "tools": [
+        "web_search",
+        "web_browse"
+      ],
+      "author": "Affitor"
+    },
+    {
+      "name": "bio-link-deployer",
+      "slug": "bio-link-deployer",
+      "stage": "distribution",
+      "version": "1.0.0",
+      "description": "> Create a Linktree-style bio link hub page as a single self-contained HTML file. Triggers on: \"create a bio link page\", \"make a linktree\", \"link in bio page\", \"bio link\", \"link hub\", \"create my link page\", \"all my links on one page\", \"linktree alternative\", \"build a link page\", \"bio page for my affiliate links\", \"I need a link in bio\", \"make a page with all my links\", \"link aggregator page\".",
+      "path": "skills/distribution/bio-link-deployer",
+      "agent_compatible": true,
+      "tools": [
+        "web_search"
+      ],
+      "author": "Affitor"
+    }
+  ]
+}

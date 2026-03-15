@@ -4,7 +4,16 @@ Thanks for contributing! This guide explains how to add your own skill to the co
 
 ## How Skills Are Organized
 
-Every skill belongs to one of five funnel stages:
+Skills live in stage directories under `skills/`:
+
+```
+skills/
+├── research/          S1: Find and evaluate programs
+├── content/           S2: Create promotional content
+├── blog/              S3: Write SEO articles
+├── landing/           S4: Build conversion pages
+└── distribution/      S5: Deploy and distribute
+```
 
 | Stage | Focus | Example Skills |
 |-------|-------|---------------|
@@ -27,11 +36,13 @@ cd affiliate-skills
 
 ### 2. Scaffold your skill
 
-Use the template:
+Pick a stage and create the directory:
 
 ```bash
-cp SKILL_TEMPLATE.md skills/your-skill-name/SKILL.md
-mkdir -p skills/your-skill-name/references
+# Replace {stage} with: research, content, blog, landing, or distribution
+mkdir -p skills/{stage}/your-skill-name/references
+cp template/SKILL.md skills/{stage}/your-skill-name/SKILL.md
+cp LICENSE skills/{stage}/your-skill-name/LICENSE.txt
 ```
 
 Naming convention: `kebab-case`, `verb-noun` format (e.g., `viral-post-writer`, `affiliate-blog-builder`).
@@ -60,7 +71,7 @@ Run these three tests:
 
 ### 5. Submit a PR
 
-- Create your skill in `skills/[skill-name]/`
+- Create your skill in `skills/{stage}/[skill-name]/`
 - Include: `SKILL.md` + `references/` + 3 test prompts in PR description
 - PR description: which stage, what it does, test results
 
@@ -82,7 +93,9 @@ Before submitting, verify:
 
 ## After Merge
 
-Your skill will be automatically published to [list.affitor.com/skills](https://list.affitor.com/skills) via CI. You'll be credited as the author.
+Your skill will be automatically added to `registry.json` via CI and published to [list.affitor.com/skills](https://list.affitor.com/skills). You'll be credited as the author.
+
+See [`spec/`](spec/) for the full skill format specification.
 
 ## Questions?
 

@@ -12,6 +12,7 @@ Every affiliate marketer, regardless of experience level, goes through these sta
 
 Find and evaluate affiliate programs. Score them on earning potential, content potential, market demand, competition, and trust. Pick the best fit for your niche and audience.
 
+**Path:** `skills/research/`
 **Current skill:** `affiliate-program-search`
 **Open for contribution:** industry-specific scanners (crypto, fintech, health tech)
 
@@ -21,6 +22,7 @@ Find and evaluate affiliate programs. Score them on earning potential, content p
 
 Create promotional content for social media platforms. Each platform has different rules, formats, and audiences. Content should be genuine recommendations, not ads.
 
+**Path:** `skills/content/`
 **Current skill:** `viral-post-writer`
 **Open for contribution:** TikTok script writer, email sequence builder, YouTube script writer
 
@@ -30,6 +32,7 @@ Create promotional content for social media platforms. Each platform has differe
 
 Write SEO-optimized blog posts that rank for buyer-intent keywords. Reviews, comparisons, and listicles that drive organic traffic and convert over months/years.
 
+**Path:** `skills/blog/`
 **Current skill:** `affiliate-blog-builder`
 **Open for contribution:** podcast show notes, newsletter builder
 
@@ -39,6 +42,7 @@ Write SEO-optimized blog posts that rank for buyer-intent keywords. Reviews, com
 
 Build dedicated landing pages that warm up visitors before sending them to the merchant's site. Higher conversion than sending people directly to a product page.
 
+**Path:** `skills/landing/`
 **Current skill:** `landing-page-creator`
 **Open for contribution:** webinar registration page, quiz funnel builder
 
@@ -48,6 +52,7 @@ Build dedicated landing pages that warm up visitors before sending them to the m
 
 Create a central hub for all your affiliate links. Bio link pages, portfolio sites, link aggregators. Deploy to any static host.
 
+**Path:** `skills/distribution/`
 **Current skill:** `bio-link-deployer`
 **Open for contribution:** GitHub Pages deployer, Notion portfolio builder
 
@@ -82,7 +87,8 @@ Most successful affiliates do both.
 ## Contributing a New Skill
 
 1. Pick a stage that your skill belongs to
-2. Read `SKILL_TEMPLATE.md` and existing skills in that stage
-3. Build your skill with Input/Output Schemas for agent chaining
-4. Test with 3 prompts, submit a PR
-5. See `CONTRIBUTING.md` for full details
+2. Read `template/SKILL.md` and existing skills in that stage
+3. Create your skill at `skills/{stage}/{skill-name}/SKILL.md`
+4. Build with Input/Output Schemas for agent chaining
+5. Test with 3 prompts, submit a PR
+6. See `CONTRIBUTING.md` for full details

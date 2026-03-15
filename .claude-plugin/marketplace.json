@@ -6,16 +6,52 @@
   },
   "metadata": {
     "description": "AI-powered skills for affiliate marketers. Full funnel: research, content, blog, landing, deploy.",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
-      "name": "affiliate-skills",
-      "description": "Complete affiliate marketing skill set from list.affitor.com",
+      "name": "research-skills",
+      "description": "Find and evaluate affiliate programs to promote",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/affiliate-program-search"
+        "./skills/research/affiliate-program-search"
+      ]
+    },
+    {
+      "name": "content-skills",
+      "description": "Create viral social media content for affiliate products",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/content/viral-post-writer"
+      ]
+    },
+    {
+      "name": "blog-skills",
+      "description": "Write SEO-optimized blog articles for affiliate marketing",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/blog/affiliate-blog-builder"
+      ]
+    },
+    {
+      "name": "landing-skills",
+      "description": "Build high-converting affiliate landing pages",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/landing/landing-page-creator"
+      ]
+    },
+    {
+      "name": "distribution-skills",
+      "description": "Deploy bio link hubs and distribute affiliate content",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/distribution/bio-link-deployer"
       ]
     }
   ]

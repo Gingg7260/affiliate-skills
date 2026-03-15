@@ -28,17 +28,35 @@ S5: Distribution  bio-link-deployer           Your own link-in-bio page, zero de
 
 | Skill | Stage | Status | Description |
 |-------|-------|--------|-------------|
-| [affiliate-program-search](skills/affiliate-program-search/) | S1: Research | Shipped | Research and score affiliate programs from list.affitor.com |
-| [viral-post-writer](skills/viral-post-writer/) | S2: Content | Shipped | Write viral posts for LinkedIn, X, Reddit, Facebook |
-| [affiliate-blog-builder](skills/affiliate-blog-builder/) | S3: Blog | Planned | SEO-optimized affiliate blog posts |
-| [landing-page-creator](skills/landing-page-creator/) | S4: Landing | Planned | High-converting landing pages in HTML/CSS |
-| [bio-link-deployer](skills/bio-link-deployer/) | S5: Distribution | Planned | Linktree alternative you own |
+| [affiliate-program-search](skills/research/affiliate-program-search/) | S1: Research | Shipped | Research and score affiliate programs from list.affitor.com |
+| [viral-post-writer](skills/content/viral-post-writer/) | S2: Content | Shipped | Write viral posts for LinkedIn, X, Reddit, Facebook |
+| [affiliate-blog-builder](skills/blog/affiliate-blog-builder/) | S3: Blog | Shipped | SEO-optimized affiliate blog posts |
+| [landing-page-creator](skills/landing/landing-page-creator/) | S4: Landing | Shipped | High-converting landing pages in HTML/CSS |
+| [bio-link-deployer](skills/distribution/bio-link-deployer/) | S5: Distribution | Shipped | Linktree alternative you own |
+
+## Repo Structure
+
+```
+skills/
+├── research/                          S1: Find & evaluate programs
+│   └── affiliate-program-search/
+├── content/                           S2: Create social content
+│   └── viral-post-writer/
+├── blog/                              S3: Long-form SEO content
+│   └── affiliate-blog-builder/
+├── landing/                           S4: High-converting pages
+│   └── landing-page-creator/
+└── distribution/                      S5: Link hubs & deployment
+    └── bio-link-deployer/
+```
+
+Machine-readable index: [`registry.json`](registry.json) · Skill template: [`template/SKILL.md`](template/SKILL.md) · Spec: [`spec/`](spec/)
 
 ## Quick Start
 
 **Option 1: Copy the skill file**
 
-1. Open any skill folder (e.g., `skills/affiliate-program-search/`)
+1. Open any skill folder (e.g., `skills/research/affiliate-program-search/`)
 2. Copy the contents of `SKILL.md`
 3. Save it as a skill in your Claude project
 
