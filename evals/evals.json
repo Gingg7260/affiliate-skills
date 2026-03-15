@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "description": "Test cases for affiliate-skills. Each case has an input prompt, expected patterns in output, and pass criteria.",
+  "skills": {
+    "affiliate-program-search": {
+      "tests": [
+        {
+          "id": "s1-001",
+          "name": "Category search with filters",
+          "input_prompt": "I want to promote AI video tools, commission recurring, at least 20%",
+          "expected_patterns": [
+            "Programs Found",
+            "Top Pick:",
+            "Score",
+            "Earning Potential",
+            "Content Potential",
+            "cps_recurring",
+            "Next Steps"
+          ],
+          "pass_criteria": "Output contains a comparison table with at least 2 programs, a scored recommendation with all 5 dimensions, and actionable next steps. Programs shown must have recurring commission ≥20%."
+        },
+        {
+          "id": "s1-002",
+          "name": "Head-to-head comparison",
+          "input_prompt": "Compare HeyGen vs Synthesia for my LinkedIn audience",
+          "expected_patterns": [
+            "HeyGen",
+            "Synthesia",
+            "LinkedIn",
+            "Score",
+            "Content Potential"
+          ],
+          "pass_criteria": "Output contains side-by-side comparison of both programs with scores. Content Potential and platform fit for LinkedIn are explicitly discussed. Clear winner recommendation."
+        },
+        {
+          "id": "s1-003",
+          "name": "Beginner with no criteria",
+          "input_prompt": "I'm new to affiliate marketing. What should I promote?",
+          "expected_patterns": [
+            "beginner",
+            "free",
+            "recurring",
+            "Top Pick:",
+            "Next Steps"
+          ],
+          "pass_criteria": "Output defaults to beginner-friendly criteria (AI/SaaS, recurring, easy to demo). Recommends products with free tiers and low payout thresholds. Includes clear next steps."
+        }
+      ]
+    }
+  }
+}
