@@ -9,6 +9,11 @@ description: >
   "high commission programs", "recurring commission affiliate", "compare these
   affiliate programs", "is X affiliate program worth it", "find me something to promote",
   "what pays the most", "affiliate programs with long cookie duration".
+license: MIT
+metadata:
+  author: affitor
+  version: "1.0"
+  stage: S1-Research
 ---
 
 # Affiliate Program Search

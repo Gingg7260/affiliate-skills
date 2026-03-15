@@ -1,0 +1,22 @@
+{
+  "name": "affiliate-skills",
+  "owner": {
+    "name": "Son Piaz",
+    "email": "son@affitor.com"
+  },
+  "metadata": {
+    "description": "AI-powered skills for affiliate marketers. Full funnel: research, content, blog, landing, deploy.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "affiliate-skills",
+      "description": "Complete affiliate marketing skill set from list.affitor.com",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/affiliate-program-search"
+      ]
+    }
+  ]
+}
