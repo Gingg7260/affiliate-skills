@@ -1,8 +1,8 @@
 ---
 name: your-skill-name
 description: >
-  Replace with when Claude should use this skill. Be pushy — cover multiple
-  phrasings so Claude activates for a wide range of user prompts.
+  Replace with when the AI should activate this skill. Be pushy — cover multiple
+  phrasings so the AI activates for a wide range of user prompts.
 ---
 
 # Your Skill Name

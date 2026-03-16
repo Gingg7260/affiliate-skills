@@ -48,8 +48,11 @@ else
   echo "[affiliate-skills] Binary up to date."
 fi
 
-# 4. Create symlinks (only if inside .claude/skills/)
+# 4. Platform-specific setup
+PLATFORM="generic"
+
 if [[ "$SCRIPT_DIR" == *".claude/skills/"* ]]; then
+  PLATFORM="claude-code"
   SKILLS_DIR="$(dirname "$SCRIPT_DIR")"
   REPO_NAME="$(basename "$SCRIPT_DIR")"
 
@@ -58,7 +61,15 @@ if [[ "$SCRIPT_DIR" == *".claude/skills/"* ]]; then
     ln -snf "$REPO_NAME" "$SKILLS_DIR/affiliate-check" 2>/dev/null || true
   fi
 
-  echo "[affiliate-skills] Symlinks created in $SKILLS_DIR"
+  echo "[affiliate-skills] Claude Code detected — symlinks created in $SKILLS_DIR"
+elif command -v cursor &>/dev/null || [[ "$SCRIPT_DIR" == *"cursor"* ]]; then
+  PLATFORM="cursor"
+  echo "[affiliate-skills] Cursor detected — .cursorrules is ready"
+elif [[ -n "${WINDSURF_HOME:-}" ]]; then
+  PLATFORM="windsurf"
+  echo "[affiliate-skills] Windsurf detected — skill files are ready"
+else
+  echo "[affiliate-skills] Generic setup — use prompts/bootstrap.md with any AI"
 fi
 
 # 5. Generate registry
@@ -66,15 +77,26 @@ if [ -f scripts/generate-registry.js ]; then
   node scripts/generate-registry.js 2>/dev/null || true
 fi
 
-echo "[affiliate-skills] Setup complete!"
+echo "[affiliate-skills] Setup complete! (platform: $PLATFORM)"
 echo ""
 echo "  Binary:  $SCRIPT_DIR/tools/dist/affiliate-check"
 echo "  Skills:  32 skills across 8 stages"
 echo ""
-echo "  Quick start:"
-echo "    affiliate-check search \"AI video tools\""
-echo "    affiliate-check top"
-echo "    affiliate-check compare heygen synthesia"
+if [ "$PLATFORM" = "claude-code" ]; then
+  echo "  Quick start (Claude Code):"
+  echo "    affiliate-check search \"AI video tools\""
+  echo "    affiliate-check top"
+  echo "    affiliate-check compare heygen synthesia"
+elif [ "$PLATFORM" = "cursor" ] || [ "$PLATFORM" = "windsurf" ]; then
+  echo "  Quick start ($PLATFORM):"
+  echo "    Open this folder in $PLATFORM — skills are auto-discovered."
+  echo "    For CLI: ./tools/dist/affiliate-check search \"AI video tools\""
+else
+  echo "  Quick start (any AI):"
+  echo "    1. Copy prompts/bootstrap.md into your AI"
+  echo "    2. Start: \"Find me the best AI affiliate programs\""
+  echo "    3. CLI: ./tools/dist/affiliate-check search \"AI video tools\""
+fi
 echo ""
 echo "  Set AFFITOR_API_KEY for unlimited access:"
 echo "    export AFFITOR_API_KEY=afl_..."

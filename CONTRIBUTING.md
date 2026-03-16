@@ -12,16 +12,22 @@ skills/
 ├── content/           S2: Create promotional content
 ├── blog/              S3: Write SEO articles
 ├── landing/           S4: Build conversion pages
-└── distribution/      S5: Deploy and distribute
+├── distribution/      S5: Deploy and distribute
+├── analytics/         S6: Track and optimize
+├── automation/        S7: Automate and scale
+└── meta/              S8: Plan, comply, improve
 ```
 
 | Stage | Focus | Example Skills |
 |-------|-------|---------------|
-| S1: Research | Find and evaluate programs | `affiliate-program-search`, `crypto-affiliate-scanner` |
-| S2: Content | Create promotional content | `viral-post-writer`, `tiktok-script-writer`, `email-sequence-builder` |
-| S3: Blog | Write SEO articles | `affiliate-blog-builder`, `youtube-script-writer` |
-| S4: Landing | Build conversion pages | `landing-page-creator`, `webinar-registration-page` |
+| S1: Research | Find and evaluate programs | `affiliate-program-search`, `niche-opportunity-finder` |
+| S2: Content | Create promotional content | `viral-post-writer`, `tiktok-script-writer` |
+| S3: Blog | Write SEO articles | `affiliate-blog-builder`, `comparison-post-writer` |
+| S4: Landing | Build conversion pages | `landing-page-creator`, `product-showcase-page` |
 | S5: Distribution | Deploy and distribute | `bio-link-deployer`, `github-pages-deployer` |
+| S6: Analytics | Track and optimize | `conversion-tracker`, `seo-audit` |
+| S7: Automation | Automate and scale | `content-repurposer`, `email-automation-builder` |
+| S8: Meta | Plan, comply, improve | `funnel-planner`, `compliance-checker` |
 
 Pick a stage, build a skill.
 
@@ -39,7 +45,7 @@ cd affiliate-skills
 Pick a stage and create the directory:
 
 ```bash
-# Replace {stage} with: research, content, blog, landing, or distribution
+# Replace {stage} with: research, content, blog, landing, distribution, analytics, automation, or meta
 mkdir -p skills/{stage}/your-skill-name/references
 cp template/SKILL.md skills/{stage}/your-skill-name/SKILL.md
 cp LICENSE skills/{stage}/your-skill-name/LICENSE.txt
@@ -67,7 +73,7 @@ Run these three tests:
 
 1. **Stranger test:** Someone who's never heard of Affitor types a natural prompt. Does the output make sense?
 2. **Chain test:** Paste the output into a new conversation. Can the next skill in the funnel understand it?
-3. **Platform test:** Copy the output outside Claude. Does it work? (Post to X, deploy to Vercel, paste into WordPress)
+3. **Platform test:** Copy the output outside your AI. Does it work? (Post to X, deploy to Vercel, paste into WordPress)
 
 ### 5. Submit a PR
 
@@ -83,7 +89,8 @@ Before submitting, verify:
 - [ ] Description is pushy — covers 5+ trigger phrases
 - [ ] At least 2 examples with realistic prompts
 - [ ] References in separate files if >50 lines
-- [ ] Output is portable (user can use it immediately outside Claude)
+- [ ] Output is portable (user can use it immediately outside the AI)
+- [ ] Tested in at least 2 different AI platforms (e.g., Claude + ChatGPT, or Cursor + Gemini)
 - [ ] Includes affiliate disclosure guidance
 - [ ] Works standalone (no dependency on other skills)
 - [ ] Works in chain (picks up context from conversation if available)

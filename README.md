@@ -1,8 +1,21 @@
 # affiliate-skills
 
-**Turn Claude Code into your affiliate marketing team.**
+**Turn any AI into your affiliate marketing team.**
 
-32 AI-powered [Claude Skills](https://docs.anthropic.com/en/docs/claude-code/skills) that take you from zero to first commission. Research programs, write content, build pages, deploy, track, optimize, scale — all as slash commands.
+32 AI-powered skills that take you from zero to first commission. Research programs, write content, build pages, deploy, track, optimize, scale — with any AI agent.
+
+Works with: **Claude Code** · **ChatGPT** · **Gemini** · **Cursor** · **Windsurf** · **OpenClaw** · **any AI that reads text**
+
+### Try it now — no install needed
+
+Paste this into any AI:
+
+```
+Search the Affitor affiliate directory for AI video tools.
+Use this API: GET https://list.affitor.com/api/v1/programs?q=AI+video&sort=top&limit=5
+Show me the results in a table with: Name, Commission, Cookie Duration, Stars.
+Then recommend the best one and explain why.
+```
 
 ### Without affiliate-skills
 
@@ -16,9 +29,9 @@
 
 | Skill | Mode | What it does |
 |-------|------|--------------|
-| `/affiliate-check` | Data analyst | Live program data from list.affitor.com — commissions, cookies, comparisons. |
-| `/research` | Scout | Score and rank programs. Find the best one for your niche. |
-| `/funnel-planner` | Strategist | Week-by-week roadmap from zero to revenue. Chain skills automatically. |
+| Program Search | Data analyst | Live program data from list.affitor.com — commissions, cookies, comparisons. |
+| Research | Scout | Score and rank programs. Find the best one for your niche. |
+| Funnel Planner | Strategist | Week-by-week roadmap from zero to revenue. Chain skills automatically. |
 | Content, Blog, Landing, Distribution | Creator | 20 skills that write posts, articles, pages, and deploy them. |
 | Analytics, Automation | Optimizer | Track conversions, A/B test, repurpose content, scale what works. |
 | Compliance, Self-improver | Safety net | FTC audit before you publish. Retrospective after you launch. |
@@ -26,46 +39,44 @@
 ## Demo: zero to first commission
 
 ```
-You:   I want to promote AI video tools. What's the best program?
+You:  I want to promote AI video tools. What's the best program?
 
-       affiliate-check search "AI video"
+AI:   [queries list.affitor.com API]
 
-Claude: [queries list.affitor.com in real-time]
+       Name                      Commission           Cookie     Stars
+       ─────────────────────────────────────────────────────────────────
+       HeyGen                    30% recurring        60 days    ★ 127
+       Synthesia                 25% one-time         30 days    ★ 84
+       D-ID                      20% recurring        45 days    ★ 52
 
-         Name                      Commission           Cookie     Stars
-         ─────────────────────────────────────────────────────────────────
-         HeyGen                    30% recurring        60 days    ★ 127
-         Synthesia                 25% one-time         30 days    ★ 84
-         D-ID                      20% recurring        45 days    ★ 52
+      HeyGen is the clear winner: highest commission, recurring, longest
+      cookie. Let me research it in depth.
 
-       HeyGen is the clear winner: highest commission, recurring, longest
-       cookie. Let me research it in depth.
+You:  Write a blog review of HeyGen for content creators.
 
-You:   Write a blog review of HeyGen for content creators.
+AI:   [runs affiliate-blog-builder skill]
+      [2,000-word SEO review with pros/cons, comparison table,
+       FTC disclosure, and affiliate CTA]
 
-Claude: [runs affiliate-blog-builder skill]
-        [2,000-word SEO review with pros/cons, comparison table,
-         FTC disclosure, and affiliate CTA]
+You:  Create a landing page for this.
 
-You:   Create a landing page for this.
+AI:   [runs landing-page-creator skill]
+      [single-file HTML/CSS page, AIDA framework, mobile-responsive,
+       ready to deploy]
 
-Claude: [runs landing-page-creator skill]
-        [single-file HTML/CSS page, AIDA framework, mobile-responsive,
-         "Powered by Affitor" footer, ready to deploy]
+You:  Plan my full funnel — I have 5 hours/week and I blog.
 
-You:   Plan my full funnel — I have 5 hours/week and I blog.
+AI:   [runs funnel-planner skill]
 
-Claude: [runs funnel-planner skill]
+      Week 1: Research (affiliate-program-search) → select 2-3 programs
+      Week 2: Content (viral-post-writer) → 5 LinkedIn + Twitter posts
+      Week 3: Blog (affiliate-blog-builder) → 1 review article
+      Week 4: Deploy (bio-link-deployer) → bio link page live
+      Week 5: Analytics (seo-audit) → fix SEO issues
+      Week 6: Optimize (ab-test-generator) → test headlines
 
-        Week 1: Research (affiliate-program-search) → select 2-3 programs
-        Week 2: Content (viral-post-writer) → 5 LinkedIn + Twitter posts
-        Week 3: Blog (affiliate-blog-builder) → 1 review article
-        Week 4: Deploy (bio-link-deployer) → bio link page live
-        Week 5: Analytics (seo-audit) → fix SEO issues
-        Week 6: Optimize (ab-test-generator) → test headlines
-
-        Success metric: first affiliate click by week 3, first commission
-        by week 6.
+      Success metric: first affiliate click by week 3, first commission
+      by week 6.
 ```
 
 ## Who this is for
@@ -74,27 +85,38 @@ You want to do affiliate marketing with AI — not by hand. You want data-driven
 
 This is not a prompt pack for beginners. It is an operating system for affiliates who ship.
 
-## Install
+## Get Started
 
-**Requirements:** [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Git](https://git-scm.com/), [Bun](https://bun.sh/) v1.0+ (for `affiliate-check` binary).
+> **[QUICKSTART.md](QUICKSTART.md)** — Platform-specific setup for Claude Code, ChatGPT, Cursor, Gemini, and more.
 
-### Step 1: Install on your machine
+### Fastest way (any AI, no install)
 
-Open Claude Code and paste this:
+1. Copy the [bootstrap prompt](prompts/bootstrap.md) (everything below the `---` line)
+2. Paste it into your AI
+3. Start: *"Find me the best SaaS affiliate programs with recurring commission"*
 
-> Install affiliate-skills: run `git clone https://github.com/Affitor/affiliate-skills.git ~/.claude/skills/affiliate-skills && cd ~/.claude/skills/affiliate-skills && ./setup` then add an "affiliate-skills" section to CLAUDE.md that says to use `/affiliate-check` for all affiliate program lookups, and lists the available skills: 32 skills across 8 stages (research, content, blog, landing, distribution, analytics, automation, meta). Set `AFFITOR_API_KEY` env var for unlimited access.
+### Claude Code (full integration)
 
-### Step 2: Add to your repo so teammates get it (optional)
+```bash
+git clone https://github.com/Affitor/affiliate-skills.git ~/.claude/skills/affiliate-skills
+cd ~/.claude/skills/affiliate-skills && ./setup
+```
 
-> Add affiliate-skills to this project: run `cp -Rf ~/.claude/skills/affiliate-skills .claude/skills/affiliate-skills && rm -rf .claude/skills/affiliate-skills/.git && cd .claude/skills/affiliate-skills && ./setup` then add the affiliate-skills section to this project's CLAUDE.md.
+Then tell Claude to add affiliate-skills to your project's CLAUDE.md. You get slash commands, the `affiliate-check` CLI, and automatic skill discovery.
 
-### What gets installed
+### ChatGPT / Gemini / Any AI
 
-- Skill files (32 Markdown skills) in `~/.claude/skills/affiliate-skills/skills/`
-- `affiliate-check` binary at `tools/dist/affiliate-check` (~5MB, gitignored)
-- `node_modules/` (gitignored)
+1. Copy [`prompts/bootstrap.md`](prompts/bootstrap.md) into your conversation or project instructions
+2. Optionally upload [`registry.json`](registry.json) and [`API.md`](API.md) as knowledge files
+3. Done — your AI is now an affiliate marketing agent
 
-Everything lives inside `.claude/`. Nothing touches your PATH or runs in the background until you call it.
+### Cursor / Windsurf
+
+```bash
+git clone https://github.com/Affitor/affiliate-skills.git
+```
+
+Open the folder — `.cursorrules` configures the AI automatically.
 
 ---
 
@@ -194,11 +216,11 @@ Cross-cutting skills for discovery, planning, compliance, and self-improvement.
 
 ---
 
-Machine-readable index: [`registry.json`](registry.json) · Skill template: [`template/SKILL.md`](template/SKILL.md) · Spec: [`spec/`](spec/)
+Machine-readable index: [`registry.json`](registry.json) · API docs: [`API.md`](API.md) · Skill template: [`template/SKILL.md`](template/SKILL.md) · Spec: [`spec/`](spec/)
 
 ## How it works
 
-Each skill is a single Markdown file (`SKILL.md`) that tells Claude exactly how to think about a specific affiliate marketing task. Skills define:
+Each skill is a single Markdown file (`SKILL.md`) that tells any AI exactly how to execute a specific affiliate marketing task. Skills define:
 
 - **When to trigger** — natural language patterns that activate the skill
 - **Input/Output schemas** — structured data for agent interop
@@ -217,6 +239,16 @@ You don't have to start from S1. Jump in wherever you are:
 - **Want to optimize:** S6 (analytics + SEO audit)
 - **Ready to scale:** S7 (automation + paid ads)
 - **Not sure which skill:** S8 `skill-finder`
+
+## For Developers
+
+Building an agent pipeline? Here's what you need:
+
+- **[`registry.json`](registry.json)** — machine-readable index of all 32 skills with metadata
+- **[`API.md`](API.md)** — full REST API documentation for list.affitor.com
+- **[`prompts/bootstrap.md`](prompts/bootstrap.md)** — system prompt that bootstraps the full agent
+- **`agents/openai.yaml`** — OpenAI-compatible tool definitions (in skills that have them)
+- **Input/Output schemas** — every SKILL.md has typed schemas for structured data exchange
 
 ## Contributing
 

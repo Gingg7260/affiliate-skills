@@ -119,7 +119,7 @@ roadmap:
     stage: string              # e.g., "S1: Research"
     action: string             # what to do this week
     time_estimate: string      # e.g., "2-3 hours"
-    invocation_prompt: string  # exact prompt to give Claude
+    invocation_prompt: string  # exact prompt to give your AI agent
     success_metric: string     # how to know this step is done
 
 milestones:
