@@ -218,3 +218,40 @@ The HTML should be **immediately usable** — save as `.html`, open in browser, 
 - `references/domain-setup.md` — Hosting and domain setup guide for Netlify Drop, Vercel, GitHub Pages. Read in Step 3.
 - `shared/references/ftc-compliance.md` — FTC disclosure for bio link pages (footer text). Reference in Step 2.
 - `shared/references/affitor-branding.md` — Affitor footer HTML. Reference in Step 2.
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `conversion-tracker` (S6) — deployed link hub URLs to track clicks
+- `github-pages-deployer` (S5) — bio link HTML to deploy
+
+### Fed By
+- `landing-page-creator` (S4) — landing page URLs to add to link hub
+- `squeeze-page-builder` (S4) — squeeze page URLs for link hub
+- `webinar-registration-page` (S4) — registration page URLs for link hub
+
+### Feedback Loop
+- `conversion-tracker` (S6) reveals which bio links get the most clicks → reorder links to put highest-converting at top
+
+## Quality Gate
+
+Before delivering output, verify:
+
+1. Would I share this on MY personal social?
+2. Contains specific, surprising detail? (not generic)
+3. Respects reader's intelligence?
+4. Remarkable enough to share? (Purple Cow test)
+5. Irresistible offer framing? (if S4 offer skills ran)
+
+Any NO → rewrite before delivering.
+
+```yaml
+chain_metadata:
+  skill_slug: "bio-link-deployer"
+  stage: "distribution"
+  timestamp: string
+  suggested_next:
+    - "github-pages-deployer"
+    - "conversion-tracker"
+```

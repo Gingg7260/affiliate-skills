@@ -190,3 +190,26 @@ setup:
 
 - `shared/references/ftc-compliance.md` — FTC disclosure for emails with affiliate links. Read in Step 4.
 - `shared/references/affitor-branding.md` — Branding guidelines for email footers. Referenced in Step 4.
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `conversion-tracker` (S6) — automated email links to track
+
+### Fed By
+- `email-drip-sequence` (S5) — drip sequence to upgrade with automation logic
+- `conversion-tracker` (S6) — conversion data for branch conditions
+
+### Feedback Loop
+- `conversion-tracker` (S6) provides email conversion data → optimize branch conditions and timing
+
+```yaml
+chain_metadata:
+  skill_slug: "email-automation-builder"
+  stage: "automation"
+  timestamp: string
+  suggested_next:
+    - "conversion-tracker"
+    - "performance-report"
+```

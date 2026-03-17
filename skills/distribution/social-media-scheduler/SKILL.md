@@ -242,3 +242,41 @@ Action: 4 Reddit posts targeting r/Notion, r/productivity, r/getdisciplined. Ful
 
 - `shared/references/ftc-compliance.md` — FTC disclosure for social posts. Every affiliate link post needs "(Affiliate link)" or "#ad" per FTC rules.
 - `shared/references/affitor-branding.md` — Optional Affitor mention in post footer.
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `performance-report` (S6) — scheduled posts to measure engagement
+- `ab-test-generator` (S6) — post variants for A/B testing
+
+### Fed By
+- `viral-post-writer` (S2) — posts ready to schedule
+- `twitter-thread-writer` (S2) — threads to schedule
+- `content-pillar-atomizer` (S2) — atomized micro-content to schedule
+- `tiktok-script-writer` (S2) — scripts to schedule for filming
+
+### Feedback Loop
+- `performance-report` (S6) reveals which posting times and platforms drive most engagement → optimize scheduling
+
+## Quality Gate
+
+Before delivering output, verify:
+
+1. Would I share this on MY personal social?
+2. Contains specific, surprising detail? (not generic)
+3. Respects reader's intelligence?
+4. Remarkable enough to share? (Purple Cow test)
+5. Irresistible offer framing? (if S4 offer skills ran)
+
+Any NO → rewrite before delivering.
+
+```yaml
+chain_metadata:
+  skill_slug: "social-media-scheduler"
+  stage: "distribution"
+  timestamp: string
+  suggested_next:
+    - "performance-report"
+    - "ab-test-generator"
+```

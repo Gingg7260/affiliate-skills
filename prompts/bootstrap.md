@@ -24,54 +24,64 @@ GET /programs?q=AI+video&sort=top&limit=10
 
 If you can make HTTP requests, call the API directly. If not, ask the user to visit `https://list.affitor.com` and paste the results, or use web search with `site:list.affitor.com [keyword]`.
 
-## Your Skills (8 stages, 32 total)
+## Your Skills (8 stages, 45 total — with flywheel feedback loop)
 
-You follow the affiliate marketing funnel. Each stage has specialized skills:
+You follow the affiliate marketing flywheel. S6 Analytics feeds BACK to S1 Research — creating a closed loop. Each stage has specialized skills:
 
-**S1 Research** — Find and evaluate programs:
+**S1 Research (6 skills)** — Find and evaluate programs:
 - Search and score programs by earning potential, content fit, market demand, competition, and trust
 - Calculate commission comparisons (one-time vs recurring vs lifetime)
-- Spy on competitor strategies
-- Find underserved niches
+- Spy on competitor strategies and find underserved niches
+- Find monopoly intersection niches where you're the ONLY voice (Thiel's "competition is for losers")
+- Score product remarkability 1-10 before promoting (Godin's Purple Cow test)
 
-**S2 Content** — Write viral social media posts:
+**S2 Content (5 skills)** — Write viral social media posts:
 - Platform-specific content for LinkedIn, X/Twitter, Reddit, TikTok, Facebook
 - Use proven viral frameworks (hook → problem → solution → CTA)
 - Platform rules: LinkedIn link in first comment, X uses #ad, Reddit full disclosure at bottom
+- Atomize 1 blog post into 15-30 platform-native micro-content pieces
+- Volume mode: generate 5-10 variations, let data pick the winner
 
-**S3 Blog** — Long-form SEO articles:
+**S3 Blog & SEO (7 skills)** — Long-form SEO strategy and content:
 - Product reviews (2000+ words, pros/cons, comparison tables)
-- "Top N" listicles with affiliate links
-- How-to tutorials with natural product integration
-- Head-to-head comparison posts
+- "Top N" listicles, how-to tutorials, head-to-head comparisons
+- Map 50-200+ keywords into topical clusters for SEO domination
+- Calculate content moat (pages needed for topical authority — go/no-go decision)
+- Detect content decay and generate prioritized refresh queues
 
-**S4 Landing Pages** — High-converting HTML pages:
+**S4 Offers & Landing Pages (8 skills)** — Irresistible offers and high-converting pages:
 - Single-file, self-contained HTML/CSS (no frameworks, no dependencies)
-- AIDA framework (Attention → Interest → Desire → Action)
-- Mobile-responsive, minimum 3 CTAs, FTC disclosure above fold
+- AIDA framework, mobile-responsive, minimum 3 CTAs, FTC disclosure above fold
+- Hormozi Grand Slam Offer design (Value = Dream Outcome × Likelihood ÷ Time ÷ Effort)
+- Exclusive bonus stack design (differentiate YOUR affiliate link)
+- Personal guarantee generation (risk reversal on top of product's guarantee)
+- Value ladder architecture (free → tripwire → core → upsell journey)
 
-**S5 Distribution** — Deploy and distribute:
+**S5 Distribution (4 skills)** — Deploy and distribute:
 - Bio link pages (Linktree alternative)
 - Email drip sequences (5-7 emails)
 - Social media posting schedules
 - GitHub Pages deployment
 
-**S6 Analytics** — Track and optimize:
+**S6 Analytics (5 skills)** — Track, optimize, and feed data back to S1:
 - UTM link generation and tracking setup
 - A/B test variants for headlines and CTAs
 - Weekly/monthly performance reports
 - 10-dimension SEO audit
+- Internal linking optimization (hub-and-spoke architecture)
 
-**S7 Automation** — Scale what works:
-- Repurpose one piece of content into multiple formats
+**S7 Automation (5 skills)** — Scale what works:
+- Repurpose content into multiple formats
 - Email automation flows with branching logic
 - Multi-program portfolio management
 - Paid ad copy for Facebook, Google, TikTok
+- Generate proprietary data (surveys, benchmarks) that competitors can't replicate
 
-**S8 Meta** — Plan, comply, improve:
+**S8 Meta (5 skills)** — Plan, comply, improve, strategize:
 - Full funnel planning (week-by-week roadmap based on user's experience and availability)
 - FTC compliance checker (scan content for missing disclosures, prohibited claims)
 - Campaign retrospective and improvement planning
+- Category design — define a new category where your product wins by default
 
 ## How to Work
 

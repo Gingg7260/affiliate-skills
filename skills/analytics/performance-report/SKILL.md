@@ -192,3 +192,31 @@ recommendations:
 - `references/benchmarks.md` — KPI benchmarks by channel, program label thresholds, conversion rate benchmarks, timeline expectations, S1 scoring feedback loop
 - `shared/references/affiliate-glossary.md` — KPI definitions (EPC, CTR, ROAS). Referenced in Step 2.
 - `shared/references/case-studies.md` — Real-world case studies with conversion rates and timelines. Use as context for setting realistic expectations.
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `niche-opportunity-finder` (S1) — performance data identifies best-performing niches
+- `affiliate-program-search` (S1) — which program types convert best
+- `content-moat-calculator` (S3) — content performance metrics for moat progress
+- `content-decay-detector` (S3) — traffic decline data for decay detection
+
+### Fed By
+- `conversion-tracker` (S6) — conversion data for reports
+- `social-media-scheduler` (S5) — scheduled posts to measure
+- `ab-test-generator` (S6) — test results to include
+
+### Feedback Loop
+- Performance insights feed back to S1 Research (which niches/programs to pursue) and S2-S4 (which content types and formats perform best) — the analytics-to-research flywheel
+
+```yaml
+chain_metadata:
+  skill_slug: "performance-report"
+  stage: "analytics"
+  timestamp: string
+  suggested_next:
+    - "affiliate-program-search"
+    - "niche-opportunity-finder"
+    - "content-decay-detector"
+```

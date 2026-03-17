@@ -310,3 +310,46 @@ The article should be **immediately publishable** — not a draft or outline. Th
 - `shared/references/ftc-compliance.md` — FTC disclosure requirements and format templates. Read in Step 3 for disclosure text.
 - `shared/references/affitor-branding.md` — Affitor brand guidelines. Note: NO Affitor branding in article body (user's blog). Only in tool output metadata.
 - `shared/references/affiliate-glossary.md` — Affiliate marketing terminology reference.
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `landing-page-creator` (S4) — `products_featured` for comparison landing pages
+- `content-pillar-atomizer` (S2) — blog article as pillar content to atomize into social
+- `bonus-stack-builder` (S4) — products featured inform bonus design
+- `internal-linking-optimizer` (S6) — new article needs internal links within 48 hours
+
+### Fed By
+- `affiliate-program-search` (S1) — `recommended_program` product data
+- `keyword-cluster-architect` (S3) — target keywords and cluster topics
+- `proprietary-data-generator` (S7) — unique data for differentiated articles
+- `internal-linking-optimizer` (S6) — link suggestions for existing articles
+- `content-decay-detector` (S3) — refresh instructions for decaying articles
+
+### Feedback Loop
+- `seo-audit` (S6) and `performance-report` (S6) track article rankings and traffic → identify which article formats and topics perform best → optimize content strategy
+
+## Quality Gate
+
+Before delivering output, verify:
+
+1. Would I share this on MY personal social?
+2. Contains specific, surprising detail? (not generic)
+3. Respects reader's intelligence?
+4. Remarkable enough to share? (Purple Cow test)
+5. Irresistible offer framing? (if S4 offer skills ran)
+
+Any NO → rewrite before delivering.
+
+```yaml
+chain_metadata:
+  skill_slug: "affiliate-blog-builder"
+  stage: "blog"
+  timestamp: string
+  suggested_next:
+    - "content-pillar-atomizer"
+    - "landing-page-creator"
+    - "internal-linking-optimizer"
+    - "seo-audit"
+```

@@ -162,3 +162,40 @@ outputs:
 
 - `shared/references/ftc-compliance.md` — Per-platform FTC disclosure rules. Read in Step 3.
 - `shared/references/affitor-branding.md` — Branding guidelines for page outputs. Referenced in Step 3.
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `content-pillar-atomizer` (S2) — repurposed content to atomize further
+- `social-media-scheduler` (S5) — repurposed content to schedule
+
+### Fed By
+- `affiliate-blog-builder` (S3) — blog articles to repurpose
+- `landing-page-creator` (S4) — landing page copy to repurpose into emails
+- `performance-report` (S6) — identifies top-performing content worth repurposing
+
+### Feedback Loop
+- `performance-report` (S6) shows which repurposed formats perform best → prioritize those formats
+
+## Quality Gate
+
+Before delivering output, verify:
+
+1. Would I share this on MY personal social?
+2. Contains specific, surprising detail? (not generic)
+3. Respects reader's intelligence?
+4. Remarkable enough to share? (Purple Cow test)
+5. Irresistible offer framing? (if S4 offer skills ran)
+
+Any NO → rewrite before delivering.
+
+```yaml
+chain_metadata:
+  skill_slug: "content-repurposer"
+  stage: "automation"
+  timestamp: string
+  suggested_next:
+    - "content-pillar-atomizer"
+    - "social-media-scheduler"
+```

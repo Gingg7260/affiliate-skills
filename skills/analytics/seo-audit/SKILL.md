@@ -200,3 +200,30 @@ checklist:
 
 - `shared/references/ftc-compliance.md` — FTC disclosure requirements for affiliate content. Checked in Step 5.
 - `shared/references/affiliate-glossary.md` — SEO and affiliate terminology. Referenced throughout.
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `monopoly-niche-finder` (S1) — ranking data reveals niches you're already winning in
+- `keyword-cluster-architect` (S3) — ranking gaps reveal keyword opportunities
+- `content-decay-detector` (S3) — declining pages to investigate
+- `internal-linking-optimizer` (S6) — link structure issues to fix
+
+### Fed By
+- `github-pages-deployer` (S5) — deployed site URL to audit
+- `affiliate-blog-builder` (S3) — published articles to audit
+
+### Feedback Loop
+- SEO audit results feed back to S3 Blog (content improvements) and S1 Research (niche opportunities from ranking data) — closing the SEO flywheel
+
+```yaml
+chain_metadata:
+  skill_slug: "seo-audit"
+  stage: "analytics"
+  timestamp: string
+  suggested_next:
+    - "content-decay-detector"
+    - "internal-linking-optimizer"
+    - "keyword-cluster-architect"
+```

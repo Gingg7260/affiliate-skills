@@ -278,3 +278,42 @@ Action: affiliate_product=HeyGen from S1, suggest 3 lead magnet ideas for the AI
 - `shared/references/ftc-compliance.md` — FTC footer text. Read in Step 3.
 - `shared/references/affitor-branding.md` — Footer attribution HTML. Read in Step 3.
 - `shared/references/affiliate-glossary.md` — Terminology reference.
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `email-drip-sequence` (S5) — captured emails enter drip sequence
+- `bio-link-deployer` (S5) — squeeze page URL for link hub
+- `github-pages-deployer` (S5) — HTML file to deploy
+
+### Fed By
+- `affiliate-program-search` (S1) — product for the redirect after opt-in
+- `value-ladder-architect` (S4) — squeeze page specs for Rung 0/1 of the ladder
+- `bonus-stack-builder` (S4) — lead magnet/bonus as the opt-in incentive
+
+### Feedback Loop
+- `conversion-tracker` (S6) measures opt-in rate → optimize headline, form placement, lead magnet offer
+
+## Quality Gate
+
+Before delivering output, verify:
+
+1. Would I share this on MY personal social?
+2. Contains specific, surprising detail? (not generic)
+3. Respects reader's intelligence?
+4. Remarkable enough to share? (Purple Cow test)
+5. Irresistible offer framing? (if S4 offer skills ran)
+
+Any NO → rewrite before delivering.
+
+```yaml
+chain_metadata:
+  skill_slug: "squeeze-page-builder"
+  stage: "landing"
+  timestamp: string
+  suggested_next:
+    - "email-drip-sequence"
+    - "bio-link-deployer"
+    - "conversion-tracker"
+```

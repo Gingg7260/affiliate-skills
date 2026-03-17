@@ -274,3 +274,48 @@ The HTML should be **immediately deployable** — save it as a `.html` file, ope
 - `shared/references/ftc-compliance.md` — FTC disclosure requirements. Read in Step 3 for disclosure text.
 - `shared/references/affitor-branding.md` — Affitor footer HTML. Read in Step 3 for footer.
 - `shared/references/affiliate-glossary.md` — Affiliate marketing terminology reference.
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `bio-link-deployer` (S5) — landing page URL for link hub
+- `email-drip-sequence` (S5) — landing page as email link destination
+- `github-pages-deployer` (S5) — HTML file to deploy
+- `conversion-tracker` (S6) — deployed landing page to track
+
+### Fed By
+- `affiliate-program-search` (S1) — `recommended_program` product data
+- `affiliate-blog-builder` (S3) — `products_featured` for comparison pages
+- `keyword-cluster-architect` (S3) — target keywords for SEO headlines
+- `grand-slam-offer` (S4) — offer copy for the page's core messaging
+- `bonus-stack-builder` (S4) — bonus details for bonus section
+- `guarantee-generator` (S4) — guarantee copy for guarantee section
+- `value-ladder-architect` (S4) — page specs for specific ladder rungs
+
+### Feedback Loop
+- `conversion-tracker` (S6) measures landing page conversion rate → identify which page elements drive conversions → optimize on next build
+
+## Quality Gate
+
+Before delivering output, verify:
+
+1. Would I share this on MY personal social?
+2. Contains specific, surprising detail? (not generic)
+3. Respects reader's intelligence?
+4. Remarkable enough to share? (Purple Cow test)
+5. Irresistible offer framing? (if S4 offer skills ran)
+
+Any NO → rewrite before delivering.
+
+```yaml
+chain_metadata:
+  skill_slug: "landing-page-creator"
+  stage: "landing"
+  timestamp: string
+  suggested_next:
+    - "bio-link-deployer"
+    - "github-pages-deployer"
+    - "email-drip-sequence"
+    - "conversion-tracker"
+```

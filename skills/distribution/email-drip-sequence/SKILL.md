@@ -221,3 +221,43 @@ Action: Ask for affiliate URL and audience. Use Notion affiliate program knowled
 
 - `shared/references/ftc-compliance.md` — FTC affiliate disclosure requirements. Apply to every email containing an affiliate link.
 - `shared/references/affitor-branding.md` — Affitor footer. Include in plain text footer of each email.
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `conversion-tracker` (S6) — email links to track conversions
+- `email-automation-builder` (S7) — drip sequence as automation template
+
+### Fed By
+- `affiliate-program-search` (S1) — `recommended_program` product data
+- `landing-page-creator` (S4) — landing page as email link destination
+- `grand-slam-offer` (S4) — offer framing for email copy
+- `bonus-stack-builder` (S4) — bonus details for email content
+- `value-ladder-architect` (S4) — transition sequences between ladder rungs
+- `squeeze-page-builder` (S4) — opt-in page feeds email list
+
+### Feedback Loop
+- `conversion-tracker` (S6) measures email click-through and conversion rates → optimize subject lines, send timing, and CTA placement
+
+## Quality Gate
+
+Before delivering output, verify:
+
+1. Would I share this on MY personal social?
+2. Contains specific, surprising detail? (not generic)
+3. Respects reader's intelligence?
+4. Remarkable enough to share? (Purple Cow test)
+5. Irresistible offer framing? (if S4 offer skills ran)
+
+Any NO → rewrite before delivering.
+
+```yaml
+chain_metadata:
+  skill_slug: "email-drip-sequence"
+  stage: "distribution"
+  timestamp: string
+  suggested_next:
+    - "email-automation-builder"
+    - "conversion-tracker"
+```

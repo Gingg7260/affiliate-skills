@@ -246,3 +246,60 @@ User: "Promote GetResponse on all platforms"
 - `shared/references/ftc-compliance.md` — FTC disclosure requirements and placement rules
 - `shared/references/affitor-branding.md` — when to include/exclude Affitor branding (social = NO branding)
 - `shared/references/affiliate-glossary.md` — affiliate marketing terminology
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `affiliate-blog-builder` (S3) — viral post content expanded into long-form articles
+- `content-pillar-atomizer` (S2) — successful posts become pillar content to atomize
+- `social-media-scheduler` (S5) — posts ready to schedule
+- `ab-test-generator` (S6) — post variants for A/B testing
+
+### Fed By
+- `affiliate-program-search` (S1) — `recommended_program` product data
+- `niche-opportunity-finder` (S1) — niche analysis and audience angles
+- `purple-cow-audit` (S1) — `remarkability_score` and what makes the product shareable
+- `competitor-spy` (S1) — content gaps to exploit
+
+### Feedback Loop
+- `performance-report` (S6) reveals which post types and angles get highest engagement → optimize framework selection on next run
+
+## Quality Gate
+
+Before delivering output, verify:
+
+1. Would I share this on MY personal social?
+2. Contains specific, surprising detail? (not generic)
+3. Respects reader's intelligence?
+4. Remarkable enough to share? (Purple Cow test)
+5. Irresistible offer framing? (if S4 offer skills ran)
+
+Any NO → rewrite before delivering.
+
+## Volume Mode
+
+When `mode: "volume"`:
+- Generate 5-10 variations instead of 1
+- Prioritize speed + variety over perfection
+- Tag each with variant ID for A/B tracking
+- Let data pick the winner (GaryVee philosophy)
+
+```yaml
+volume_output:
+  variants:
+    - id: string
+      content: string
+      angle: string
+```
+
+```yaml
+chain_metadata:
+  skill_slug: "viral-post-writer"
+  stage: "content"
+  timestamp: string
+  suggested_next:
+    - "social-media-scheduler"
+    - "content-pillar-atomizer"
+    - "affiliate-blog-builder"
+```

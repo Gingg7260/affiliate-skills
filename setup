@@ -80,7 +80,7 @@ fi
 echo "[affiliate-skills] Setup complete! (platform: $PLATFORM)"
 echo ""
 echo "  Binary:  $SCRIPT_DIR/tools/dist/affiliate-check"
-echo "  Skills:  32 skills across 8 stages"
+echo "  Skills:  45 skills across 8 stages"
 echo ""
 if [ "$PLATFORM" = "claude-code" ]; then
   echo "  Quick start (Claude Code):"

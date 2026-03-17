@@ -189,3 +189,29 @@ weekly_plan:
 ## References
 
 - `shared/references/affiliate-glossary.md` — Portfolio and commission terminology. Referenced in Step 2.
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `commission-calculator` (S1) — managed programs for portfolio calculation
+- `funnel-planner` (S8) — portfolio data for funnel planning
+
+### Fed By
+- `affiliate-program-search` (S1) — new programs to add to portfolio
+- `conversion-tracker` (S6) — performance data per program
+- `performance-report` (S6) — portfolio performance trends
+
+### Feedback Loop
+- `performance-report` (S6) reveals underperforming programs → recommend swaps or investment reallocation
+
+```yaml
+chain_metadata:
+  skill_slug: "multi-program-manager"
+  stage: "automation"
+  timestamp: string
+  suggested_next:
+    - "commission-calculator"
+    - "performance-report"
+    - "affiliate-program-search"
+```

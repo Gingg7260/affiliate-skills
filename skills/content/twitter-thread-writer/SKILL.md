@@ -267,3 +267,59 @@ User: "8-tweet thread about HeyGen for video creators"
 - `shared/references/ftc-compliance.md` — #ad placement rules for Twitter/X
 - `shared/references/platform-rules.md` — X character limits, link handling, thread best practices
 - `shared/references/affiliate-glossary.md` — terminology
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `affiliate-blog-builder` (S3) — thread content expanded into blog posts
+- `content-pillar-atomizer` (S2) — successful threads become content to atomize
+- `social-media-scheduler` (S5) — threads ready to schedule
+- `ab-test-generator` (S6) — hook variants for testing
+
+### Fed By
+- `affiliate-program-search` (S1) — `recommended_program` product data
+- `purple-cow-audit` (S1) — remarkable angles for thread hooks
+- `content-pillar-atomizer` (S2) — atomized Twitter pieces from pillar content
+
+### Feedback Loop
+- `performance-report` (S6) reveals which thread hooks and lengths perform best → optimize thread structure
+
+## Quality Gate
+
+Before delivering output, verify:
+
+1. Would I share this on MY personal social?
+2. Contains specific, surprising detail? (not generic)
+3. Respects reader's intelligence?
+4. Remarkable enough to share? (Purple Cow test)
+5. Irresistible offer framing? (if S4 offer skills ran)
+
+Any NO → rewrite before delivering.
+
+## Volume Mode
+
+When `mode: "volume"`:
+- Generate 5-10 hook variations instead of 1
+- Prioritize speed + variety over perfection
+- Tag each with variant ID for A/B tracking
+- Let data pick the winner
+
+```yaml
+volume_output:
+  variants:
+    - id: string
+      content: string
+      angle: string
+```
+
+```yaml
+chain_metadata:
+  skill_slug: "twitter-thread-writer"
+  stage: "content"
+  timestamp: string
+  suggested_next:
+    - "social-media-scheduler"
+    - "content-pillar-atomizer"
+    - "ab-test-generator"
+```

@@ -315,3 +315,56 @@ User: "Write a Reddit post about HeyGen for r/videography"
 - `shared/references/ftc-compliance.md` — FTC disclosure requirements for Reddit
 - `shared/references/platform-rules.md` — Reddit-specific format and link rules
 - `shared/references/affiliate-glossary.md` — terminology
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `affiliate-blog-builder` (S3) — Reddit insights expanded into long-form content
+- `social-media-scheduler` (S5) — posts ready to schedule
+
+### Fed By
+- `affiliate-program-search` (S1) — `recommended_program` product data
+- `purple-cow-audit` (S1) — honest product evaluation for Reddit authenticity
+- `content-pillar-atomizer` (S2) — atomized Reddit pieces from pillar content
+
+### Feedback Loop
+- Post upvotes and comment sentiment reveal which product angles resonate with skeptical audiences → refine positioning for authenticity
+
+## Quality Gate
+
+Before delivering output, verify:
+
+1. Would I share this on MY personal social?
+2. Contains specific, surprising detail? (not generic)
+3. Respects reader's intelligence?
+4. Remarkable enough to share? (Purple Cow test)
+5. Irresistible offer framing? (if S4 offer skills ran)
+
+Any NO → rewrite before delivering.
+
+## Volume Mode
+
+When `mode: "volume"`:
+- Generate 5-10 variations for different subreddits
+- Prioritize speed + variety over perfection
+- Tag each with variant ID for tracking
+- Let data pick the winner
+
+```yaml
+volume_output:
+  variants:
+    - id: string
+      content: string
+      angle: string
+```
+
+```yaml
+chain_metadata:
+  skill_slug: "reddit-post-writer"
+  stage: "content"
+  timestamp: string
+  suggested_next:
+    - "social-media-scheduler"
+    - "affiliate-blog-builder"
+```

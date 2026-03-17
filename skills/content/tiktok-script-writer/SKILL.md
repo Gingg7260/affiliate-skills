@@ -271,3 +271,56 @@ User: "I need 3 different hooks for a ConvertKit TikTok script"
 - `shared/references/ftc-compliance.md` — disclosure rules for short-form video
 - `shared/references/affiliate-glossary.md` — reward_type and program terminology
 - `shared/references/platform-rules.md` — TikTok/Reels/Shorts format specs
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `social-media-scheduler` (S5) — scripts ready to schedule for filming/posting
+- `content-pillar-atomizer` (S2) — successful scripts become content to atomize further
+
+### Fed By
+- `affiliate-program-search` (S1) — `recommended_program` product data
+- `purple-cow-audit` (S1) — remarkable angles for script hooks
+- `content-pillar-atomizer` (S2) — atomized TikTok scripts from pillar content
+
+### Feedback Loop
+- Video view count and completion rate reveal which hook styles work → optimize hook selection
+
+## Quality Gate
+
+Before delivering output, verify:
+
+1. Would I share this on MY personal social?
+2. Contains specific, surprising detail? (not generic)
+3. Respects reader's intelligence?
+4. Remarkable enough to share? (Purple Cow test)
+5. Irresistible offer framing? (if S4 offer skills ran)
+
+Any NO → rewrite before delivering.
+
+## Volume Mode
+
+When `mode: "volume"`:
+- Generate 5-10 hook variations for the same product
+- Prioritize speed + variety over perfection
+- Tag each with variant ID for A/B tracking
+- Let data pick the winner
+
+```yaml
+volume_output:
+  variants:
+    - id: string
+      content: string
+      angle: string
+```
+
+```yaml
+chain_metadata:
+  skill_slug: "tiktok-script-writer"
+  stage: "content"
+  timestamp: string
+  suggested_next:
+    - "social-media-scheduler"
+    - "content-pillar-atomizer"
+```

@@ -198,3 +198,28 @@ iteration_plan:
 
 - `shared/references/ftc-compliance.md` — Referenced when reviewing content quality. Read in Step 3.
 - `docs/affiliate-funnel-overview.md` — Funnel stage definitions for gap analysis. Read in Step 3.
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- All skills — `improvement_suggestions` drive quality upgrades across the system
+
+### Fed By
+- `performance-report` (S6) — performance data revealing what needs improvement
+- `conversion-tracker` (S6) — conversion trends for diagnosis
+- `compliance-checker` (S8) — compliance issues to address
+
+### Feedback Loop
+- Each improvement cycle feeds back into the next self-improver run → track improvement trajectory over time
+
+```yaml
+chain_metadata:
+  skill_slug: "self-improver"
+  stage: "meta"
+  timestamp: string
+  suggested_next:
+    - "funnel-planner"
+    - "performance-report"
+    - "skill-finder"
+```

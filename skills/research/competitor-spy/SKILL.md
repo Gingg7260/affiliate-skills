@@ -267,3 +267,31 @@ User: "I'm entering the email marketing niche, help me spy on competitors"
 - `references/list-affitor-api.md` — validate found programs on list.affitor.com
 - `shared/references/affiliate-glossary.md` — affiliate link pattern reference
 - `shared/references/ftc-compliance.md` — understanding competitor disclosures
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `viral-post-writer` (S2) — competitor gaps reveal content opportunities
+- `purple-cow-audit` (S1) — competitive landscape for product evaluation
+- `grand-slam-offer` (S4) — competitive gaps to exploit in offers
+- `bonus-stack-builder` (S4) — what competitors' affiliates offer (gaps to exploit)
+- `category-designer` (S8) — competitive landscape to differentiate from
+
+### Fed By
+- `performance-report` (S6) — your performance data vs competitors
+- `seo-audit` (S6) — ranking data showing where competitors outrank you
+
+### Feedback Loop
+- Performance comparisons from S6 reveal where competitor strategies outperform → focus spy analysis on their winning tactics
+
+```yaml
+chain_metadata:
+  skill_slug: "competitor-spy"
+  stage: "research"
+  timestamp: string
+  suggested_next:
+    - "purple-cow-audit"
+    - "grand-slam-offer"
+    - "affiliate-blog-builder"
+```

@@ -2,7 +2,7 @@
 
 **Turn any AI into your affiliate marketing team.**
 
-32 AI-powered skills that take you from zero to first commission. Research programs, write content, build pages, deploy, track, optimize, scale — with any AI agent.
+45 AI-powered skills across 8 stages with a closed-loop flywheel. Research programs, write content, build pages, deploy, track, optimize, scale — with any AI agent.
 
 Works with: **Claude Code** · **ChatGPT** · **Gemini** · **Cursor** · **Windsurf** · **OpenClaw** · **any AI that reads text**
 
@@ -120,21 +120,25 @@ Open the folder — `.cursorrules` configures the AI automatically.
 
 ---
 
-## The Affiliate Funnel — 8 Stages, 32 Skills
+## The Affiliate Flywheel — 8 Stages, 45 Skills
 
 ```
-  S1 RESEARCH ──▶ S2 CONTENT ──▶ S3 BLOG ──▶ S4 LANDING
-       │                                         │
-       ▼                                         ▼
-  S6 ANALYTICS ◀──────── S5 DISTRIBUTION ◀──────┘
-       │
-       ▼
-  S7 AUTOMATION ──▶ SCALE
-       │
-  S8 META (plan, comply, improve) ── across all stages
+  S1 RESEARCH ──▶ S2 CONTENT ──▶ S3 BLOG & SEO ──▶ S4 OFFERS & LANDING
+       ▲                                                    │
+       │                                                    ▼
+       │                                              S5 DISTRIBUTION
+       │                                                    │
+       └──────────── S6 ANALYTICS ◀─────────────────────────┘
+                          │
+                          ▼
+                    S7 AUTOMATION → SCALE
+                          │
+                    S8 META (across all)
 ```
 
-### S1: Research & Discovery
+**Flywheel**: S6 Analytics feeds BACK to S1 Research → closed loop. Every skill knows what comes next (`chain_metadata.suggested_next`) and what feeds it. Data flows forward through the funnel and back through analytics.
+
+### S1: Research & Discovery (6 skills)
 Find and evaluate the best affiliate programs to promote.
 
 | Skill | Description |
@@ -143,8 +147,10 @@ Find and evaluate the best affiliate programs to promote.
 | [niche-opportunity-finder](skills/research/niche-opportunity-finder/) | Find underserved niches with high potential |
 | [competitor-spy](skills/research/competitor-spy/) | Analyze competitor affiliate strategies |
 | [commission-calculator](skills/research/commission-calculator/) | Calculate and compare commission structures |
+| [monopoly-niche-finder](skills/research/monopoly-niche-finder/) | Find intersection niches where you're the ONLY voice (Thiel) |
+| [purple-cow-audit](skills/research/purple-cow-audit/) | Score product remarkability 1-10 before promoting (Godin) |
 
-### S2: Content Creation
+### S2: Content Creation (5 skills)
 Write viral social media content that drives clicks.
 
 | Skill | Description |
@@ -153,8 +159,9 @@ Write viral social media content that drives clicks.
 | [twitter-thread-writer](skills/content/twitter-thread-writer/) | Multi-tweet threads with hooks |
 | [reddit-post-writer](skills/content/reddit-post-writer/) | Authentic Reddit posts with disclosure |
 | [tiktok-script-writer](skills/content/tiktok-script-writer/) | Short-form video scripts |
+| [content-pillar-atomizer](skills/content/content-pillar-atomizer/) | 1 article → 15-30 platform-native micro-content pieces |
 
-### S3: Blog & SEO
+### S3: Blog & SEO (7 skills)
 Long-form SEO-optimized articles that rank and convert.
 
 | Skill | Description |
@@ -163,9 +170,12 @@ Long-form SEO-optimized articles that rank and convert.
 | [comparison-post-writer](skills/blog/comparison-post-writer/) | Head-to-head product comparisons |
 | [listicle-generator](skills/blog/listicle-generator/) | "Top N" roundup articles |
 | [how-to-tutorial-writer](skills/blog/how-to-tutorial-writer/) | Tutorial articles with product integration |
+| [keyword-cluster-architect](skills/blog/keyword-cluster-architect/) | Map 50-200+ keywords into topical clusters |
+| [content-moat-calculator](skills/blog/content-moat-calculator/) | Estimate pages needed for topical authority |
+| [content-decay-detector](skills/blog/content-decay-detector/) | Monitor content for ranking drops, trigger refresh |
 
-### S4: Landing Pages
-High-converting pages in pure HTML/CSS — no framework, no dependencies.
+### S4: Offers & Landing Pages (8 skills)
+Irresistible offers and high-converting pages — pure HTML/CSS, no dependencies.
 
 | Skill | Description |
 |-------|-------------|
@@ -173,8 +183,12 @@ High-converting pages in pure HTML/CSS — no framework, no dependencies.
 | [product-showcase-page](skills/landing/product-showcase-page/) | Single-product showcase |
 | [squeeze-page-builder](skills/landing/squeeze-page-builder/) | Lead capture pages |
 | [webinar-registration-page](skills/landing/webinar-registration-page/) | Event-based promotion |
+| [grand-slam-offer](skills/landing/grand-slam-offer/) | Hormozi Value Equation offer design |
+| [bonus-stack-builder](skills/landing/bonus-stack-builder/) | Exclusive bonus packages for YOUR link |
+| [guarantee-generator](skills/landing/guarantee-generator/) | Personal guarantees for risk reversal |
+| [value-ladder-architect](skills/landing/value-ladder-architect/) | Free → tripwire → core → upsell journey |
 
-### S5: Distribution & Deployment
+### S5: Distribution & Deployment (4 skills)
 Get your content live and distributed.
 
 | Skill | Description |
@@ -184,8 +198,8 @@ Get your content live and distributed.
 | [social-media-scheduler](skills/distribution/social-media-scheduler/) | Posting schedule and calendar |
 | [github-pages-deployer](skills/distribution/github-pages-deployer/) | Deploy to GitHub Pages |
 
-### S6: Analytics & Optimization
-Track, measure, and optimize your affiliate performance.
+### S6: Analytics & Optimization (5 skills)
+Track, measure, optimize — and feed data back to S1.
 
 | Skill | Description |
 |-------|-------------|
@@ -193,8 +207,9 @@ Track, measure, and optimize your affiliate performance.
 | [ab-test-generator](skills/analytics/ab-test-generator/) | A/B test variants for headlines and CTAs |
 | [performance-report](skills/analytics/performance-report/) | Weekly/monthly KPI reports |
 | [seo-audit](skills/analytics/seo-audit/) | 10-dimension SEO scorecard |
+| [internal-linking-optimizer](skills/analytics/internal-linking-optimizer/) | Hub-and-spoke internal link structure |
 
-### S7: Automation & Scale
+### S7: Automation & Scale (5 skills)
 Automate workflows and scale what's working.
 
 | Skill | Description |
@@ -203,9 +218,10 @@ Automate workflows and scale what's working.
 | [content-repurposer](skills/automation/content-repurposer/) | One piece of content → multiple formats |
 | [multi-program-manager](skills/automation/multi-program-manager/) | Affiliate program portfolio strategy |
 | [paid-ad-copy-writer](skills/automation/paid-ad-copy-writer/) | Ad copy for Facebook, Google, TikTok |
+| [proprietary-data-generator](skills/automation/proprietary-data-generator/) | Original surveys, benchmarks, data moats |
 
-### S8: Meta
-Cross-cutting skills for discovery, planning, compliance, and self-improvement.
+### S8: Meta (5 skills)
+Cross-cutting skills for discovery, planning, compliance, and strategy.
 
 | Skill | Description |
 |-------|-------------|
@@ -213,6 +229,7 @@ Cross-cutting skills for discovery, planning, compliance, and self-improvement.
 | [funnel-planner](skills/meta/funnel-planner/) | Plan a complete affiliate funnel roadmap |
 | [compliance-checker](skills/meta/compliance-checker/) | FTC compliance and platform rules audit |
 | [self-improver](skills/meta/self-improver/) | Campaign retrospective and improvement plan |
+| [category-designer](skills/meta/category-designer/) | Define a new category where your product wins |
 
 ---
 
@@ -244,7 +261,7 @@ You don't have to start from S1. Jump in wherever you are:
 
 Building an agent pipeline? Here's what you need:
 
-- **[`registry.json`](registry.json)** — machine-readable index of all 32 skills with metadata
+- **[`registry.json`](registry.json)** — machine-readable index of all 45 skills with metadata
 - **[`API.md`](API.md)** — full REST API documentation for list.affitor.com
 - **[`prompts/bootstrap.md`](prompts/bootstrap.md)** — system prompt that bootstraps the full agent
 - **`agents/openai.yaml`** — OpenAI-compatible tool definitions (in skills that have them)

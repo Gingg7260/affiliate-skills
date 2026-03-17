@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-03-17T08:08:47.575Z",
+  "generated_at": "2026-03-17T22:06:34.694Z",
   "stages": {
     "research": {
       "label": "Research & Discovery",
@@ -86,6 +86,19 @@
       "author": "Affitor"
     },
     {
+      "name": "monopoly-niche-finder",
+      "slug": "monopoly-niche-finder",
+      "stage": "research",
+      "version": "1.0.0",
+      "description": "> Find intersection niches where you're the ONLY voice. Thiel's \"competition is for losers\" lens. Triggers on: \"find my monopoly niche\", \"blue ocean niche\", \"unique niche\", \"niche intersection\", \"where am I the only one\", \"zero competition niche\", \"untapped niche\", \"category of one\", \"Thiel monopoly\", \"dominate a niche\", \"niche nobody else covers\", \"cross two domains\", \"find a niche with no competition\", \"monopoly positioning\", \"unique angle for affiliate\".",
+      "path": "skills/research/monopoly-niche-finder",
+      "agent_compatible": true,
+      "tools": [
+        "web_search"
+      ],
+      "author": "Affitor"
+    },
+    {
       "name": "niche-opportunity-finder",
       "slug": "niche-opportunity-finder",
       "stage": "research",
@@ -95,6 +108,32 @@
       "agent_compatible": true,
       "tools": [
         "web_search"
+      ],
+      "author": "Affitor"
+    },
+    {
+      "name": "purple-cow-audit",
+      "slug": "purple-cow-audit",
+      "stage": "research",
+      "version": "1.0.0",
+      "description": "> Score product remarkability 1-10 to decide if it's worth promoting. Seth Godin's Purple Cow test. Triggers on: \"is this product worth promoting\", \"should I promote\", \"product audit\", \"purple cow\", \"remarkable product\", \"is it remarkable\", \"rate this product\", \"product quality check\", \"worth my reputation\", \"product evaluation\", \"would I recommend without commission\", \"product remarkability score\", \"evaluate this affiliate product\", \"quality gate for promotion\".",
+      "path": "skills/research/purple-cow-audit",
+      "agent_compatible": true,
+      "tools": [
+        "web_search"
+      ],
+      "author": "Affitor"
+    },
+    {
+      "name": "content-pillar-atomizer",
+      "slug": "content-pillar-atomizer",
+      "stage": "content",
+      "version": "1.0.0",
+      "description": "> Take 1 blog post or article and generate 15-30 platform-native micro-content pieces. Not reformatting — re-contextualizing for each platform's culture. Triggers on: \"atomize this content\", \"repurpose my blog post\", \"turn this into social posts\", \"content atomizer\", \"pillar content\", \"one to many content\", \"repurpose content\", \"multiply my content\", \"content explosion\", \"turn article into posts\", \"break down this article\", \"micro content from blog\", \"content pillar strategy\", \"10x my content\", \"platform-native content\", \"atomize\", \"content multiplication\".",
+      "path": "skills/content/content-pillar-atomizer",
+      "agent_compatible": true,
+      "tools": [
+        "web_fetch"
       ],
       "author": "Affitor"
     },
@@ -179,12 +218,51 @@
       "author": "Affitor"
     },
     {
+      "name": "content-decay-detector",
+      "slug": "content-decay-detector",
+      "stage": "blog",
+      "version": "1.0.0",
+      "description": "> Monitor existing content for ranking drops and trigger refresh workflows. Triggers on: \"check for content decay\", \"which content needs updating\", \"content refresh\", \"ranking drops\", \"traffic decline\", \"stale content\", \"content audit\", \"what to refresh\", \"outdated content\", \"content performance check\", \"update old articles\", \"declining rankings\", \"content maintenance\", \"refresh priority list\", \"which articles are losing traffic\", \"SEO content audit\".",
+      "path": "skills/blog/content-decay-detector",
+      "agent_compatible": true,
+      "tools": [
+        "web_search"
+      ],
+      "author": "Affitor"
+    },
+    {
+      "name": "content-moat-calculator",
+      "slug": "content-moat-calculator",
+      "stage": "blog",
+      "version": "1.0.0",
+      "description": "> Estimate pages needed for topical authority. Go/no-go decision before investing months in content. Triggers on: \"how much content do I need\", \"topical authority estimate\", \"content moat\", \"how many articles\", \"content gap analysis\", \"can I compete in this niche\", \"content investment calculator\", \"is this niche worth the effort\", \"SEO feasibility\", \"how many pages to rank\", \"content volume needed\", \"competitive content analysis\", \"moat calculation\", \"authority gap\", \"should I invest in this niche\".",
+      "path": "skills/blog/content-moat-calculator",
+      "agent_compatible": true,
+      "tools": [
+        "web_search"
+      ],
+      "author": "Affitor"
+    },
+    {
       "name": "how-to-tutorial-writer",
       "slug": "how-to-tutorial-writer",
       "stage": "blog",
       "version": "1.0.0",
       "description": "> Write how-to guides and tutorials that naturally integrate affiliate product recommendations. Triggers on: \"write a how-to guide\", \"tutorial for [task]\", \"step by step guide to [goal]\", \"how to [verb] with [product]\", \"write a tutorial blog post\", \"guide on how to [task]\", \"beginner guide to [topic]\", \"walkthrough for [product]\", \"write an educational article\", \"how do I [task] blog post\", \"write a tutorial that promotes [product]\".",
       "path": "skills/blog/how-to-tutorial-writer",
+      "agent_compatible": true,
+      "tools": [
+        "web_search"
+      ],
+      "author": "Affitor"
+    },
+    {
+      "name": "keyword-cluster-architect",
+      "slug": "keyword-cluster-architect",
+      "stage": "blog",
+      "version": "1.0.0",
+      "description": "> Map 50-200+ keywords into topical clusters for SEO domination. Build content roadmaps for topical authority. Triggers on: \"keyword research\", \"keyword clustering\", \"topical authority\", \"keyword map\", \"keyword strategy\", \"content roadmap for SEO\", \"keyword grouping\", \"topic clusters\", \"SEO keyword plan\", \"map my keywords\", \"keyword cluster\", \"hub and spoke content\", \"build topical authority\", \"SEO content plan\", \"keyword universe\".",
+      "path": "skills/blog/keyword-cluster-architect",
       "agent_compatible": true,
       "tools": [
         "web_search"
@@ -202,6 +280,43 @@
       "tools": [
         "web_search"
       ],
+      "author": "Affitor"
+    },
+    {
+      "name": "bonus-stack-builder",
+      "slug": "bonus-stack-builder",
+      "stage": "landing",
+      "version": "1.0.0",
+      "description": "> Design exclusive bonus packages that make YOUR affiliate link the obvious choice. Triggers on: \"create bonuses for\", \"bonus stack\", \"what bonuses should I offer\", \"bonus ideas for\", \"exclusive bonuses\", \"differentiate my affiliate link\", \"why buy through my link\", \"affiliate bonuses\", \"bonus package\", \"what can I offer as a bonus\", \"design bonuses\", \"build a bonus stack\".",
+      "path": "skills/landing/bonus-stack-builder",
+      "agent_compatible": true,
+      "tools": [
+        "web_search"
+      ],
+      "author": "Affitor"
+    },
+    {
+      "name": "grand-slam-offer",
+      "slug": "grand-slam-offer",
+      "stage": "landing",
+      "version": "1.0.0",
+      "description": "> Design irresistible affiliate offers using the Hormozi Grand Slam framework. Triggers on: \"create an offer for\", \"design my offer\", \"grand slam offer\", \"make an irresistible offer\", \"why should someone buy through my link\", \"offer framework\", \"value proposition for\", \"Hormozi offer\", \"offer stack\", \"make my offer irresistible\", \"craft an offer\", \"what makes my offer different\", \"offer design\", \"increase perceived value\".",
+      "path": "skills/landing/grand-slam-offer",
+      "agent_compatible": true,
+      "tools": [
+        "web_search"
+      ],
+      "author": "Affitor"
+    },
+    {
+      "name": "guarantee-generator",
+      "slug": "guarantee-generator",
+      "stage": "landing",
+      "version": "1.0.0",
+      "description": "> Create YOUR personal guarantee on top of the product's guarantee for risk reversal. Triggers on: \"create a guarantee\", \"guarantee for my affiliate\", \"risk reversal\", \"money back guarantee\", \"what guarantee can I offer\", \"reduce buyer risk\", \"guarantee copy\", \"how to guarantee\", \"affiliate guarantee\", \"personal guarantee\", \"risk-free offer\", \"satisfaction guarantee\", \"results guarantee\".",
+      "path": "skills/landing/guarantee-generator",
+      "agent_compatible": true,
+      "tools": [],
       "author": "Affitor"
     },
     {
@@ -238,6 +353,17 @@
       "version": "1.0.0",
       "description": "> Build email capture landing pages (squeeze pages) as single self-contained HTML files. Triggers on: \"build a squeeze page\", \"email capture page\", \"lead magnet page\", \"create an opt-in page\", \"build an email list page\", \"lead capture landing page\", \"create a freebie page\", \"build a page to collect emails\", \"opt-in landing page\", \"email signup page for [product/niche]\", \"create a lead magnet landing page\", \"build a page that captures emails before sending to affiliate offer\".",
       "path": "skills/landing/squeeze-page-builder",
+      "agent_compatible": true,
+      "tools": [],
+      "author": "Affitor"
+    },
+    {
+      "name": "value-ladder-architect",
+      "slug": "value-ladder-architect",
+      "stage": "landing",
+      "version": "1.0.0",
+      "description": "> Design the complete free-to-premium value ladder for affiliate promotions. Triggers on: \"value ladder\", \"customer journey\", \"upsell path\", \"ascension model\", \"free to paid funnel\", \"tripwire offer\", \"upsell strategy\", \"downsell\", \"product ladder\", \"price ladder\", \"customer ascension\", \"funnel architecture\", \"map my funnel\", \"design my funnel stages\", \"monetization path\".",
+      "path": "skills/landing/value-ladder-architect",
       "agent_compatible": true,
       "tools": [],
       "author": "Affitor"
@@ -322,6 +448,19 @@
       "author": "Affitor"
     },
     {
+      "name": "internal-linking-optimizer",
+      "slug": "internal-linking-optimizer",
+      "stage": "analytics",
+      "version": "1.0.0",
+      "description": "> Analyze site's internal link structure and optimize for hub-and-spoke SEO architecture. Triggers on: \"optimize internal links\", \"internal linking\", \"link structure\", \"hub and spoke links\", \"orphan pages\", \"link equity\", \"internal link audit\", \"fix my internal links\", \"link architecture\", \"site structure optimization\", \"internal linking strategy\", \"link flow\", \"improve site structure\", \"find orphan pages\", \"maximize link equity\", \"internal link map\".",
+      "path": "skills/analytics/internal-linking-optimizer",
+      "agent_compatible": true,
+      "tools": [
+        "web_search"
+      ],
+      "author": "Affitor"
+    },
+    {
       "name": "performance-report",
       "slug": "performance-report",
       "stage": "analytics",
@@ -388,6 +527,32 @@
       "path": "skills/automation/paid-ad-copy-writer",
       "agent_compatible": true,
       "tools": [],
+      "author": "Affitor"
+    },
+    {
+      "name": "proprietary-data-generator",
+      "slug": "proprietary-data-generator",
+      "stage": "automation",
+      "version": "1.0.0",
+      "description": "> Create original surveys, benchmarks, and aggregated data nobody else has. Automate data collection for content moats. Triggers on: \"create original data\", \"proprietary data\", \"survey design\", \"benchmark study\", \"original research\", \"data-driven content\", \"create a survey\", \"industry benchmark\", \"aggregated data\", \"unique data\", \"first-party data\", \"data moat\", \"generate research data\", \"create a study\", \"original statistics\", \"data nobody else has\", \"competitive data advantage\".",
+      "path": "skills/automation/proprietary-data-generator",
+      "agent_compatible": true,
+      "tools": [
+        "web_search"
+      ],
+      "author": "Affitor"
+    },
+    {
+      "name": "category-designer",
+      "slug": "category-designer",
+      "stage": "meta",
+      "version": "1.0.0",
+      "description": "> Define a new category where your product wins by default. Reframe the buying decision. Triggers on: \"create a category\", \"category design\", \"define my category\", \"category of one\", \"reframe the market\", \"position as category king\", \"new category\", \"category creation\", \"own a category\", \"category strategy\", \"competitive positioning\", \"strategic positioning\", \"market reframing\", \"be the only option\", \"change the buying criteria\", \"category king\".",
+      "path": "skills/meta/category-designer",
+      "agent_compatible": true,
+      "tools": [
+        "web_search"
+      ],
       "author": "Affitor"
     },
     {

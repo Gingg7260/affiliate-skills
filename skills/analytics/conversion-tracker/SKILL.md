@@ -168,3 +168,31 @@ setup_guide:
 
 - `references/tracking-templates.md` — Google Sheets template, UTM parameter reference, platform-specific tracking notes, S6 feedback loop
 - `shared/references/affiliate-glossary.md` — Definitions for tracking terms (EPC, CTR, conversion). Referenced in setup guide.
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `affiliate-program-search` (S1) — top converting niches → search for more programs in winning niches
+- `performance-report` (S6) — conversion data for reports
+- `ab-test-generator` (S6) — conversion baselines for test evaluation
+
+### Fed By
+- `bio-link-deployer` (S5) — deployed link URLs to track
+- `email-drip-sequence` (S5) — email links to track
+- `landing-page-creator` (S4) — landing page conversions to track
+- `github-pages-deployer` (S5) — deployed site to track
+
+### Feedback Loop
+- Conversion data feeds back to S1 Research (which programs convert best) and S4 Landing (which page elements convert) — closing the flywheel loop
+
+```yaml
+chain_metadata:
+  skill_slug: "conversion-tracker"
+  stage: "analytics"
+  timestamp: string
+  suggested_next:
+    - "performance-report"
+    - "ab-test-generator"
+    - "affiliate-program-search"
+```

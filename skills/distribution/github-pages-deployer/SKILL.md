@@ -310,3 +310,40 @@ Action: Generate multi-page structure. Scaffold all index.html files with placeh
 - `shared/references/affitor-branding.md` — Affitor footer. Include in HTML before deploy.
 - GitHub Pages documentation: https://docs.github.com/en/pages
 - GitHub Pages IP addresses (A records): https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `conversion-tracker` (S6) — deployed site URL to track
+- `seo-audit` (S6) — deployed site to audit
+
+### Fed By
+- `landing-page-creator` (S4) — HTML file to deploy
+- `bio-link-deployer` (S5) — bio link HTML to deploy
+- `squeeze-page-builder` (S4) — squeeze page HTML to deploy
+
+### Feedback Loop
+- `seo-audit` (S6) checks deployed site health → identify deployment issues affecting SEO
+
+## Quality Gate
+
+Before delivering output, verify:
+
+1. Would I share this on MY personal social?
+2. Contains specific, surprising detail? (not generic)
+3. Respects reader's intelligence?
+4. Remarkable enough to share? (Purple Cow test)
+5. Irresistible offer framing? (if S4 offer skills ran)
+
+Any NO → rewrite before delivering.
+
+```yaml
+chain_metadata:
+  skill_slug: "github-pages-deployer"
+  stage: "distribution"
+  timestamp: string
+  suggested_next:
+    - "conversion-tracker"
+    - "seo-audit"
+```

@@ -1,7 +1,7 @@
 # Affitor Affiliate Skills — Cursor Rules
 
 ## What This Repo Is
-32 AI-powered skills for affiliate marketers. Each skill automates a specific workflow
+45 AI-powered skills for affiliate marketers. Each skill automates a specific workflow
 (content creation, program research, SEO, outreach, analytics, etc.) using live data
 from the Affitor API.
 
@@ -14,7 +14,7 @@ from the Affitor API.
 ## Directory Layout
 ```
 skills/          # Skills grouped by stage (research, content, blog, landing, distribution, analytics, automation, meta)
-registry.json    # Master index of all 32 skills with metadata
+registry.json    # Master index of all 45 skills with metadata
 API.md           # Full Affitor API reference
 prompts/         # Bootstrap prompt for any AI
 shared/

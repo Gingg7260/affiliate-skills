@@ -302,3 +302,29 @@ User: "I want to make $1,000/month from affiliate marketing, how long will it ta
 
 - `references/list-affitor-api.md` — fetch live program data for commission structures
 - `shared/references/affiliate-glossary.md` — reward_type definitions
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `funnel-planner` (S8) — commission projections inform funnel ROI estimates
+- `value-ladder-architect` (S4) — commission structure shapes ladder design
+- `multi-program-manager` (S7) — calculated commissions for portfolio management
+
+### Fed By
+- `affiliate-program-search` (S1) — program commission data to calculate
+- `multi-program-manager` (S7) — managed programs for portfolio calculation
+
+### Feedback Loop
+- `conversion-tracker` (S6) provides actual earnings → compare projected vs actual commissions → improve calculation accuracy
+
+```yaml
+chain_metadata:
+  skill_slug: "commission-calculator"
+  stage: "research"
+  timestamp: string
+  suggested_next:
+    - "funnel-planner"
+    - "value-ladder-architect"
+    - "landing-page-creator"
+```

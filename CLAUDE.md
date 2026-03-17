@@ -1,6 +1,6 @@
 # Affiliate Skills by Affitor
 
-32 AI-powered skills for affiliate marketers. Full funnel across 8 stages: Research, Content, Blog, Landing, Distribution, Analytics, Automation, Meta.
+45 AI-powered skills for affiliate marketers. Full flywheel across 8 stages: Research (6), Content (5), Blog & SEO (7), Offers & Landing (8), Distribution (4), Analytics (5), Automation (5), Meta (5).
 
 ## Repo structure
 
@@ -57,11 +57,19 @@ When executing skills, treat data sources with appropriate trust:
 - Programs use: `reward_value`, `reward_type`, `cookie_days`, `stars_count`, `tags[]`
 - NOT: `commission_rate`, `upvotes`, `cookie_duration` (these are wrong field names)
 
-## Skill chaining
+## Skill chaining & flywheel
 
 - Skills pass data through conversation context, not files
 - S1 output `recommended_program` → S2/S3 input `product`
 - Each skill defines Input Schema and Output Schema for agent interop
+- Every skill has `chain_metadata.suggested_next` for agent auto-chaining
+- Flywheel: S6 Analytics feeds back to S1 Research (closed loop)
+- Every skill has a `## Flywheel Connections` section showing feeds-into, fed-by, and feedback loop
+- Content-producing skills (S2, S3, S4, S5, S7) have a Quality Gate checklist
+- S2 Content skills have a Volume Mode for generating 5-10 variations
+- Reference: `shared/references/flywheel-connections.md` — master connection map
+- Reference: `shared/references/offer-frameworks.md` — Hormozi, bonus stacks, guarantees, value ladders
+- Reference: `shared/references/seo-strategy.md` — topical authority, keyword clustering, content moats
 
 ## Commands
 

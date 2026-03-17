@@ -10,7 +10,7 @@ Key files for framework integration:
 |---|---|
 | [`prompts/bootstrap.md`](../prompts/bootstrap.md) | System prompt — paste as agent system instruction |
 | [`API.md`](../API.md) | HTTP tool reference for `list.affitor.com/api/v1` |
-| [`registry.json`](../registry.json) | Skill index — programmatically discover all 32 skills |
+| [`registry.json`](../registry.json) | Skill index — programmatically discover all 45 skills |
 | `skills/*/SKILL.md` | Per-skill workflow definitions with typed I/O schemas |
 | `skills/*/agents/openai.yaml` | OpenAI-compatible tool specs (5 skills have these) |
 

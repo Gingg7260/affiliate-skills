@@ -231,3 +231,30 @@ User: "I know a lot about Notion and productivity tools"
 - `references/list-affitor-api.md` — how to fetch programs from list.affitor.com
 - `shared/references/affiliate-glossary.md` — affiliate marketing terminology
 - `shared/references/ftc-compliance.md` — disclosure requirements
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `affiliate-program-search` (S1) — validated niches to search programs in
+- `monopoly-niche-finder` (S1) — niche data for intersection analysis
+- `keyword-cluster-architect` (S3) — niche defines keyword universe
+- `content-moat-calculator` (S3) — niche for feasibility analysis
+
+### Fed By
+- `performance-report` (S6) — performance data identifies best-performing niches
+- `conversion-tracker` (S6) — conversion data reveals profitable niches
+
+### Feedback Loop
+- Performance data from S6 shows which niche characteristics predict success → refine opportunity scoring
+
+```yaml
+chain_metadata:
+  skill_slug: "niche-opportunity-finder"
+  stage: "research"
+  timestamp: string
+  suggested_next:
+    - "affiliate-program-search"
+    - "monopoly-niche-finder"
+    - "keyword-cluster-architect"
+```

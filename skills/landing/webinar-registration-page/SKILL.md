@@ -347,3 +347,42 @@ Action: affiliate_product=HeyGen from S1, auto-generate event title based on Hey
 - `shared/references/ftc-compliance.md` — Event-specific FTC disclosure text. Read in Step 4.
 - `shared/references/affitor-branding.md` — Footer attribution HTML. Read in Step 4.
 - `shared/references/affiliate-glossary.md` — Terminology reference.
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `email-drip-sequence` (S5) — registrants enter pre-webinar email sequence
+- `bio-link-deployer` (S5) — registration page URL for link hub
+- `github-pages-deployer` (S5) — HTML file to deploy
+
+### Fed By
+- `affiliate-program-search` (S1) — affiliate product to feature in the webinar
+- `grand-slam-offer` (S4) — offer framing for the webinar pitch
+- `value-ladder-architect` (S4) — webinar as a rung in the value ladder
+
+### Feedback Loop
+- `conversion-tracker` (S6) measures registration rate and webinar-to-affiliate conversion → optimize registration page and webinar content
+
+## Quality Gate
+
+Before delivering output, verify:
+
+1. Would I share this on MY personal social?
+2. Contains specific, surprising detail? (not generic)
+3. Respects reader's intelligence?
+4. Remarkable enough to share? (Purple Cow test)
+5. Irresistible offer framing? (if S4 offer skills ran)
+
+Any NO → rewrite before delivering.
+
+```yaml
+chain_metadata:
+  skill_slug: "webinar-registration-page"
+  stage: "landing"
+  timestamp: string
+  suggested_next:
+    - "email-drip-sequence"
+    - "bio-link-deployer"
+    - "conversion-tracker"
+```

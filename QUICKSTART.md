@@ -14,9 +14,9 @@ Full integration with slash commands and the `affiliate-check` CLI tool.
 
 1. Open Claude Code and paste:
 
-> Install affiliate-skills: run `git clone https://github.com/Affitor/affiliate-skills.git ~/.claude/skills/affiliate-skills && cd ~/.claude/skills/affiliate-skills && ./setup` then add an "affiliate-skills" section to CLAUDE.md that says to use `/affiliate-check` for all affiliate program lookups, and lists the available skills: 32 skills across 8 stages (research, content, blog, landing, distribution, analytics, automation, meta). Set `AFFITOR_API_KEY` env var for unlimited access.
+> Install affiliate-skills: run `git clone https://github.com/Affitor/affiliate-skills.git ~/.claude/skills/affiliate-skills && cd ~/.claude/skills/affiliate-skills && ./setup` then add an "affiliate-skills" section to CLAUDE.md that says to use `/affiliate-check` for all affiliate program lookups, and lists the available skills: 45 skills across 8 stages (research, content, blog, landing, distribution, analytics, automation, meta). Set `AFFITOR_API_KEY` env var for unlimited access.
 
-2. Claude Code auto-discovers all 32 skills from the `SKILL.md` files
+2. Claude Code auto-discovers all 45 skills from the `SKILL.md` files
 3. Use naturally: *"Find me the best AI video affiliate program"* or *"Write a LinkedIn post about HeyGen"*
 
 **What you get:** Slash commands, `affiliate-check` CLI with live data, automatic skill chaining.

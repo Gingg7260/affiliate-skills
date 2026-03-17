@@ -306,3 +306,41 @@ Action: Same as Example 1 but with include_video_outline=true, output includes f
 
 - `shared/references/ftc-compliance.md` — FTC disclosure text. Insert after title.
 - `shared/references/affiliate-glossary.md` — Terminology reference.
+- `shared/references/flywheel-connections.md` — master flywheel connection map
+
+## Flywheel Connections
+
+### Feeds Into
+- `content-pillar-atomizer` (S2) — tutorial as pillar content to atomize into tips/clips
+- `landing-page-creator` (S4) — tutorial product for landing page
+- `internal-linking-optimizer` (S6) — new tutorial needs internal links
+
+### Fed By
+- `affiliate-program-search` (S1) — `recommended_program` product data
+- `keyword-cluster-architect` (S3) — informational intent clusters for tutorial topics
+
+### Feedback Loop
+- `seo-audit` (S6) tracks tutorial rankings → identify which tutorial types and depths rank best
+
+## Quality Gate
+
+Before delivering output, verify:
+
+1. Would I share this on MY personal social?
+2. Contains specific, surprising detail? (not generic)
+3. Respects reader's intelligence?
+4. Remarkable enough to share? (Purple Cow test)
+5. Irresistible offer framing? (if S4 offer skills ran)
+
+Any NO → rewrite before delivering.
+
+```yaml
+chain_metadata:
+  skill_slug: "how-to-tutorial-writer"
+  stage: "blog"
+  timestamp: string
+  suggested_next:
+    - "content-pillar-atomizer"
+    - "landing-page-creator"
+    - "internal-linking-optimizer"
+```

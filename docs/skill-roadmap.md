@@ -36,6 +36,19 @@
 | `funnel-planner` | S8: Meta | `skills/meta/` | Plan a complete affiliate funnel roadmap |
 | `compliance-checker` | S8: Meta | `skills/meta/` | FTC compliance and platform rules audit |
 | `self-improver` | S8: Meta | `skills/meta/` | Campaign retrospective and improvement planning |
+| `monopoly-niche-finder` | S1: Research | `skills/research/` | Find intersection niches where you're the ONLY voice |
+| `purple-cow-audit` | S1: Research | `skills/research/` | Score product remarkability 1-10 before promoting |
+| `content-pillar-atomizer` | S2: Content | `skills/content/` | 1 article → 15-30 platform-native micro-content pieces |
+| `keyword-cluster-architect` | S3: Blog | `skills/blog/` | Map 50-200+ keywords into topical clusters |
+| `content-moat-calculator` | S3: Blog | `skills/blog/` | Estimate pages needed for topical authority |
+| `content-decay-detector` | S3: Blog | `skills/blog/` | Monitor content for ranking drops, trigger refresh |
+| `grand-slam-offer` | S4: Landing | `skills/landing/` | Hormozi Value Equation offer design |
+| `bonus-stack-builder` | S4: Landing | `skills/landing/` | Exclusive bonus packages for YOUR affiliate link |
+| `guarantee-generator` | S4: Landing | `skills/landing/` | Personal guarantees for risk reversal |
+| `value-ladder-architect` | S4: Landing | `skills/landing/` | Free → tripwire → core → upsell journey design |
+| `internal-linking-optimizer` | S6: Analytics | `skills/analytics/` | Hub-and-spoke internal link structure optimization |
+| `proprietary-data-generator` | S7: Automation | `skills/automation/` | Original surveys, benchmarks, and data moats |
+| `category-designer` | S8: Meta | `skills/meta/` | Define a new category where your product wins |
 
 ## In Progress
 
