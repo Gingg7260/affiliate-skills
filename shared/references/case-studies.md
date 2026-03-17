@@ -43,6 +43,42 @@ When generating content or recommendations:
 - Match content type to platform (what worked where)
 - Prioritize strategies that compound (blog SEO) or build audience (social consistency)
 
-## Contributing Case Studies
+## Community-Verified Results
 
-If you have real affiliate results to share (can be anonymized), submit via PR to this file. Include: product, commission, traffic source, content type, timeline, result, conversion rate, key insight.
+Structured results submitted by community members via PR. Each entry maps to a specific skill.
+
+> **No community results yet.** Be the first! See "How to Submit" below.
+
+<!-- COMMUNITY_RESULTS_START — do not remove this marker -->
+<!-- COMMUNITY_RESULTS_END — do not remove this marker -->
+
+## How to Submit Community Results
+
+Submit a PR adding your result in YAML format between the markers above:
+
+```yaml
+### [Your handle] — [Skill name] — [Product]
+- **skill**: viral-post-writer          # Which Affitor skill you used
+- **product**: HeyGen                   # Product promoted
+- **platform**: linkedin                # Where you published
+- **prompt_used**: "Write a LinkedIn post promoting HeyGen"
+- **result**: 2,400 impressions, 89 clicks, 3 conversions
+- **revenue**: $72                      # Commission earned from this specific output
+- **timeframe**: 1 post, 1 week        # How long / how many pieces
+- **submitted_by**: @your_handle
+- **date**: 2026-03-17
+- **verified**: false                   # Maintainers set to true after review
+```
+
+### Rules for submission:
+1. **Real results only** — must be from actually running an Affitor skill output
+2. **One result per entry** — don't combine multiple campaigns
+3. **Revenue can be approximate** — but must reflect actual commission, not projected
+4. **Anonymization OK** — you can omit product name if needed (use "SaaS Tool A")
+5. **Negative results welcome** — "$0 after 2 weeks" is valuable data too
+
+### What happens after submission:
+- Maintainers review the PR and mark `verified: true` if credible
+- Verified results appear on list.affitor.com/skills (via registry)
+- Your handle gets credited in `registry.json` `contributors[]` field
+- Results feed back into skill quality metrics and S1 scoring calibration

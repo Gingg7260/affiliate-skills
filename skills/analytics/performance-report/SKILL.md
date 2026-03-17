@@ -189,4 +189,6 @@ recommendations:
 
 ## References
 
+- `references/benchmarks.md` — KPI benchmarks by channel, program label thresholds, conversion rate benchmarks, timeline expectations, S1 scoring feedback loop
 - `shared/references/affiliate-glossary.md` — KPI definitions (EPC, CTR, ROAS). Referenced in Step 2.
+- `shared/references/case-studies.md` — Real-world case studies with conversion rates and timelines. Use as context for setting realistic expectations.

@@ -166,4 +166,5 @@ setup_guide:
 
 ## References
 
+- `references/tracking-templates.md` — Google Sheets template, UTM parameter reference, platform-specific tracking notes, S6 feedback loop
 - `shared/references/affiliate-glossary.md` — Definitions for tracking terms (EPC, CTR, conversion). Referenced in setup guide.
