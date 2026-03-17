@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-03-17T06:17:25.900Z",
+  "generated_at": "2026-03-17T07:44:43.096Z",
   "stages": {
     "research": {
       "label": "Research & Discovery",
@@ -52,7 +52,10 @@
       "description": "> Research and evaluate affiliate programs to find the best ones to promote. Use this skill when the user asks anything about finding affiliate programs, comparing commission rates, evaluating affiliate opportunities, searching for products to promote, picking a niche, or mentions list.affitor.com. Also trigger for: \"which SaaS should I promote\", \"best affiliate programs for X\", \"high commission programs\", \"recurring commission affiliate\", \"compare these affiliate programs\", \"is X affiliate program worth it\", \"find me something to promote\", \"what pays the most\", \"affiliate programs with long cookie duration\".",
       "path": "skills/research/affiliate-program-search",
       "agent_compatible": true,
-      "tools": [],
+      "tools": [
+        "web_fetch",
+        "web_search"
+      ],
       "author": "Affitor"
     },
     {
@@ -63,7 +66,9 @@
       "description": "> Calculate realistic affiliate earnings projections before committing to a program. Use this skill when the user asks about affiliate earnings, projecting income, calculating commissions, estimating how much they can make, comparing program payouts, or says \"how much can I make promoting X\", \"calculate my affiliate income\", \"is this commission worth it\", \"how long to first $1000\", \"compare earnings between programs\", \"traffic to income calculator\", \"what conversion rate should I expect\", \"earnings estimate for affiliate program\", \"how many sales do I need\".",
       "path": "skills/research/commission-calculator",
       "agent_compatible": true,
-      "tools": [],
+      "tools": [
+        "web_search"
+      ],
       "author": "Affitor"
     },
     {
@@ -74,7 +79,10 @@
       "description": "> Reverse-engineer successful affiliate strategies from competitors. Use this skill when the user asks about spying on competitors, researching what other affiliates promote, analyzing competitor affiliate sites, understanding how top affiliates in a niche make money, or says \"what programs does X promote\", \"how does [site] make money\", \"what affiliate strategy does this site use\", \"spy on competitor affiliates\", \"reverse engineer affiliate site\", \"copy what works in my niche\", \"who are the top affiliates in X niche\", \"what content gets traffic in my niche\", \"competitor affiliate analysis\".",
       "path": "skills/research/competitor-spy",
       "agent_compatible": true,
-      "tools": [],
+      "tools": [
+        "web_fetch",
+        "web_search"
+      ],
       "author": "Affitor"
     },
     {
@@ -85,7 +93,9 @@
       "description": "> Find untapped affiliate niches with real earning potential. Use this skill when the user asks about picking a niche, finding a niche to start affiliate marketing, what niche to get into, niche research, niche ideas, beginner niche selection, low competition niches, profitable niches, or says \"I don't know what to promote\", \"help me pick a niche\", \"what niche should I start with\", \"find me a niche with less competition\", \"niche ideas for affiliate\", \"is X a good niche for affiliate marketing\", \"best niches 2024\", \"untapped niches\".",
       "path": "skills/research/niche-opportunity-finder",
       "agent_compatible": true,
-      "tools": [],
+      "tools": [
+        "web_search"
+      ],
       "author": "Affitor"
     },
     {
@@ -96,7 +106,9 @@
       "description": "> Write Reddit posts and comments that recommend affiliate products without getting banned or flagged as spam. Subreddit-native content that adds value first. Use this skill when the user asks about Reddit posts for affiliate marketing, writing Reddit comments that mention products, how to promote affiliate links on Reddit, or says \"write a Reddit post for X\", \"how to mention affiliate on Reddit\", \"Reddit comment promoting product\", \"Reddit-friendly affiliate content\", \"post for r/[subreddit] about X\", \"share affiliate link on Reddit without getting banned\", \"genuine Reddit recommendation\", \"organic Reddit affiliate post\", \"Reddit thread idea for product\".",
       "path": "skills/content/reddit-post-writer",
       "agent_compatible": true,
-      "tools": [],
+      "tools": [
+        "web_search"
+      ],
       "author": "Affitor"
     },
     {
@@ -107,7 +119,9 @@
       "description": "> Write short-form video scripts for TikTok, Instagram Reels, and YouTube Shorts that promote affiliate products with strong hooks, demos, and CTAs. Use this skill when the user asks about TikTok scripts, Reels scripts, Shorts scripts, short-form video for affiliate marketing, or says \"write a TikTok for X\", \"script a Reel promoting X\", \"YouTube Shorts script affiliate\", \"60-second video script\", \"hook for TikTok affiliate\", \"write a video promoting X\", \"TikTok script that converts\", \"short video script for product review\", \"viral TikTok affiliate script\", \"how to promote X on TikTok\".",
       "path": "skills/content/tiktok-script-writer",
       "agent_compatible": true,
-      "tools": [],
+      "tools": [
+        "web_search"
+      ],
       "author": "Affitor"
     },
     {
@@ -118,7 +132,9 @@
       "description": "> Write X/Twitter threads that get bookmarked, shared, and drive affiliate clicks. Use this skill when the user asks about writing Twitter threads, X threads, tweet threads for affiliate marketing, or says \"write a thread about X\", \"Twitter thread promoting X\", \"X thread for affiliate\", \"write tweets that go viral\", \"thread that sells without selling\", \"educational thread with affiliate CTA\", \"Twitter content for affiliate marketing\", \"how to promote X on Twitter\", \"write a thread my audience will bookmark\", \"tweet storm about affiliate product\".",
       "path": "skills/content/twitter-thread-writer",
       "agent_compatible": true,
-      "tools": [],
+      "tools": [
+        "web_search"
+      ],
       "author": "Affitor"
     },
     {
@@ -130,8 +146,8 @@
       "path": "skills/content/viral-post-writer",
       "agent_compatible": true,
       "tools": [
-        "web_search",
-        "web_browse"
+        "web_browse",
+        "web_search"
       ],
       "author": "Affitor"
     },
@@ -144,8 +160,8 @@
       "path": "skills/blog/affiliate-blog-builder",
       "agent_compatible": true,
       "tools": [
-        "web_search",
-        "web_browse"
+        "web_browse",
+        "web_search"
       ],
       "author": "Affitor"
     },
@@ -157,7 +173,9 @@
       "description": "> Write \"X vs Y\" comparison blog posts that help readers choose between two competing products. Triggers on: \"write a comparison post\", \"X vs Y blog post\", \"compare [product A] and [product B]\", \"which is better [A] or [B]\", \"head to head comparison\", \"[product] vs [product] article\", \"comparison review\", \"write a versus article\", \"side by side comparison blog\", \"which should I choose [A] or [B]\", \"compare these two products for my blog\".",
       "path": "skills/blog/comparison-post-writer",
       "agent_compatible": true,
-      "tools": [],
+      "tools": [
+        "web_search"
+      ],
       "author": "Affitor"
     },
     {
@@ -168,7 +186,9 @@
       "description": "> Write how-to guides and tutorials that naturally integrate affiliate product recommendations. Triggers on: \"write a how-to guide\", \"tutorial for [task]\", \"step by step guide to [goal]\", \"how to [verb] with [product]\", \"write a tutorial blog post\", \"guide on how to [task]\", \"beginner guide to [topic]\", \"walkthrough for [product]\", \"write an educational article\", \"how do I [task] blog post\", \"write a tutorial that promotes [product]\".",
       "path": "skills/blog/how-to-tutorial-writer",
       "agent_compatible": true,
-      "tools": [],
+      "tools": [
+        "web_search"
+      ],
       "author": "Affitor"
     },
     {
@@ -179,7 +199,9 @@
       "description": "> Write \"Top N best...\" listicle articles for affiliate marketing with mini-reviews, pricing, pros/cons, and CTAs per entry. Triggers on: \"write a best of list\", \"top 10 [category] tools\", \"best [product category] article\", \"roundup post\", \"listicle about [category]\", \"write a top tools article\", \"best [N] alternatives to [product]\", \"product roundup\", \"write a tools comparison list\", \"best software for [use case]\", \"top picks for [category]\".",
       "path": "skills/blog/listicle-generator",
       "agent_compatible": true,
-      "tools": [],
+      "tools": [
+        "web_search"
+      ],
       "author": "Affitor"
     },
     {
@@ -191,8 +213,8 @@
       "path": "skills/landing/landing-page-creator",
       "agent_compatible": true,
       "tools": [
-        "web_search",
-        "web_browse"
+        "web_browse",
+        "web_search"
       ],
       "author": "Affitor"
     },
@@ -204,7 +226,9 @@
       "description": "> Build a single-product deep-dive showcase page as a self-contained HTML file. Triggers on: \"build a product showcase page\", \"deep dive landing page for [product]\", \"create a product spotlight page\", \"product feature page\", \"single product page\", \"detailed page about [product]\", \"build a page showing everything about [product]\", \"create a long-form product page\", \"build a sales page for [product]\", \"product deep dive page\", \"make a feature breakdown page for [product]\".",
       "path": "skills/landing/product-showcase-page",
       "agent_compatible": true,
-      "tools": [],
+      "tools": [
+        "web_search"
+      ],
       "author": "Affitor"
     },
     {
@@ -316,7 +340,10 @@
       "description": "> Audit affiliate blog posts and landing pages for SEO issues. Triggers on: \"audit my blog post for SEO\", \"check my SEO\", \"SEO review\", \"improve my rankings\", \"SEO checklist\", \"on-page SEO audit\", \"keyword optimization check\", \"why isn't my page ranking\", \"SEO score\", \"content quality audit\", \"check my meta tags\", \"internal linking audit\", \"quick SEO wins\".",
       "path": "skills/analytics/seo-audit",
       "agent_compatible": true,
-      "tools": [],
+      "tools": [
+        "web_browse",
+        "web_search"
+      ],
       "author": "Affitor"
     },
     {

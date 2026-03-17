@@ -144,6 +144,7 @@ Other skills can consume these fields from conversation context:
   ]
   product_name: string         # For downstream skill chaining
   content_angle: string        # The angle used (for consistency across content)
+  hook_used: string            # The opening hook line (for repurposing across platforms)
 }
 ```
 
