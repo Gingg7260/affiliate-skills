@@ -8,6 +8,11 @@ description: >
   "social posting schedule", "what should I post this month", "write my social content",
   "create posts for LinkedIn X Facebook", "affiliate content calendar",
   "social media plan for my affiliate program".
+license: MIT
+metadata:
+  author: affitor
+  version: "1.0"
+  stage: S5-Distribution
 ---
 
 # Social Media Scheduler

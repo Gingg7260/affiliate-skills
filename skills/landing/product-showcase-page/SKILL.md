@@ -7,6 +7,11 @@ description: >
   "detailed page about [product]", "build a page showing everything about [product]",
   "create a long-form product page", "build a sales page for [product]",
   "product deep dive page", "make a feature breakdown page for [product]".
+license: MIT
+metadata:
+  author: affitor
+  version: "1.0"
+  stage: S4-Landing
 ---
 
 # Product Showcase Page

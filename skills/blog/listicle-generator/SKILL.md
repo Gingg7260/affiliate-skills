@@ -6,6 +6,11 @@ description: >
   "best [product category] article", "roundup post", "listicle about [category]",
   "write a top tools article", "best [N] alternatives to [product]", "product roundup",
   "write a tools comparison list", "best software for [use case]", "top picks for [category]".
+license: MIT
+metadata:
+  author: affitor
+  version: "1.0"
+  stage: S3-Blog
 ---
 
 # Listicle Generator

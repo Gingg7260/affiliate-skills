@@ -6,6 +6,11 @@ description: >
   "which is better [A] or [B]", "head to head comparison", "[product] vs [product] article",
   "comparison review", "write a versus article", "side by side comparison blog",
   "which should I choose [A] or [B]", "compare these two products for my blog".
+license: MIT
+metadata:
+  author: affitor
+  version: "1.0"
+  stage: S3-Blog
 ---
 
 # Comparison Post Writer

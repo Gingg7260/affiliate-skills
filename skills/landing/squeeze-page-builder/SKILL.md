@@ -7,6 +7,11 @@ description: >
   "create a freebie page", "build a page to collect emails", "opt-in landing page",
   "email signup page for [product/niche]", "create a lead magnet landing page",
   "build a page that captures emails before sending to affiliate offer".
+license: MIT
+metadata:
+  author: affitor
+  version: "1.0"
+  stage: S4-Landing
 ---
 
 # Squeeze Page Builder

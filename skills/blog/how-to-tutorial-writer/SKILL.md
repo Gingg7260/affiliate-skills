@@ -6,6 +6,11 @@ description: >
   "how to [verb] with [product]", "write a tutorial blog post", "guide on how to [task]",
   "beginner guide to [topic]", "walkthrough for [product]", "write an educational article",
   "how do I [task] blog post", "write a tutorial that promotes [product]".
+license: MIT
+metadata:
+  author: affitor
+  version: "1.0"
+  stage: S3-Blog
 ---
 
 # How-To Tutorial Writer
