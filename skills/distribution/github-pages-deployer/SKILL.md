@@ -7,6 +7,11 @@ description: >
   "host my bio link on GitHub", "free affiliate website hosting", "github pages affiliate",
   "set up GitHub Pages for my site", "deploy HTML to GitHub", "free static hosting",
   "publish my affiliate page for free", "github pages custom domain".
+license: MIT
+metadata:
+  author: affitor
+  version: "1.0"
+  stage: S5-Distribution
 ---
 
 # GitHub Pages Deployer

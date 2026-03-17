@@ -7,6 +7,11 @@ description: >
   "write emails for my list", "set up a drip sequence", "email campaign for [product]",
   "nurture my subscribers", "email follow-up sequence", "build my email funnel",
   "write 5 emails promoting [product]", "email automation sequence".
+license: MIT
+metadata:
+  author: affitor
+  version: "1.0"
+  stage: S5-Distribution
 ---
 
 # Email Drip Sequence

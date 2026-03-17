@@ -7,6 +7,11 @@ description: >
   "workshop sign-up page", "create a webinar page", "build an event page",
   "free webinar landing page", "live demo registration page", "online event page",
   "create a registration page for my webinar", "build a training event page".
+license: MIT
+metadata:
+  author: affitor
+  version: "1.0"
+  stage: S4-Landing
 ---
 
 # Webinar Registration Page
