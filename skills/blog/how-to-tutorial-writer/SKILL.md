@@ -210,9 +210,22 @@ include_video_outline: boolean  # OPTIONAL — generate a YouTube video script o
                                 # Default: false
 ```
 
+### Step 6: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] Steps are numbered (not bulleted) and atomic — one action per step
+- [ ] Prerequisites section is present with requirements and time estimate
+- [ ] FTC disclosure appears after title
+- [ ] No invented UI details — describe generically if unsure
+- [ ] CTA never interrupts a step sequence
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 article:
   title: string
   slug: string

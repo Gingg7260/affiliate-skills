@@ -115,9 +115,22 @@ For each top improvement, specify:
 - Exact prompt modification for better results
 - Expected improvement (realistic estimate)
 
+### Step 6: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] Gap calculations accurate: expected minus actual
+- [ ] Root causes are evidence-based, not speculation
+- [ ] Impact (1-5) and effort (1-5) scores are justified with reasoning
+- [ ] Next steps reference specific Affitor skills by name
+- [ ] Iteration plan has concrete timeline and measurable success metric
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 retrospective:
   campaign: string
   period: string

@@ -102,9 +102,22 @@ For each phase, define measurable outcomes:
 - S5: "You should have a bio link page live"
 - S6: "You should know your EPC and conversion rate"
 
+### Step 6: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] Roadmap follows logical sequence (S1→S2→S3... not random order)
+- [ ] Invocation prompts are copy-paste ready for each skill
+- [ ] Time estimates realistic for stated experience level
+- [ ] Success metrics are measurable and specific (not "do well")
+- [ ] Total weeks feasible given user's weekly hours budget
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 plan:
   niche: string
   product: string

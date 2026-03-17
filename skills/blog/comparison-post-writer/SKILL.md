@@ -217,9 +217,22 @@ angle: string               # OPTIONAL — "clear-winner" | "it-depends" | "upse
                             # Default: auto-detected from research
 ```
 
+### Step 7: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] FTC disclosure above fold, medium format
+- [ ] Comparison table has 6-10 dimensions with ✅/❌/⚠️ indicators
+- [ ] Both products get fair, balanced coverage
+- [ ] Winner stated clearly in verdict section
+- [ ] Word count is 2,500-3,500 words
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 article:
   title: string
   slug: string              # e.g., "heygen-vs-synthesia"

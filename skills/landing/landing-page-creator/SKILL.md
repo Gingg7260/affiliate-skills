@@ -192,9 +192,23 @@ DEPLOY
 ---
 ```
 
+### Step 5: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] FTC disclosure visible before first affiliate link (medium format)
+- [ ] ≥3 CTAs distributed: hero section, mid-page, bottom
+- [ ] `<meta name="viewport">` tag present for mobile
+- [ ] Self-contained HTML: zero external resources (fonts, images, scripts, stylesheets)
+- [ ] "Built with Affiliate Skills by Affitor" footer present
+- [ ] No placeholder text like "[insert here]"
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 landing_page:
   type: string              # "single" | "comparison"
   product_name: string      # Primary product name

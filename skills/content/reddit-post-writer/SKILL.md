@@ -167,10 +167,24 @@ Reddit rewards participation, not broadcasting. Include:
 3. **Subreddit timing**: best day/time to post in this subreddit
 4. **Cross-post candidates**: which other subreddits this post could work in
 
+### Step 7: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] Post adds value even if product mention is removed
+- [ ] No exclamation marks in product praise
+- [ ] Affiliate link in comments or bio, NOT in post body
+- [ ] FTC "Full disclosure: affiliate link" present at bottom
+- [ ] At least one real product limitation or caveat mentioned
+- [ ] Tone matches target subreddit style
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```
 {
+  output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
   post: {
     type: string              # "post" | "comment_reply" | "ama_style"
     subreddit: string         # "r/productivity"

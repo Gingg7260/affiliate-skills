@@ -158,9 +158,22 @@ Best time to post: [time]
 
 After all posts, provide scheduling tool recommendations and import instructions.
 
+### Step 6: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] 30 posts generated across 4 weeks
+- [ ] 80/20 value-to-promo ratio maintained (24 value, 6 promo)
+- [ ] Platform-specific formatting applied (character limits, hashtag counts)
+- [ ] FTC disclosure (#ad or affiliate marker) on all promo posts
+- [ ] Posting times are realistic per platform and timezone
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 calendar:
   product_name: string
   platforms: string[]

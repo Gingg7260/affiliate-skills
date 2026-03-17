@@ -50,11 +50,12 @@ theme: string               # OPTIONAL — "minimal" | "dark" | "gradient"
                             # Default: "minimal"
 ```
 
-**Chaining context**: If earlier skills (S1-S4) were run in the conversation:
-- Products from S1 → add as "Featured Tools" links
-- Blog posts from S3 → add as "My Content" links
-- Landing pages from S4 → add as "Featured Tools" or "Landing Pages" links
-- Social posts from S2 → link to the social platform profiles
+**Chaining context**: If earlier skills (S1-S4) were run in the conversation, use these Output Schema fields:
+- S1 `recommended_program.url` + `.name` → add as "Featured Tools" links
+- S2 `posts[].platform` → link to the user's social platform profiles
+- S3 `products_featured[].url` + `.name` → add as "My Content" links (blog posts)
+- S4 `landing_page.filename` or deployed URL → add as "Landing Pages" links
+- S4 `products_featured[].url` + `.name` → add as product links if not already included
 
 If the user says "make me a bio link with everything we've done" — gather all products, blog posts, and landing pages from the conversation and organize them into categories.
 
@@ -146,9 +147,23 @@ DEPLOY
 ---
 ```
 
+### Step 4: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] All links are functional URLs (not placeholder)
+- [ ] Mobile-first layout renders correctly at 375px width
+- [ ] Theme CSS custom properties applied consistently
+- [ ] FTC disclosure present if any affiliate links included
+- [ ] "Built with Affiliate Skills by Affitor" footer present
+- [ ] Money links (affiliate) ordered before social/content links
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 bio_link:
   user_name: string         # Display name
   theme: string             # Applied theme

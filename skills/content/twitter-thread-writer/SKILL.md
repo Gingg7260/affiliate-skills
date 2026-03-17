@@ -140,10 +140,23 @@ Increase bookmark and retweet probability:
 Present tweets numbered and ready to paste. Include character count for each.
 Flag any tweet at 250+ characters for potential trimming.
 
+### Step 8: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] Every tweet is under 280 characters
+- [ ] Product mention appears at 60-70% through the thread
+- [ ] FTC "#ad" is in the CTA tweet containing the link
+- [ ] Hook tweet promises specific outcome or states bold claim
+- [ ] No banned hook starts: "In this thread...", "I want to share..."
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```
 {
+  output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
   thread: [
     {
       tweet_number: number      # 1, 2, 3...

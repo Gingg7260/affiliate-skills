@@ -167,10 +167,23 @@ Add context so user isn't misled by numbers:
 3. First sales often take 2-3 months even with good traffic (cookie window, indecision).
 4. Recurring programs feel slow at first but compound — show the Year 1 vs Year 2 difference.
 
+### Step 8: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] Commission math is correct (% × price × conversions)
+- [ ] Recurring compounding calculated correctly over 12 months
+- [ ] CTR and conversion rate within industry benchmarks (1-5% CTR, 1-3% CR)
+- [ ] Unrealistic goals flagged honestly with required traffic numbers
+- [ ] One-time vs recurring distinction clear in projections
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```
 {
+  output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
   projections: [
     {
       program_name: string         # "HeyGen"

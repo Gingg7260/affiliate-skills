@@ -109,9 +109,22 @@ Present:
 - Each email's content
 - Tool-specific setup instructions (if email_tool specified)
 
+### Step 7: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] Every branch path leads to a valid next step (no dead ends)
+- [ ] All emails are complete in each branch (subject, body, CTA)
+- [ ] Wait times between emails sum correctly to total flow duration
+- [ ] FTC disclosure present on all emails containing affiliate links
+- [ ] Branch conditions are clear boolean logic (opened/clicked/didn't)
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 automation:
   flow_type: string
   product: string

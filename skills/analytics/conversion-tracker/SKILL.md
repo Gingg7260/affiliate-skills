@@ -93,9 +93,22 @@ Present all links in a structured table with:
 - Full tagged URL
 - Notes
 
+### Step 6: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] UTM parameters correctly appended to all affiliate URLs
+- [ ] No URL encoding errors in generated links
+- [ ] Naming convention is consistent across all links
+- [ ] All links are under URL length limits
+- [ ] Setup guide steps match the recommended tracking tool
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 tracking:
   product: string
   campaign: string

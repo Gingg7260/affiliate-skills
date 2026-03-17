@@ -94,9 +94,22 @@ For each output, include:
 
 Present each format as a separate, clearly labeled block ready to copy and paste.
 
+### Step 6: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] Each format is adapted to its platform (not copy-pasted across formats)
+- [ ] Character counts are within platform limits
+- [ ] FTC disclosure present in every variant that contains affiliate link
+- [ ] Core value proposition preserved across all repurposed formats
+- [ ] Affiliate link placement follows platform-specific rules
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 repurposed:
   source_type: string
   source_summary: string       # one-sentence summary of original

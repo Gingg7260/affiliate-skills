@@ -143,10 +143,24 @@ Include brief notes for the creator:
 - Caption and hashtag strategy for the platform
 - Best time to post on each platform
 
+### Step 7: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] Spoken sentences under 10 words each
+- [ ] New visual cut or text overlay every 3-5 seconds
+- [ ] FTC "#ad" appears as text overlay, NOT buried in caption
+- [ ] Disclosure overlay visible for at least 3 seconds
+- [ ] Hook ends with setup, not just a question
+- [ ] Demo shows specific feature, not vague claims
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```
 {
+  output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
   scripts: [
     {
       platform: string          # "tiktok" | "reels" | "shorts"

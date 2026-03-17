@@ -101,9 +101,22 @@ Recommend:
 - What metric to track (CTR, conversion rate, revenue per visitor)
 - When to declare a winner (95% statistical significance or practical significance threshold)
 
+### Step 6: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] 3-5 distinct variants generated (not just word swaps)
+- [ ] Each hypothesis grounded in a copywriting principle or framework
+- [ ] Sample size calculation is present and realistic
+- [ ] Test duration is ≥7 days minimum
+- [ ] Winner criteria defined with statistical significance threshold
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 test:
   original: string
   content_type: string

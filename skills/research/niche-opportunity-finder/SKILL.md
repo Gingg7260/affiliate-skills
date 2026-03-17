@@ -114,10 +114,22 @@ Map user's chosen niche to the affiliate funnel:
 2. Use `tiktok-script-writer` or `twitter-thread-writer` for first content
 3. Use `commission-calculator` to project first 90 days of income
 
+### Step 7: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] Search demand backed by data (autosuggest depth, result count)
+- [ ] Top niche has ≥3 programs with 20%+ commission on list.affitor.com
+- [ ] Competition score reflects actual top-10 SERP analysis
+- [ ] Content angles are specific and actionable, not generic
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```
 {
+  output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
   top_niche: {
     name: string              # "AI Productivity Tools"
     tier: string              # "Trending" | "Evergreen" | "Micro-niche"

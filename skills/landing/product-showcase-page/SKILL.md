@@ -215,9 +215,23 @@ testimonials: object[]      # OPTIONAL — real testimonials to include
     result: string          # The specific result they achieved
 ```
 
+### Step 5: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] FTC disclosure present (small format, above hero)
+- [ ] `<meta name="robots" content="noindex">` present
+- [ ] ≥4 CTAs at: hero, after features, after pricing, after testimonials, final section
+- [ ] All affiliate links have `target="_blank" rel="noopener"`
+- [ ] Self-contained HTML: icons are CSS/Unicode only, no external resources
+- [ ] "Built with Affiliate Skills by Affitor" footer present
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 showcase_page:
   product_name: string
   angle: string

@@ -78,9 +78,22 @@ Present top 3-5 matching skills with:
 - What input it needs
 - Example invocation prompt
 
+### Step 6: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] All matched skills exist in the current registry
+- [ ] Example prompts are copy-paste ready and grammatically correct
+- [ ] Recommended path follows logical funnel sequence
+- [ ] Relevance ranking: exact match > partial match > related
+- [ ] Input needed descriptions match actual skill Input Schemas
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 matches:
   - skill: string              # skill slug
     stage: string              # e.g., "S6: Analytics"
