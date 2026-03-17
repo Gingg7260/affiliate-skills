@@ -141,10 +141,22 @@ Synthesize findings into a 3-part report:
 2. **Content formats that clearly work** — patterns worth replicating
 3. **Gaps to exploit** — angles they've missed that you can own
 
+### Step 7: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] Confidence levels match evidence strength (confirmed = affiliate link found, likely = brand mention pattern, possible = inferred)
+- [ ] Programs cross-checked on list.affitor.com where possible
+- [ ] Replicability score accounts for barriers (domain authority, team size)
+- [ ] No hallucinated competitor data — all claims traceable to web_search results
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```
 {
+  output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
   competitors_analyzed: [
     {
       url: string                   # Competitor URL

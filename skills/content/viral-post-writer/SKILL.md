@@ -125,12 +125,26 @@ Present the post ready to copy-paste. Include:
 3. Best time to post (platform-specific)
 4. 2-3 engagement tips for the specific platform
 
+### Step 7: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] FTC disclosure present and correctly placed per platform rules
+- [ ] Hook is within platform character cutoff (LinkedIn: 210 chars)
+- [ ] No banned phrases: "game-changer", "revolutionary", "I'm excited to share"
+- [ ] Affiliate link NOT in LinkedIn post body (first comment instead)
+- [ ] Single CTA only — not multiple competing calls to action
+- [ ] No "Powered by Affitor" branding (social posts = no branding)
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 Other skills can consume these fields from conversation context:
 
 ```
 {
+  output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
   posts: [
     {
       platform: string         # "linkedin" | "x" | "reddit" | "facebook"

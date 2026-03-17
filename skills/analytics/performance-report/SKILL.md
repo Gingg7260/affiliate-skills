@@ -113,9 +113,22 @@ Based on data:
 - **Phase out**: Programs with low EPC and low volume
 - **Investigate**: Programs with unusual patterns (sudden drops)
 
+### Step 6: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] EPC calculation correct: revenue ÷ clicks
+- [ ] Conversion rate percentages are accurate
+- [ ] Revenue shares across programs sum to ~100%
+- [ ] Labels match metrics: Star (high EPC + growth), Cash Cow (high revenue + stable), Question Mark (low data), Dog (declining)
+- [ ] Recommendations are specific and reference concrete next steps
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 report:
   period: string
   total_revenue: number

@@ -212,9 +212,23 @@ Next Steps:
 ---
 ```
 
+### Step 5: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] Word count meets format target (review: 2-3.5K, comparison: 2.5-3.5K, listicle: 3-5K, how-to: 2-3K)
+- [ ] FTC disclosure near top of article, medium format
+- [ ] 2-4 CTAs placed at: after pricing, feature demo, verdict, optional callout box
+- [ ] Meta description is 150-160 characters
+- [ ] Target keyword appears naturally in first 100 words
+- [ ] No placeholder text, no AI-generated disclaimers
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 article:
   title: string             # SEO-optimized title
   slug: string              # URL-friendly slug
@@ -242,6 +256,7 @@ products_featured:                # All products mentioned
     url: string                   # Affiliate URL
     role: string                  # "primary" | "compared" | "mentioned"
     reward_value: string          # Commission info
+    pricing: string | null        # Starting price (e.g., "$49/mo") — for S4 landing page chaining
 ```
 
 ## Output Format

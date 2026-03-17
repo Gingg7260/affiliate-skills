@@ -198,9 +198,23 @@ esp: string                 # OPTIONAL — which email service provider they use
                             # Default: "other" (generic instructions)
 ```
 
+### Step 5: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] FTC disclosure in footer
+- [ ] Privacy micro-copy near form: "No spam. Unsubscribe anytime."
+- [ ] `<meta name="robots" content="noindex">` present
+- [ ] Form has single email field only (no name field — lower friction)
+- [ ] Form validates email format before submission
+- [ ] Self-contained HTML: no external resources, no navigation links off-page
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 squeeze_page:
   lead_magnet_title: string
   headline: string

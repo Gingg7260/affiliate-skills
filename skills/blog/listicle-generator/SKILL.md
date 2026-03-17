@@ -204,9 +204,22 @@ target_keyword: string      # OPTIONAL — override default keyword
 tone: string                # OPTIONAL — "conversational" | "professional". Default: "conversational"
 ```
 
+### Step 6: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] FTC disclosure appears before product entries
+- [ ] "At a Glance" table present with Tool/Best For/Price/Free Plan columns
+- [ ] Primary affiliate product ranked #1-3 (never buried lower)
+- [ ] Each entry has: key features, pricing, pros, cons, "best for" sentence
+- [ ] Title includes current year for recency signal
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 article:
   title: string
   slug: string

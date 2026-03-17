@@ -264,9 +264,23 @@ webinar_platform: string    # OPTIONAL — "zoom" | "demio" | "youtube-live" | "
                             # Used to customize setup instructions
 ```
 
+### Step 6: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] FTC disclosure in footer mentioning affiliate products
+- [ ] Countdown timer JavaScript calculates correctly
+- [ ] Form has first name + email fields + submit button
+- [ ] Self-contained HTML: speaker avatar is CSS placeholder, no external images
+- [ ] "Built with Affiliate Skills by Affitor" footer present
+- [ ] Urgency bar present at top with date/time and scarcity signal
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 registration_page:
   event_title: string
   presenter_name: string

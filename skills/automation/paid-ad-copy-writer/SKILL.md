@@ -132,9 +132,22 @@ If budget is provided, suggest:
 - When to kill underperformers (after 500+ impressions with <0.5% CTR)
 - When to scale winners (after 3+ days of profitable ROAS)
 
+### Step 7: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] 3-5 ad variants generated per platform
+- [ ] Character counts within platform limits (Google: 30/90 headline/description, Facebook: 40/125/27000)
+- [ ] No prohibited claims (income guarantees, before/after without evidence)
+- [ ] CTA uses platform-native action verbs
+- [ ] Test budget recommendation is realistic ($5-20/day per variant)
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 campaign:
   product: string
   platform: string

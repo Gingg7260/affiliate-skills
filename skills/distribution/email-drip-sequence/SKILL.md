@@ -140,9 +140,22 @@ Preview: [preview text]
 
 After all emails, provide the Setup Instructions section.
 
+### Step 6: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] All 5-7 emails present with subject, preview text, body, and CTA
+- [ ] FTC disclosure included on every email containing affiliate links
+- [ ] Email spacing is logical (not all on day 1)
+- [ ] Value emails outnumber pitch emails in the sequence
+- [ ] CTA links point to correct affiliate URLs
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 sequence:
   product_name: string
   affiliate_url: string

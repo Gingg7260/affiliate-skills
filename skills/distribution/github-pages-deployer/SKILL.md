@@ -211,9 +211,22 @@ Automatic via GitHub Actions — push to `main` triggers a deploy.
 
 Present all outputs in numbered sections with clear file labels.
 
+### Step 8: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] GitHub Actions YAML is valid syntax
+- [ ] CNAME file is correct format if custom domain configured
+- [ ] All file paths are valid and consistent
+- [ ] Deployment commands are copy-paste ready
+- [ ] README.md is included in the repository files
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 repo:
   name: string              # e.g., "heygen-review-2026"
   url: string               # e.g., "https://github.com/[username]/[repo-name]"

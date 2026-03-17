@@ -106,9 +106,22 @@ Based on `budget_hours`, allocate weekly time:
 
 Provide specific weekly tasks tied to Affitor skills.
 
+### Step 6: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] Revenue share percentages sum to ~100%
+- [ ] EPC calculations correct (revenue ÷ clicks per program)
+- [ ] Concentration risk accurate (flag if top program >50% of revenue)
+- [ ] Actions match performance: double_down (Star), maintain (Cash Cow), optimize (Question Mark), phase_out (Dog)
+- [ ] Weekly time allocation sums to user's stated hours budget
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 portfolio:
   total_programs: number
   active_programs: number

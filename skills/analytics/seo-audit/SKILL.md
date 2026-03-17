@@ -123,9 +123,22 @@ Prioritize fixes by impact:
 - **Medium effort**: Fix in 30 minutes (add sections, improve depth)
 - **Major revision**: Fix in 2+ hours (restructure content, add original research)
 
+### Step 9: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] All 10 SEO dimensions scored (1-10 each)
+- [ ] Overall score is weighted sum of dimension scores
+- [ ] Issues prioritized: quick_win → medium → major
+- [ ] Each fix is specific and actionable (not generic advice)
+- [ ] Keyword density recommendation is 1-2% (not higher)
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 audit:
   url_or_title: string
   target_keyword: string

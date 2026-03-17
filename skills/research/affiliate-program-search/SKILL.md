@@ -84,12 +84,25 @@ For dimensions that require external data (Market Demand, Competition Level), us
 
 ### Step 4: Present Recommendation
 
+### Step 5: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] All scored programs have `reward_value` from API data, not hallucinated
+- [ ] `cookie_days` is numeric and from API response
+- [ ] Top Pick verdict matches score threshold (≥7.5 = Strong Pick, ≥6 = Worth Considering)
+- [ ] Market Demand and Competition scores cite the search query used
+- [ ] Stale data (>6 months) is flagged with warning
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 Other skills (viral-post-writer, affiliate-blog-builder, etc.) consume these fields from conversation context:
 
 ```
 {
+  output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
   recommended_program: {
     name: string              # "HeyGen"
     slug: string              # "heygen"

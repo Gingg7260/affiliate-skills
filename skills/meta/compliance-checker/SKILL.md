@@ -104,9 +104,22 @@ For each issue, provide:
 - Why it matters (rule reference)
 - How to fix it (specific replacement text)
 
+### Step 7: Self-Validation
+
+Before presenting output, verify:
+
+- [ ] All affiliate links in the content are detected and flagged
+- [ ] Disclosure placement check matches platform-specific rules
+- [ ] Prohibited claims identified with exact quotes from content
+- [ ] Fix suggestions are copy-paste ready and preserve original tone
+- [ ] Corrected content would pass a re-scan by this same skill
+
+If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
+
 ## Output Schema
 
 ```yaml
+output_schema_version: "1.0.0"  # Semver — bump major on breaking changes
 compliance:
   overall_score: string        # "PASS" | "WARN" | "FAIL"
   disclosure_present: boolean
