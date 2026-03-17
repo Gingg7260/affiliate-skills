@@ -50,6 +50,19 @@ function parseOpenaiYaml(filepath) {
   return result;
 }
 
+function detectToolsFromBody(content) {
+  const tools = new Set();
+  const toolPatterns = [
+    { pattern: /\bweb_search\b/, tool: 'web_search' },
+    { pattern: /\bweb_fetch\b/, tool: 'web_fetch' },
+    { pattern: /\bweb_browse\b/, tool: 'web_browse' },
+  ];
+  for (const { pattern, tool } of toolPatterns) {
+    if (pattern.test(content)) tools.add(tool);
+  }
+  return [...tools].sort();
+}
+
 function main() {
   const skills = [];
 
@@ -70,6 +83,9 @@ function main() {
       const content = fs.readFileSync(skillMd, 'utf-8');
       const fm = parseFrontmatter(content);
       const openai = parseOpenaiYaml(path.join(stagePath, skillDir.name, 'agents', 'openai.yaml'));
+      const bodyTools = detectToolsFromBody(content);
+      // Merge: openai.yaml tools take precedence, body detection fills gaps
+      const mergedTools = [...new Set([...(openai.tools || []), ...bodyTools])].sort();
 
       skills.push({
         name: fm.name || skillDir.name.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()),
@@ -79,7 +95,7 @@ function main() {
         description: fm.description || '',
         path: `skills/${stageDir.name}/${skillDir.name}`,
         agent_compatible: true,
-        tools: openai.tools || [],
+        tools: mergedTools,
         author: 'Affitor',
       });
     }
