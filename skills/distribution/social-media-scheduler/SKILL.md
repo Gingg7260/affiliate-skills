@@ -9,6 +9,9 @@ description: >
   "create posts for LinkedIn X Facebook", "affiliate content calendar",
   "social media plan for my affiliate program".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "distribution", "deployment", "email-marketing", "scheduling", "content-calendar"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

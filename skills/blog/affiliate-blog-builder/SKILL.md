@@ -7,6 +7,9 @@ description: >
   "write a review", "product roundup", "blog content for affiliate", "how to use [product] blog post",
   "listicle about [category]", "[product] vs [product] blog", "content for my affiliate site".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "blogging", "seo", "content-writing", "blog", "wordpress"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

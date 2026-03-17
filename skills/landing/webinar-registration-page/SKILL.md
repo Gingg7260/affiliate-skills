@@ -8,6 +8,9 @@ description: >
   "free webinar landing page", "live demo registration page", "online event page",
   "create a registration page for my webinar", "build a training event page".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "landing-pages", "conversion", "offers", "webinar", "registration"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

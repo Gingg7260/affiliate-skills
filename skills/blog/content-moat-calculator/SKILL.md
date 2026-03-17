@@ -8,6 +8,9 @@ description: >
   "how many pages to rank", "content volume needed", "competitive content analysis",
   "moat calculation", "authority gap", "should I invest in this niche".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "blogging", "seo", "content-writing", "content-moat", "authority"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

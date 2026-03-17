@@ -10,6 +10,9 @@ description: >
   works in my niche", "who are the top affiliates in X niche", "what content
   gets traffic in my niche", "competitor affiliate analysis".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "research", "niche-analysis", "program-discovery", "competitive-analysis"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

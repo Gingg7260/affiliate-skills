@@ -7,6 +7,9 @@ description: >
   "beginner guide to [topic]", "walkthrough for [product]", "write an educational article",
   "how do I [task] blog post", "write a tutorial that promotes [product]".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "blogging", "seo", "content-writing", "tutorial", "how-to"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

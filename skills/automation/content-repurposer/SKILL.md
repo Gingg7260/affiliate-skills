@@ -7,6 +7,9 @@ description: >
   "adapt for TikTok", "omnichannel content", "scale my content",
   "turn this into a LinkedIn post", "repurpose for email", "content multiplication".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "automation", "scaling", "workflow", "repurposing", "multi-format"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

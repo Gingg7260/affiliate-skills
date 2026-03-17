@@ -8,6 +8,9 @@ description: >
   "revenue allocation", "which programs to drop", "add new programs",
   "affiliate program strategy".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "automation", "scaling", "workflow", "portfolio", "multi-program"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

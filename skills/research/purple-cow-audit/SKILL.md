@@ -8,6 +8,9 @@ description: >
   "would I recommend without commission", "product remarkability score",
   "evaluate this affiliate product", "quality gate for promotion".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "research", "niche-analysis", "program-discovery", "differentiation", "positioning"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

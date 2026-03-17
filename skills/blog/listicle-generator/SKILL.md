@@ -7,6 +7,9 @@ description: >
   "write a top tools article", "best [N] alternatives to [product]", "product roundup",
   "write a tools comparison list", "best software for [use case]", "top picks for [category]".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "blogging", "seo", "content-writing", "listicle", "top-lists"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

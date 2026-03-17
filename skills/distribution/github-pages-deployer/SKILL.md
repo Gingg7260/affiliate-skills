@@ -8,6 +8,9 @@ description: >
   "set up GitHub Pages for my site", "deploy HTML to GitHub", "free static hosting",
   "publish my affiliate page for free", "github pages custom domain".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "distribution", "deployment", "email-marketing", "github-pages", "static-site"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

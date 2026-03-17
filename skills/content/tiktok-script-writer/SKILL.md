@@ -10,6 +10,9 @@ description: >
   that converts", "short video script for product review", "viral TikTok affiliate
   script", "how to promote X on TikTok".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "content-creation", "social-media", "copywriting", "tiktok", "video"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

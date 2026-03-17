@@ -7,6 +7,9 @@ description: >
   "week by week affiliate plan", "chain skills together", "build my funnel",
   "affiliate marketing roadmap", "step by step affiliate plan", "onboarding plan".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "meta", "planning", "compliance", "funnel", "strategy"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

@@ -7,6 +7,9 @@ description: >
   "conversion page", "sales page for affiliate", "landing page HTML", "build me a page for",
   "create a page to promote [product]", "I need a landing page", "make a page for [product]".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "landing-pages", "conversion", "offers", "html", "tailwind"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

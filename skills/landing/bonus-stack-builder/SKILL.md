@@ -7,6 +7,9 @@ description: >
   "why buy through my link", "affiliate bonuses", "bonus package",
   "what can I offer as a bonus", "design bonuses", "build a bonus stack".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "landing-pages", "conversion", "offers", "bonuses", "hormozi"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

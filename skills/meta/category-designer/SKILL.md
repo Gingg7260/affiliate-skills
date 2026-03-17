@@ -8,6 +8,9 @@ description: >
   "competitive positioning", "strategic positioning", "market reframing",
   "be the only option", "change the buying criteria", "category king".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "meta", "planning", "compliance", "category-design", "positioning"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

@@ -4,7 +4,28 @@
 
 45 AI-powered skills across 8 stages with a closed-loop flywheel. Research programs, write content, build pages, deploy, track, optimize, scale — with any AI agent.
 
-Works with: **Claude Code** · **ChatGPT** · **Gemini** · **Cursor** · **Windsurf** · **OpenClaw** · **any AI that reads text**
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Skills](https://img.shields.io/badge/skills-45-brightgreen)](skills/)
+[![Standard](https://img.shields.io/badge/standard-agentskills.io-purple)](https://agentskills.io)
+
+Works with: **Claude Code** · **ChatGPT** · **Gemini CLI** · **Cursor** · **Windsurf** · **OpenClaw** · **any AI that reads text**
+
+### Install
+
+```bash
+# Claude Code (recommended)
+npx skills add Affitor/affiliate-skills
+
+# Or clone manually
+git clone https://github.com/Affitor/affiliate-skills.git ~/.claude/skills/affiliate-skills
+cd ~/.claude/skills/affiliate-skills && ./setup
+
+# OpenClaw / ClawHub
+clawhub install affiliate-skills
+
+# Cursor / Windsurf
+npx skills add Affitor/affiliate-skills
+```
 
 ### Try it now — no install needed
 

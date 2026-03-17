@@ -9,6 +9,9 @@ description: >
   for affiliate marketing", "how to promote X on Twitter", "write a thread my
   audience will bookmark", "tweet storm about affiliate product".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "content-creation", "social-media", "copywriting", "twitter", "threads"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

@@ -7,6 +7,9 @@ description: >
   "product ladder", "price ladder", "customer ascension", "funnel architecture",
   "map my funnel", "design my funnel stages", "monetization path".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "landing-pages", "conversion", "offers", "value-ladder", "pricing"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

@@ -9,6 +9,9 @@ description: >
   "generate research data", "create a study", "original statistics",
   "data nobody else has", "competitive data advantage".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "automation", "scaling", "workflow", "data", "original-research"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

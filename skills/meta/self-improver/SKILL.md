@@ -7,6 +7,9 @@ description: >
   "improve my strategy", "what should I change", "campaign review",
   "optimize my approach", "learn from my results", "post-mortem on my campaign".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "meta", "planning", "compliance", "improvement", "feedback"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

@@ -8,6 +8,9 @@ description: >
   "SEO keyword plan", "map my keywords", "keyword cluster", "hub and spoke content",
   "build topical authority", "SEO content plan", "keyword universe".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "blogging", "seo", "content-writing", "keywords", "clustering"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

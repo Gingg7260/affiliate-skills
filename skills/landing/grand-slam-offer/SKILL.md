@@ -7,6 +7,9 @@ description: >
   "Hormozi offer", "offer stack", "make my offer irresistible", "craft an offer",
   "what makes my offer different", "offer design", "increase perceived value".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "landing-pages", "conversion", "offers", "hormozi"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

@@ -4,6 +4,9 @@ description: >
   Replace with when the AI should activate this skill. Be pushy — cover multiple
   phrasings so the AI activates for a wide range of user prompts.
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: your-github-handle
   version: "1.0"

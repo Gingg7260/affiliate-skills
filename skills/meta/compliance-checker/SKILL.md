@@ -7,6 +7,9 @@ description: >
   "audit my content", "compliance review", "legal check", "platform rules check",
   "check before publishing", "disclosure audit", "review my ad copy".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "meta", "planning", "compliance", "ftc", "disclosure"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

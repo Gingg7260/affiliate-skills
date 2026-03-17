@@ -7,6 +7,9 @@ description: >
   "comparison review", "write a versus article", "side by side comparison blog",
   "which should I choose [A] or [B]", "compare these two products for my blog".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "blogging", "seo", "content-writing", "comparison", "versus"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

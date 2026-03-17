@@ -8,6 +8,9 @@ description: >
   "nurture my subscribers", "email follow-up sequence", "build my email funnel",
   "write 5 emails promoting [product]", "email automation sequence".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "distribution", "deployment", "email-marketing", "email", "drip-campaign"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

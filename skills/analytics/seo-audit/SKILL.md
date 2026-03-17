@@ -7,6 +7,9 @@ description: >
   "why isn't my page ranking", "SEO score", "content quality audit",
   "check my meta tags", "internal linking audit", "quick SEO wins".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "analytics", "optimization", "tracking", "seo", "technical-seo"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

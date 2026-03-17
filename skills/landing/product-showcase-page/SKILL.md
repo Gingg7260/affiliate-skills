@@ -8,6 +8,9 @@ description: >
   "create a long-form product page", "build a sales page for [product]",
   "product deep dive page", "make a feature breakdown page for [product]".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "landing-pages", "conversion", "offers", "showcase", "product-page"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

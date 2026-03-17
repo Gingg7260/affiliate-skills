@@ -9,6 +9,9 @@ description: >
   between programs", "traffic to income calculator", "what conversion rate should
   I expect", "earnings estimate for affiliate program", "how many sales do I need".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "research", "niche-analysis", "program-discovery", "commission", "revenue"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

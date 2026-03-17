@@ -9,6 +9,9 @@ description: >
   start with", "find me a niche with less competition", "niche ideas for affiliate",
   "is X a good niche for affiliate marketing", "best niches 2024", "untapped niches".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "research", "niche-analysis", "program-discovery", "niche", "opportunity"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

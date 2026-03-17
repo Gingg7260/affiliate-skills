@@ -7,6 +7,9 @@ description: >
   "campaign tracking", "link tracking setup", "prepare for launch",
   "debug attribution", "tracking spreadsheet".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "analytics", "optimization", "tracking", "conversion"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

@@ -7,6 +7,9 @@ description: >
   "analyze my affiliate earnings", "which program is best", "EPC report",
   "conversion rate analysis", "revenue breakdown", "campaign performance".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "analytics", "optimization", "tracking", "reporting", "kpi"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

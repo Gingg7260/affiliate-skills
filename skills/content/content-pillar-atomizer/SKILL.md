@@ -9,6 +9,9 @@ description: >
   "break down this article", "micro content from blog", "content pillar strategy",
   "10x my content", "platform-native content", "atomize", "content multiplication".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "content-creation", "social-media", "copywriting", "content-strategy", "repurposing"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

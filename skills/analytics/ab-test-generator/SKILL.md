@@ -7,6 +7,9 @@ description: >
   "headline alternatives", "CTA variations", "which version is better",
   "optimize conversions", "test my email subject line", "compare approaches".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "analytics", "optimization", "tracking", "ab-testing", "experiments"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

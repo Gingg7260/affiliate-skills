@@ -10,6 +10,9 @@ description: >
   affiliate programs", "is X affiliate program worth it", "find me something to promote",
   "what pays the most", "affiliate programs with long cookie duration".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "research", "niche-analysis", "program-discovery", "saas", "commission"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

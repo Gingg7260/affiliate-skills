@@ -8,6 +8,9 @@ description: >
   "email signup page for [product/niche]", "create a lead magnet landing page",
   "build a page that captures emails before sending to affiliate offer".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "landing-pages", "conversion", "offers", "lead-generation", "squeeze-page"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

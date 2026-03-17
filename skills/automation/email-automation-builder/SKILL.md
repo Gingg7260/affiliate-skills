@@ -7,6 +7,9 @@ description: >
   "email workflow builder", "segmented email flow", "advanced email sequence",
   "nurture funnel", "cart abandonment sequence", "win-back email flow".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "automation", "scaling", "workflow", "email"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

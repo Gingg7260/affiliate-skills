@@ -12,6 +12,9 @@ description: >
   "write something that goes viral", "LinkedIn post for affiliate", "X thread
   about this tool", "help me sell X naturally on social media".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "content-creation", "social-media", "copywriting", "viral"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

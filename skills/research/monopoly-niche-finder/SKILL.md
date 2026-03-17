@@ -7,6 +7,9 @@ description: >
   "Thiel monopoly", "dominate a niche", "niche nobody else covers", "cross two domains",
   "find a niche with no competition", "monopoly positioning", "unique angle for affiliate".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "research", "niche-analysis", "program-discovery", "monopoly", "blue-ocean"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

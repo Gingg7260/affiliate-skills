@@ -7,6 +7,9 @@ description: >
   "I'm new to Affitor", "what can Affitor do", "search skills",
   "skill for blog writing", "skill for landing pages", "skill for analytics".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "meta", "planning", "compliance", "discovery", "skill-search"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

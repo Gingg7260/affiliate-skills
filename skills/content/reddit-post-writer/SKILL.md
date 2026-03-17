@@ -11,6 +11,9 @@ description: >
   "genuine Reddit recommendation", "organic Reddit affiliate post", "Reddit thread
   idea for product".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "content-creation", "social-media", "copywriting", "reddit"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

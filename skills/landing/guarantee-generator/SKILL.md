@@ -7,6 +7,9 @@ description: >
   "guarantee copy", "how to guarantee", "affiliate guarantee", "personal guarantee",
   "risk-free offer", "satisfaction guarantee", "results guarantee".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "landing-pages", "conversion", "offers", "guarantees", "risk-reversal"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

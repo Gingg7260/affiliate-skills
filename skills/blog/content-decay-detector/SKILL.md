@@ -8,6 +8,9 @@ description: >
   "declining rankings", "content maintenance", "refresh priority list",
   "which articles are losing traffic", "SEO content audit".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "blogging", "seo", "content-writing", "content-audit", "decay"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"

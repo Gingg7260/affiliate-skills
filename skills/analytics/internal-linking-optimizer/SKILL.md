@@ -8,6 +8,9 @@ description: >
   "internal linking strategy", "link flow", "improve site structure",
   "find orphan pages", "maximize link equity", "internal link map".
 license: MIT
+version: "1.0.0"
+tags: ["affiliate-marketing", "analytics", "optimization", "tracking", "internal-links", "site-structure"]
+compatibility: "Claude Code, ChatGPT, Gemini CLI, Cursor, Windsurf, OpenClaw, any AI agent"
 metadata:
   author: affitor
   version: "1.0"
