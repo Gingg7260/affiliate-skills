@@ -1,5 +1,5 @@
 ---
-name: affiliate-program-lister
+name: list-affitor-program
 description: >
   Research an affiliate program and create a verified listing for list.affitor.com.
   Use this skill when the user asks anything about listing a program, adding an affiliate
@@ -377,7 +377,7 @@ User: "Create a listing for this new AI tool I found — ToolXYZ"
 
 ```yaml
 chain_metadata:
-  skill_slug: "affiliate-program-lister"
+  skill_slug: "list-affitor-program"
   stage: "research"
   timestamp: string
   suggested_next:
