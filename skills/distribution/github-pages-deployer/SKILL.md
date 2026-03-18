@@ -315,6 +315,25 @@ Action: Generate multi-page structure. Scaffold all index.html files with placeh
 - GitHub Pages IP addresses (A records): https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
 - `shared/references/flywheel-connections.md` — master flywheel connection map
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue potential**: A deployed landing page or bio link earns 24/7 — it's your always-on salesperson. Free hosting means 100% of revenue is profit. A single landing page can generate $200-1,000/month with consistent traffic
+- **Benchmark**: Deployed affiliate pages indexed by Google start ranking within 2-4 weeks. Organic traffic from Google is the highest-converting free traffic source (4-5% conversion vs 1-2% from social)
+- **Key metric to track**: Page visits → affiliate link clicks → conversions. Set up `conversion-tracker` immediately after deploying
+
+### Do This Right Now (15 min)
+1. **Create the repo and push** — follow the Setup Steps exactly (copy-paste commands)
+2. **Verify the deploy** — visit your GitHub Pages URL, confirm the page loads
+3. **Submit to Google Search Console** — add `https://[username].github.io/[repo]` so Google indexes it faster
+4. **Share the live URL** — post it on social media, add it to your bio link, and send it to your email list
+
+### Track Your Results
+After deploying: set up `conversion-tracker` to monitor clicks and conversions. After 30 days, run `seo-audit` to optimize for search rankings. A page that ranks #1 for a buyer-intent keyword can earn $500-2,000/month passively.
+
+> **Next step — copy-paste this prompt:**
+> "Set up conversion tracking for my deployed page at [URL]" → runs `conversion-tracker`
+
 ## Flywheel Connections
 
 ### Feeds Into

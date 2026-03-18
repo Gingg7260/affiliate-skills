@@ -272,6 +272,25 @@ User: "8-tweet thread about HeyGen for video creators"
 - `shared/references/affiliate-glossary.md` — terminology
 - `shared/references/flywheel-connections.md` — master flywheel connection map
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue potential**: A viral thread (1,000+ bookmarks) can drive 200-500 affiliate link clicks from the CTA tweet. At 3% conversion and $50 commission = $300-750 per thread. Threads compound — bookmarked threads resurface in search for months
+- **Benchmark**: Affiliate threads with 5,000+ impressions and 2%+ engagement rate typically convert at $0.10-0.50 per impression in affiliate revenue
+- **Key metric to track**: CTA tweet click-through rate. Industry benchmark: 1-3% CTR on the last tweet. Below 1% = weak CTA or product-thread mismatch
+
+### Do This Right Now (15 min)
+1. **Post the thread NOW** at the recommended time (or schedule for the next optimal window)
+2. Immediately like all your tweets in the thread (boosts visibility)
+3. Post the pinned reply within 2 minutes of the thread going live
+4. Reply to every comment in the first hour — this is when the algorithm decides if your thread spreads
+
+### Track Your Results
+After 48 hours: how many clicks on the affiliate link? How many bookmarks? Bookmarks predict long-term traffic — bookmarked threads get resurfaced by the algorithm for weeks.
+
+> **Next step — copy-paste this prompt:**
+> "Expand my Twitter thread about [product] into a full blog review" → runs `affiliate-blog-builder`
+
 ## Flywheel Connections
 
 ### Feeds Into

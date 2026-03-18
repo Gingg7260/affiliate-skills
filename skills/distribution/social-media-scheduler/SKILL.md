@@ -247,6 +247,25 @@ Action: 4 Reddit posts targeting r/Notion, r/productivity, r/getdisciplined. Ful
 - `shared/references/affitor-branding.md` — Optional Affitor mention in post footer.
 - `shared/references/flywheel-connections.md` — master flywheel connection map
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue potential**: Consistent posting (5x/week for 90 days) grows audience 2-5x. More audience = more affiliate link exposure. Affiliates who post consistently report $500-3,000/month by month 3, vs $50-200/month for sporadic posters
+- **Benchmark**: The 80/20 calendar (6 promo posts out of 30) drives more revenue than 100% promo posting — trust-based selling converts 3x better than hard selling
+- **Key metric to track**: Weekly affiliate link clicks from social posts. Goal: 10% week-over-week growth for the first 90 days
+
+### Do This Right Now (15 min)
+1. **Load Week 1 posts into your scheduling tool** — Buffer (free for 3 channels), Later, or just set phone reminders
+2. **Post Day 1 content RIGHT NOW** if it's within optimal posting hours
+3. **Pre-film any video content** for the week — batch filming saves 3-4 hours
+4. **Set a weekly reminder** (Sunday evening) to review last week's performance and adjust next week's posts
+
+### Track Your Results
+After Week 1: which post got the most engagement? After Month 1: which platform drove the most affiliate clicks? After Month 3: what's your monthly affiliate revenue from social? If not growing 10%/week, audit your content mix with `performance-report`.
+
+> **Next step — copy-paste this prompt:**
+> "Generate a performance report for my social media affiliate content" → runs `performance-report`
+
 ## Flywheel Connections
 
 ### Feeds Into

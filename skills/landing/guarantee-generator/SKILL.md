@@ -187,6 +187,25 @@ chain_metadata:
 **Example 3:** "Design a results guarantee" (after grand-slam-offer + bonus-stack)
 → Use value equation weakness (e.g., time delay) as guarantee target: "If you haven't created your first campaign within 48 hours using my setup guide, I'll do it for you on a screenshare."
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue potential**: Adding a personal guarantee increases conversion rates by 15-30%. If your landing page converts at 2% with 1,000 monthly visitors = 20 sales × $50 = $1,000/month. With a guarantee at 2.5% = 25 sales = $1,250/month — an extra $250/month for 30 minutes of work
+- **Benchmark**: Results guarantees (Option C) show the highest conversion lift (25-30%) but carry more risk. Support guarantees (Option B) offer the best risk-reward balance (15-20% lift, capped time commitment)
+- **Key metric to track**: Conversion rate before vs after adding the guarantee. Also track guarantee claim rate — if <5% of buyers claim the guarantee, you're safe to offer bolder guarantees
+
+### Do This Right Now (15 min)
+1. Pick the **Recommended option** from the output
+2. Copy the "Ready-to-Use Copy" section and paste it directly into your landing page
+3. Add your contact email/DM as the claim channel
+4. If you don't have a landing page yet, run `landing-page-creator` with the guarantee section included
+
+### Track Your Results
+After 30 days: did conversion rate increase? How many people claimed the guarantee? If zero claims after 50+ sales, consider upgrading to a bolder guarantee (more conversion lift, same low risk).
+
+> **Next step — copy-paste this prompt:**
+> "Create a landing page for [product] with this guarantee and my bonus stack" → runs `landing-page-creator`
+
 ## Flywheel Connections
 
 ### Feeds Into

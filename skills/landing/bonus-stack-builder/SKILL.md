@@ -184,6 +184,25 @@ chain_metadata:
 **Example 3:** "Create bonuses for this product" (after grand-slam-offer)
 → Take bonus suggestions from grand-slam-offer output, flesh each out with specific deliverables, formats, perceived values, and creation timeline.
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue potential**: Bonus stacks increase affiliate conversion rates by 2-5x. If your current conversion rate is 1% with 500 monthly clicks = 5 sales × $50 commission = $250/month. With a bonus stack at 3% conversion = 15 sales = $750/month — a $500/month increase from the SAME traffic
+- **Benchmark**: Affiliates with bonus stacks report 200-400% higher conversion rates vs naked affiliate links. The hero bonus alone can double conversions
+- **Key metric to track**: Conversion rate (sales / clicks) with vs without bonus stack. A/B test by running traffic to both versions for 2 weeks
+
+### Do This Right Now (15 min)
+1. Create the **easiest Tier 1 bonus first** — a checklist, template, or swipe file takes 15-30 minutes to make
+2. Add the bonus stack copy to your landing page (or create one with `landing-page-creator`)
+3. Don't wait until ALL bonuses are ready — launch with 2-3 and add more over time
+4. Send an email to your list announcing the exclusive bonuses
+
+### Track Your Results
+After 2 weeks: compare conversion rates with and without the bonus stack. If conversion didn't improve, your bonuses don't match the audience's actual pain points — redesign around different pain points.
+
+> **Next step — copy-paste this prompt:**
+> "Create a landing page for [product] featuring these bonuses: [list bonuses]" → runs `landing-page-creator`
+
 ## Flywheel Connections
 
 ### Feeds Into

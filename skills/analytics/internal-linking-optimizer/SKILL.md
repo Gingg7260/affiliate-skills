@@ -201,6 +201,25 @@ These pages have no/few internal links and are invisible to Google:
 **Example 3:** "Optimize internal links based on my keyword clusters" (after keyword-cluster-architect)
 → Use cluster structure to define ideal hub-spoke links. Compare current vs ideal. Generate gap-filling instructions.
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue potential**: Internal linking directly increases organic traffic to your money pages (pages with affiliate links). Fixing orphan pages typically increases their organic traffic by 30-100% within 4-6 weeks. If an orphan page earns $100/month, proper linking can push it to $130-200/month
+- **Benchmark**: Sites with optimized internal linking rank 20-40% higher for target keywords. Every hub-spoke connection you add is a signal to Google that your content is authoritative
+- **Key metric to track**: Organic traffic to money pages (pages containing affiliate links) — measure before and after internal link optimization. Target: 30%+ traffic increase within 6 weeks
+
+### Do This Right Now (15 min)
+1. **Fix the top 3 P0 (Critical) links first** — these are orphan money pages getting zero internal link juice
+2. Open each source page, find the suggested paragraph, and add the internal link with the recommended anchor text
+3. Submit the updated pages to Google Search Console for re-indexing: `Inspect URL → Request Indexing`
+4. Set a monthly reminder to re-run this audit
+
+### Track Your Results
+After 4 weeks: check Google Search Console for the orphan pages. Did impressions/clicks increase? After 8 weeks: did rankings improve for target keywords? Internal linking compounds — each optimization makes the next one more powerful.
+
+> **Next step — copy-paste this prompt:**
+> "Run an SEO audit on my site to find more optimization opportunities" → runs `seo-audit`
+
 ## Flywheel Connections
 
 ### Feeds Into

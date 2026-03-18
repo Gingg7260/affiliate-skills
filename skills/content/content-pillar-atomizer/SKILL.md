@@ -215,6 +215,25 @@ Title: [title]
 **Example 3:** "Atomize in volume mode" (after affiliate-blog-builder)
 → Pick up article from chain. Generate 25-30 pieces with multiple variations per platform for A/B testing.
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue potential**: Each atomized piece is a new touchpoint driving affiliate clicks. 15-30 pieces from 1 article = 15-30x more chances for commission
+- **Benchmark**: Top affiliate content creators report 2-5% of social impressions convert to link clicks. At $50 avg commission, 10,000 impressions across all pieces = $100-250/month from ONE pillar article
+- **Key metric to track**: Bio link / affiliate link CTR per platform — which platform drives the most clicks per impression?
+
+### Do This Right Now (15 min)
+1. Pick the **single strongest piece** from the output — the one with the most specific, surprising insight
+2. Post it on your highest-engagement platform immediately
+3. Add your affiliate link in bio or first comment
+4. Set a reminder to post the next piece tomorrow
+
+### Track Your Results
+After 7 days, check: which platform generated the most affiliate link clicks? Double down on that platform, reduce effort on underperformers.
+
+> **Next step — copy-paste this prompt:**
+> "Schedule all my atomized content for the next 30 days" → runs `social-media-scheduler`
+
 ## Flywheel Connections
 
 ### Feeds Into

@@ -195,6 +195,25 @@ setup:
 - `shared/references/affitor-branding.md` — Branding guidelines for email footers. Referenced in Step 4.
 - `shared/references/flywheel-connections.md` — master flywheel connection map
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue potential**: Email automation is the closest thing to passive income in affiliate marketing. A well-built welcome flow converts 5-15% of subscribers to affiliate clicks. With 500 new subscribers/month × 10% click rate × 3% conversion × $50 commission = $750/month on autopilot
+- **Benchmark**: Email marketing delivers $42 return per $1 spent. Branching flows outperform linear sequences by 25-40% because they send the right message to the right person at the right time
+- **Key metric to track**: Revenue per subscriber per month. Industry benchmark for affiliate email: $0.50-2.00/subscriber/month. Below $0.50 = weak offer or poor segmentation
+
+### Do This Right Now (15 min)
+1. **Set up Email 1 (Welcome/Deliver) in your ESP today** — this is the highest-open-rate email (60-80% open rate). Get it live immediately
+2. **Create the first branch trigger** — "opened Email 2?" — in your ESP's automation builder
+3. **Schedule remaining emails** in the flow — most ESPs let you build the full automation in one session
+4. **Test the flow** — subscribe with a test email address and verify every branch works
+
+### Track Your Results
+After 30 days: what's the open rate on each email? Click rate on affiliate links? Revenue attributed to the flow? If Email 3+ have <15% open rate, test new subject lines. If affiliate CTR is <2%, strengthen the CTA or add bonuses.
+
+> **Next step — copy-paste this prompt:**
+> "Set up conversion tracking for my email automation affiliate links" → runs `conversion-tracker`
+
 ## Flywheel Connections
 
 ### Feeds Into

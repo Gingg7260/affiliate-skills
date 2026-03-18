@@ -220,6 +220,25 @@ budget_suggestion:
 - `shared/references/affiliate-glossary.md` — Ad terminology (ROAS, CTR, CPC). Referenced in budget guide.
 - `shared/references/flywheel-connections.md` — master flywheel connection map
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue potential**: Paid ads are the fastest way to scale a profitable affiliate funnel. If your organic funnel converts at $2 EPC, and your CPC is $0.50, you're making $1.50 profit per click. At 100 clicks/day = $150/day = $4,500/month profit
+- **Benchmark**: Profitable affiliate ad campaigns typically achieve 2-4x ROAS (Return On Ad Spend). Below 1.5x ROAS = unprofitable. Above 3x ROAS = scale aggressively
+- **Key metric to track**: ROAS (revenue from commissions / ad spend). Secondary: CPC (cost per click), CTR (click-through rate), and conversion rate on landing page
+
+### Do This Right Now (15 min)
+1. **Launch a test campaign** with your top 2 ad variants at $10/day each
+2. **Set the destination URL** to your landing page (from `landing-page-creator`), NOT a direct affiliate link
+3. **Set a kill rule**: if a variant has 500+ impressions and <0.5% CTR after 48 hours, pause it
+4. **Set a scale rule**: if a variant achieves 2x+ ROAS after 5 days, increase budget by 50%
+
+### Track Your Results
+After 48 hours: kill any variant with <0.5% CTR. After 5 days: is any variant profitable (ROAS > 1.5x)? If yes, scale it by increasing daily budget. If no variant is profitable, test new angles — the ad copy may not match the audience's pain point. Never scale a losing campaign.
+
+> **Next step — copy-paste this prompt:**
+> "Set up conversion tracking for my ad campaign landing page" → runs `conversion-tracker`
+
 ## Flywheel Connections
 
 ### Feeds Into

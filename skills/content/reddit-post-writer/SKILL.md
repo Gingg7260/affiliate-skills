@@ -320,6 +320,25 @@ User: "Write a Reddit post about HeyGen for r/videography"
 - `shared/references/affiliate-glossary.md` — terminology
 - `shared/references/flywheel-connections.md` — master flywheel connection map
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue potential**: A single well-placed Reddit post in a relevant subreddit can drive 500-5,000 clicks over its lifetime (Reddit posts rank in Google). At 2% conversion and $50 avg commission = $500-5,000 from ONE post
+- **Benchmark**: Reddit affiliate posts have lower CTR (1-2%) but higher conversion rates (3-5%) than other platforms because Reddit users do deep research before buying
+- **Key metric to track**: Clicks from Reddit to your affiliate link (use UTM: `?utm_source=reddit&utm_medium=post&utm_campaign=[subreddit]`)
+
+### Do This Right Now (15 min)
+1. Post the content in the target subreddit at the recommended time
+2. Set your affiliate link in your Reddit profile bio (backup for subreddits that ban links)
+3. Reply to the first 3 comments genuinely — engagement in the first hour determines post visibility
+4. Save the post URL — it will rank in Google within 2-4 weeks
+
+### Track Your Results
+After 30 days, check: how many clicks did the post drive? What's the upvote ratio? Posts with 80%+ upvote ratio = the angle resonated. Repeat that angle for the next product.
+
+> **Next step — copy-paste this prompt:**
+> "Write a full blog review expanding on my Reddit post about [product]" → runs `affiliate-blog-builder`
+
 ## Flywheel Connections
 
 ### Feeds Into

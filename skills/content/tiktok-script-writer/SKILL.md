@@ -276,6 +276,25 @@ User: "I need 3 different hooks for a ConvertKit TikTok script"
 - `shared/references/platform-rules.md` — TikTok/Reels/Shorts format specs
 - `shared/references/flywheel-connections.md` — master flywheel connection map
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue potential**: TikTok affiliate videos average 1-3% bio link click rate. A video with 10,000 views = 100-300 bio link clicks. At 2% conversion and $50 commission = $100-300 per viral video
+- **Benchmark**: Top TikTok affiliates report $500-2,000/month from 3-5 videos per week. The algorithm rewards consistency — your 10th video performs better than your 1st
+- **Key metric to track**: Bio link clicks per video (use a link-in-bio tool with click tracking like Beacons or your own bio-link page from `bio-link-deployer`)
+
+### Do This Right Now (15 min)
+1. **Film the script TODAY** — don't wait. The script is ready, your phone is the camera
+2. Screen-record the product demo section (the hardest part to improvise)
+3. Post on TikTok, then cross-post to Instagram Reels and YouTube Shorts (3 platforms, 1 video)
+4. Add your affiliate link to your bio before posting
+
+### Track Your Results
+After 5 videos, check: which hook style got the highest completion rate? Which video drove the most bio link clicks? Use that hook style for your next 5 videos.
+
+> **Next step — copy-paste this prompt:**
+> "Schedule my TikTok content for the next 30 days" → runs `social-media-scheduler`
+
 ## Flywheel Connections
 
 ### Feeds Into

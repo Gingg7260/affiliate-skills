@@ -365,6 +365,25 @@ User: "Make a skill that writes Twitter threads"
 
 Response: Ask clarifying questions — "What kind of Twitter threads? About a product you're promoting? Summarizing a blog post? Sharing tips in a niche? The skill needs a specific use case to produce consistent output. 'Write a Twitter thread' is too broad — the AI will produce different things every time."
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue potential**: Published skills build your authority as an affiliate marketing expert. Each skill on list.affitor.com acts as a lead magnet — users discover your skill, star it, and follow your profile. Profile visibility → traffic to your affiliate content. Top skill creators report 500-2,000 monthly profile views from popular skills
+- **Benchmark**: Skills with 10+ stars get featured in recommendations and search results, driving compounding traffic. The first 5 stars are the hardest — after that, momentum takes over
+- **Key metric to track**: Stars + installs on list.affitor.com. Secondary: profile views and click-through to your other content
+
+### Do This Right Now (15 min)
+1. **Submit the skill to list.affitor.com** — use the LIST Submission fields from the output
+2. **Share the skill** on 2-3 platforms (X, LinkedIn, Reddit r/ChatGPT) with a brief demo of what it does
+3. **Add the skill to your bio link page** — it's a portfolio piece that builds authority
+4. **Star your own skill** and ask 2-3 colleagues to try it and leave feedback
+
+### Track Your Results
+After 7 days: how many stars? After 30 days: how many installs? If stars are growing, create more skills in related areas to build a skill portfolio. Your skills become your brand — people trust affiliates who create useful tools.
+
+> **Next step — copy-paste this prompt:**
+> "Find ways to improve my skill based on usage feedback" → runs `self-improver`
+
 ## Flywheel Connections
 
 ### Feeds Into

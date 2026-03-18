@@ -189,6 +189,24 @@ Would I recommend [product] to a friend WITHOUT earning a commission?
 **Example 3:** "Should I promote this random SaaS tool?" (generic tool, many competitors)
 → Research reveals: 5/10 CAUTION — competent but unremarkable. 4 competitors do the same thing. Suggest finding a more remarkable alternative or targeting a micro-audience where it IS remarkable.
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue potential**: Choosing an 8+/10 product vs a 5/10 product means 3-5x higher conversion rates. At the same traffic, that's $300-1,500/month vs $100-300/month. Product selection is the highest-leverage decision in affiliate marketing
+- **Benchmark**: Products scoring 8+ convert at 3-5% CTR, while 4-5 products convert at 0.5-1%. The difference compounds over months
+- **Key metric to track**: EPC (Earnings Per Click) — after 30 days of promotion, compare your EPC against the program's network average. If yours is below average, the product may not resonate with YOUR audience
+
+### Do This Right Now (15 min)
+- **If PROMOTE (8-10)**: Run `grand-slam-offer` immediately — design your irresistible offer around the remarkable angles identified. Then start creating content today
+- **If PROMOTE WITH ANGLE (6-7)**: Run `monopoly-niche-finder` to find the specific audience segment where this IS remarkable. Don't promote to a general audience
+- **If CAUTION/SKIP (1-5)**: Run `affiliate-program-search` to find a better product in the same niche. Don't waste months promoting a mediocre product
+
+### Track Your Results
+After promoting for 30 days: check EPC. If below $0.50, re-audit the product — the market may not find it as remarkable as the audit suggested. Switch products early; sunk cost is the biggest affiliate mistake.
+
+> **Next step — copy-paste this prompt:**
+> "Design an irresistible offer for [product] using these remarkable angles: [list from audit]" → runs `grand-slam-offer`
+
 ## Flywheel Connections
 
 ### Feeds Into

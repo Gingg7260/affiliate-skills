@@ -223,6 +223,25 @@ The HTML should be **immediately usable** — save as `.html`, open in browser, 
 - `shared/references/affitor-branding.md` — Affitor footer HTML. Reference in Step 2.
 - `shared/references/flywheel-connections.md` — master flywheel connection map
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue potential**: Your bio link is the funnel entrance for ALL social media traffic. Average bio link CTR is 1-3% of profile visitors. With 5,000 monthly profile views → 50-150 clicks → at 3% affiliate conversion and $50 commission = $75-225/month. Top creators with optimized bio links report $500-2,000/month
+- **Benchmark**: Money links (affiliate products) placed at position 1-2 get 60% of all bio link clicks. Position matters more than design
+- **Key metric to track**: Per-link click rate — which links get clicked most? Reorder weekly to keep the highest-performing link at the top
+
+### Do This Right Now (15 min)
+1. **Deploy the page** — use Netlify Drop (drag and drop, 30 seconds)
+2. **Update ALL your social bios** — Instagram, TikTok, X, LinkedIn, YouTube — with the new bio link URL
+3. **Verify on mobile** — 90%+ of bio link traffic is mobile. Open the link on your phone right now
+4. **Bookmark your analytics** — if using Netlify, check Netlify Analytics or add a free analytics snippet
+
+### Track Your Results
+After 7 days: which link gets the most clicks? Is it your top affiliate product? If not, reorder links — put the money link at position #1. Check weekly and rotate based on performance.
+
+> **Next step — copy-paste this prompt:**
+> "Deploy my bio link page to GitHub Pages with a custom domain" → runs `github-pages-deployer`
+
 ## Flywheel Connections
 
 ### Feeds Into

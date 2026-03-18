@@ -218,6 +218,25 @@ Subject: [subject line]
 **Example 3:** "Data moat for my content strategy" (after content-moat-calculator)
 → Identify that competitors have generic content but NO original data. Design case study collection: "How 50 Affiliate Marketers Made Their First $1,000." Instant authority.
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue potential**: Original data content earns 5-10x more backlinks than generic content. Backlinks → higher domain authority → higher rankings for ALL your affiliate pages. One original data post can increase total site traffic by 20-50% over 6 months
+- **Benchmark**: Data-driven blog posts get 2x more shares and 3x more backlinks than opinion posts. "State of [Industry]" posts are the most linked-to content format in B2B niches
+- **Key metric to track**: Backlinks earned by the data content (check via Ahrefs, Semrush, or Google Search Console). Secondary: organic traffic increase to ALL affiliate pages (rising tide lifts all boats)
+
+### Do This Right Now (15 min)
+1. **Launch the survey or start data collection TODAY** — don't wait for the "perfect" survey. 80% good is enough to start
+2. **Post the survey link** in 3 places immediately: your email list, one relevant subreddit, and one social platform
+3. **Set a 2-week deadline** for data collection — urgency drives responses
+4. **Pre-write the blog post outline** using the Content Plan section — so you're ready to publish the moment data comes in
+
+### Track Your Results
+After data collection: publish the findings as a blog post with `affiliate-blog-builder`. After 30 days: how many backlinks did the data post earn? After 90 days: did organic traffic to your money pages increase? If yes, plan your next data collection round — proprietary data compounds.
+
+> **Next step — copy-paste this prompt:**
+> "Write a blog post presenting my original research findings about [topic]" → runs `affiliate-blog-builder`
+
 ## Flywheel Connections
 
 ### Feeds Into

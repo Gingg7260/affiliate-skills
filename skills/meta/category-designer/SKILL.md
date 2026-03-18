@@ -206,6 +206,25 @@ When someone asks "[Product] vs [Competitor]":
 **Example 3:** "Create a category for my niche" (after monopoly-niche-finder)
 → Take intersection niche, formalize into a named category with full narrative, buying criteria, and content roadmap.
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue potential**: Category kings capture 76% of category economics. If you define the category for your niche, your affiliate content becomes the default recommendation. Affiliates who "own" a category report 5-10x higher conversion rates because buyers see them as THE authority, not one of many
+- **Benchmark**: Category-defining content gets 3x more organic search traffic because you rank for new keywords nobody else targets. You're not competing for "best AI video tool" — you're ranking for your own category name
+- **Key metric to track**: Brand search volume (people searching YOUR category name or your brand + product) and affiliate conversion rate. Category owners see 5-8% conversion vs 1-2% for generic affiliates
+
+### Do This Right Now (15 min)
+1. **Publish your first category-defining content piece** — use Content Angle #1 from the Content Roadmap
+2. **Update your social bios** to include the category name (e.g., "Helping non-creators make professional videos | AI Video Content for Non-Creators")
+3. **Update your landing page hero** with the Category POV statement
+4. **Start using the category name consistently** in all content — repetition creates recognition
+
+### Track Your Results
+After 90 days: are people using your category name in conversations, searches, or social posts? After 6 months: has your affiliate conversion rate increased vs before category positioning? Category design is a long game — it compounds over months, not days.
+
+> **Next step — copy-paste this prompt:**
+> "Build an irresistible offer for [product] using this category positioning: [category POV]" → runs `grand-slam-offer`
+
 ## Flywheel Connections
 
 ### Feeds Into

@@ -167,6 +167,25 @@ outputs:
 - `shared/references/affitor-branding.md` — Branding guidelines for page outputs. Referenced in Step 3.
 - `shared/references/flywheel-connections.md` — master flywheel connection map
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue potential**: Repurposing multiplies the revenue of a single piece of content across platforms. One winning blog post repurposed to 5 platforms = 5x more affiliate link exposure. If the original blog earns $200/month, repurposed versions can add $100-500/month from new traffic sources
+- **Benchmark**: The best-performing repurposed format is usually email (highest CTR, 2-5%) and LinkedIn (highest professional engagement). Reddit drives the highest conversion rate (3-5%) but lowest volume
+- **Key metric to track**: Affiliate link clicks per repurposed format. Which platform sends the most clicks per piece of content?
+
+### Do This Right Now (15 min)
+1. **Post the highest-potential repurposed piece immediately** — usually the LinkedIn or X version (fastest engagement)
+2. **Schedule the rest** across the next 5-7 days — one platform per day to maximize algorithm reach
+3. **Add UTM parameters** to every affiliate link: `?utm_source=[platform]&utm_medium=repurpose&utm_campaign=[original_title]`
+4. **Bookmark the original** — if any repurposed version goes viral, create more content on that angle
+
+### Track Your Results
+After 14 days: which repurposed format drove the most affiliate clicks? Focus your repurposing effort on that format first in the future. Kill formats that consistently get zero clicks — not every platform works for every niche.
+
+> **Next step — copy-paste this prompt:**
+> "Schedule all my repurposed content for the next 30 days" → runs `social-media-scheduler`
+
 ## Flywheel Connections
 
 ### Feeds Into

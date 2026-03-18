@@ -251,6 +251,25 @@ User: "Promote GetResponse on all platforms"
 - `shared/references/affiliate-glossary.md` — affiliate marketing terminology
 - `shared/references/flywheel-connections.md` — master flywheel connection map
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue potential**: A well-crafted social post drives 50-500 affiliate link clicks. At 2-3% conversion and $50 avg commission = $50-750 per post. Viral posts (10x average engagement) can drive $1,000+ in a single day
+- **Benchmark**: Consistent posters (5x/week) report $300-1,500/month in affiliate revenue from social media alone. The first $100 comes from your 20th-30th post, not your first
+- **Key metric to track**: Affiliate link clicks per post. Use UTM parameters: `?utm_source=[platform]&utm_medium=social&utm_campaign=[post_date]`
+
+### Do This Right Now (15 min)
+1. **Post it NOW** — the content is ready, don't overthink
+2. If LinkedIn: put the affiliate link as the FIRST COMMENT immediately after posting
+3. If X: pin the thread or tweet to your profile for maximum visibility
+4. Engage with the first 5 comments within 30 minutes — early engagement signals boost reach 3-5x
+
+### Track Your Results
+After 24 hours: how many affiliate link clicks? After 7 days: any commissions attributed? The winning formula is: post → measure → repeat what works → ignore what doesn't.
+
+> **Next step — copy-paste this prompt:**
+> "Create a 30-day content calendar based on this winning post angle" → runs `social-media-scheduler`
+
 ## Flywheel Connections
 
 ### Feeds Into

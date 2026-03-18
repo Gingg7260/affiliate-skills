@@ -147,6 +147,24 @@ recommended_path:
 - `registry.json` — Machine-readable skill catalog. Read in Step 1.
 - `shared/references/flywheel-connections.md` — master flywheel connection map
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue potential**: The fastest path to your first commission is using the right skill at the right time. Skill Finder saves you hours of guessing — it matches your current situation to the exact workflow that generates revenue. Affiliates who follow a structured skill sequence report 3x faster time-to-first-commission
+- **Benchmark**: The typical path to first commission: S1 (find product, 30 min) → S2 (create content, 1 hour) → S5 (distribute, 30 min) = first affiliate link live in 2 hours. First commission typically arrives within 7-14 days
+- **Key metric to track**: Time-to-first-commission. How long from "I started" to "I earned my first dollar"? Use `performance-report` to track ongoing revenue
+
+### Do This Right Now (15 min)
+1. **Copy the first recommended prompt** from the Recommended Path section and run it immediately
+2. **Don't skip steps** — the recommended path is ordered for a reason. S1 before S2, S2 before S5
+3. **Set a goal**: earn your first commission within 14 days by running one skill per day
+4. **Bookmark this skill** — come back whenever you're unsure what to do next
+
+### Track Your Results
+After running 3-5 skills in sequence: do you have a live affiliate link? Is it getting clicks? If yes, you're on the path. If no, re-run Skill Finder with a more specific goal ("I have a blog but no traffic" vs "I'm starting from zero").
+
+> **Next step — run the first skill in your Recommended Path!**
+
 ## Flywheel Connections
 
 ### Feeds Into

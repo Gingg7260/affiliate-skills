@@ -176,6 +176,25 @@ corrected_content: string      # full content with all fixes applied
 - `shared/references/affitor-branding.md` — Branding guidelines. Referenced for page outputs.
 - `shared/references/flywheel-connections.md` — master flywheel connection map
 
+## Revenue & Action Plan
+
+### Expected Outcomes
+- **Revenue protection**: The FTC has fined affiliates $4.2M+ for undisclosed endorsements. A single violation can result in program termination (losing ALL commissions), platform bans, or legal action. Compliance isn't about making money — it's about not losing the money you've already earned
+- **Benchmark**: Amazon Associates terminates 10,000+ affiliate accounts per year for policy violations. One missing disclosure on one post can end your entire affiliate business overnight
+- **Key metric to track**: Compliance score across ALL your published content. Target: 100% PASS. Any FAIL = fix before publishing. Any WARN = fix within 48 hours
+
+### Do This Right Now (15 min)
+1. **Fix all FAIL issues immediately** — do not publish until every critical issue is resolved
+2. **Fix WARN issues** — update disclosure placement, fix any claim language
+3. **Copy the Corrected Content** from the output and replace your original content
+4. **Audit your top 5 existing posts** — run this skill on your most-trafficked affiliate content to ensure they're compliant
+
+### Track Your Results
+Run this skill monthly on all new content before publishing. Keep a compliance log — if the same issue appears 3+ times, update your content creation workflow to prevent it at the source (e.g., add FTC disclosure to your post template).
+
+> **Next step — copy-paste this prompt:**
+> "Plan my entire affiliate funnel from research to revenue" → runs `funnel-planner`
+
 ## Flywheel Connections
 
 ### Feeds Into
