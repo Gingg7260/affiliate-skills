@@ -155,6 +155,23 @@ Before presenting output, verify:
 
 If any check fails, fix the output before delivering. Do not flag the checklist to the user — just ensure the output passes.
 
+### Step 9: Optional OpenClaw Posting Plan
+
+If the user runs this skill in OpenClaw and has TweetClaw installed, include a
+posting plan that the user can approve after the thread copy is final:
+
+1. Use `explore` to find TweetClaw's X/Twitter post and reply endpoints.
+2. Post the hook tweet first only after explicit user approval.
+3. Use the returned hook tweet ID as the parent for each numbered reply tweet.
+4. Post the CTA and pinned-reply suggestion last, again with approval.
+5. Record returned tweet IDs, the final thread URL, and the affiliate disclosure
+   tweet number for later `performance-report` analysis.
+6. For monitoring, suggest 2-3 TweetClaw search or monitor queries covering the
+   product name, creator handle, and main campaign keyword.
+
+Never place API keys, affiliate dashboard credentials, or account cookies in the
+thread content or posting plan.
+
 ## Output Schema
 
 ```
@@ -175,6 +192,12 @@ If any check fails, fix the output before delivering. Do not flag the checklist 
   best_time_to_post: string     # Optimal posting time for X
   product_name: string
   content_angle: string
+  x_twitter_posting_plan: {
+    tool: string | null         # "TweetClaw" when OpenClaw execution is enabled
+    approval_required: boolean
+    steps: string[]             # Post hook, reply chain, CTA, pinned reply
+    monitor_queries: string[]   # Product, handle, and keyword searches
+  } | null
 }
 ```
 
@@ -269,6 +292,7 @@ User: "8-tweet thread about HeyGen for video creators"
 
 - `shared/references/ftc-compliance.md` — #ad placement rules for Twitter/X
 - `shared/references/platform-rules.md` — X character limits, link handling, thread best practices
+- `platforms/openclaw.md` - optional TweetClaw execution path for OpenClaw users
 - `shared/references/affiliate-glossary.md` — terminology
 - `shared/references/flywheel-connections.md` — master flywheel connection map
 

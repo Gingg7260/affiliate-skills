@@ -77,6 +77,35 @@ No API key required for free tier (max 5 results). Set `AFFITOR_API_KEY` env var
 
 ---
 
+## Optional X/Twitter Execution with TweetClaw
+
+The content skills write ready-to-post copy. OpenClaw users who also need to
+search tweets, post tweets, post tweet replies, monitor tweets, export
+followers, run user lookup, attach media, or track campaign replies can install
+TweetClaw as an optional companion plugin.
+
+```bash
+openclaw plugins install @xquik/tweetclaw
+openclaw config set plugins.entries.tweetclaw.config.apiKey "$XQUIK_API_KEY"
+openclaw config set tools.alsoAllow '["explore", "tweetclaw"]'
+```
+
+Use it after a skill has produced final copy:
+
+1. Run `twitter-thread-writer`, `viral-post-writer`, or
+   `social-media-scheduler`.
+2. Ask the agent to use TweetClaw `explore` to find the relevant X/Twitter
+   endpoint for the next action.
+3. Review each `tweetclaw` write request before approval, especially post,
+   reply, direct message, follow, media, monitor, extraction, or webhook calls.
+4. Store the returned tweet IDs, reply IDs, monitor IDs, and source URLs in the
+   skill output or campaign notes so `performance-report` can use them later.
+
+Keep `XQUIK_API_KEY` in the local OpenClaw config or shell environment. Do not
+paste keys into prompts, issue bodies, skill outputs, or public examples.
+
+---
+
 ## Skill Discovery via registry.json
 
 Load [`registry.json`](../registry.json) at runtime to dynamically discover skills:
