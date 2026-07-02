@@ -161,6 +161,25 @@ Best time to post: [time]
 
 After all posts, provide scheduling tool recommendations and import instructions.
 
+### Step 5A: Optional X/Twitter Execution with TweetClaw
+
+If `platforms` includes `x` and the user runs this skill in OpenClaw with
+TweetClaw installed, add an approval-first X/Twitter execution section:
+
+- Use TweetClaw `explore` to identify post, reply, search, monitor, media, and
+  user lookup endpoints that match the calendar.
+- For every X post, output the exact final copy and the intended publish date
+  before any `tweetclaw` write call is requested.
+- For threads, post the first tweet only after approval, then attach the rest as
+  post tweet replies using the returned parent tweet ID.
+- For campaigns, create monitor or search suggestions for the product name,
+  creator handle, affiliate keyword, and competitor comparison terms.
+- Record returned tweet IDs, monitor IDs, source URLs, and publish timestamps so
+  `performance-report` can compare clicks, replies, and engagement later.
+
+Never put API keys, affiliate dashboard credentials, or account cookies in the
+calendar output. Keep credentials in local OpenClaw config only.
+
 ### Step 6: Self-Validation
 
 Before presenting output, verify:
@@ -203,6 +222,16 @@ scheduler:
   recommended_tools: string[]   # e.g., ["Buffer", "Later", "Hypefury"]
   import_format: string         # "CSV" or "manual"
   notes: string
+
+x_twitter_execution:
+  tool: string | null           # "TweetClaw" when OpenClaw execution is enabled
+  approval_required: boolean
+  post_queue:
+    - scheduled_for: string
+      copy: string
+      action: string            # "post_tweet" | "post_tweet_reply" | "monitor"
+      status: string            # "draft" | "approved" | "published"
+  monitor_queries: string[]
 ```
 
 ## Output Format
@@ -245,6 +274,7 @@ Action: 4 Reddit posts targeting r/Notion, r/productivity, r/getdisciplined. Ful
 
 - `shared/references/ftc-compliance.md` — FTC disclosure for social posts. Every affiliate link post needs "(Affiliate link)" or "#ad" per FTC rules.
 - `shared/references/affitor-branding.md` — Optional Affitor mention in post footer.
+- `platforms/openclaw.md` - optional TweetClaw execution path for X/Twitter posts
 - `shared/references/flywheel-connections.md` — master flywheel connection map
 
 ## Revenue & Action Plan
